@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /templates/
+Disallow: /scripts/
+Sitemap: https://infinitesauna.com/sitemap.xml
