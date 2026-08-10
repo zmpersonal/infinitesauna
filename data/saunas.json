@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:52:13+00:00",
+  "generated_at": "2026-08-10T10:39:52+00:00",
   "currency": "USD",
   "products": [
     {
@@ -1582,7 +1582,8 @@
       "inhouse_url": "https://inhousewellness.com/products/maxxus-3-person-infrared-sauna",
       "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar-maxxus-sauna-199104.jpg?v=1770877419",
       "source_urls": [
-        "https://inhousewellness.com/products/maxxus-3-person-infrared-sauna"
+        "https://inhousewellness.com/products/maxxus-3-person-infrared-sauna",
+        "https://inhousewellness.com/products/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar"
       ],
       "capacity": 3,
       "type": "Infrared",
@@ -1684,7 +1685,8 @@
       "inhouse_url": "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock-1",
       "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/maxxus-3-person-corner-low-emf-far-infrared-sauna-canadian-hemlock-741334.jpg?v=1770877796",
       "source_urls": [
-        "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock-1"
+        "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock-1",
+        "https://inhousewellness.com/products/maxxus-3-person-corner-2mg-infrared-sauna"
       ],
       "capacity": 3,
       "type": "Infrared",
