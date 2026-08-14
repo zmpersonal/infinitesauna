@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T17:27:57+00:00",
+  "generated_at": "2026-08-14T18:04:57+00:00",
   "currency": "USD",
   "products": [
     {
@@ -1458,6 +1458,34 @@
       ]
     },
     {
+      "model_key": "clearlight-curve-sauna-dome-w-infrared-mat",
+      "brand": "Clearlight",
+      "model": "clearlight-curve-sauna-dome-w-infrared-mat",
+      "title": "Clearlight® Curve Sauna Dome w/ Infrared Mat",
+      "price": 1999.0,
+      "reference_price": 2899.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/sf_curvedome_1a.webp?v=1748905440",
+      "source_urls": [
+        "https://saunafriend.com/products/curve-sauna-dome"
+      ],
+      "capacity": 1,
+      "type": "Hybrid",
+      "placement": "Indoor",
+      "emf": "Low",
+      "spectrum": "Far Infrared",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/curve-sauna-dome",
+          "price": 1999.0,
+          "reference_price": 2899.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
       "model_key": "clearlight-sanctuary-1-full-spectrum-infrared-sauna-1-person",
       "brand": "Clearlight",
       "model": "clearlight-sanctuary-1-full-spectrum-infrared-sauna-1-person",
@@ -1481,6 +1509,65 @@
           "url": "https://saunafriend.com/products/clearlight-sanctuary-1-full-spectrum-one-person-infrared-sauna",
           "price": 6999.0,
           "reference_price": 7799.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "model_key": "clearlight-sanctuary-1-full-spectrum-infrared-sauna-1-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-1-full-spectrum-infrared-sauna-1-person",
+      "title": "Clearlight® SANCTUARY 1 FULL SPECTRUM INFRARED SAUNA (1 Person)",
+      "price": 6999.0,
+      "reference_price": 7799.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/clearlight_jacuzzi_sanctuary_sauna_basswood_1.jpg?v=1750800334",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight-sanctuary-1-full-spectrum-one-person-infrared-sauna"
+      ],
+      "capacity": 1,
+      "type": "Infrared",
+      "placement": "Indoor",
+      "emf": "Low",
+      "spectrum": "Full Spectrum",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight-sanctuary-1-full-spectrum-one-person-infrared-sauna",
+          "price": 6999.0,
+          "reference_price": 7799.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "model_key": "clearlight-sanctuary-2-full-spectrum-infrared-sauna-2-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-2-full-spectrum-infrared-sauna-2-person",
+      "title": "Clearlight® SANCTUARY 2 FULL SPECTRUM INFRARED SAUNA (2 Person)",
+      "price": 7399.0,
+      "reference_price": 8199.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_2_fw.webp?v=1750800383",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight-sanctuary-2-full-spectrum-two-person-infrared-sauna"
+      ],
+      "capacity": 2,
+      "type": "Infrared",
+      "placement": "Indoor",
+      "emf": "Low",
+      "spectrum": "Full Spectrum",
+      "amperage": "20A",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight-sanctuary-2-full-spectrum-two-person-infrared-sauna",
+          "price": 7399.0,
+          "reference_price": 8199.0,
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
@@ -1546,6 +1633,35 @@
       ]
     },
     {
+      "model_key": "clearlight-sanctuary-3-full-spectrum-infrared-sauna-3-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-3-full-spectrum-infrared-sauna-3-person",
+      "title": "Clearlight® SANCTUARY 3 FULL SPECTRUM INFRARED SAUNA (3 Person)",
+      "price": 7799.0,
+      "reference_price": 8599.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_3_fw.webp?v=1750800431",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight-sanctuary-3-full-spectrum-three-person-infrared-sauna"
+      ],
+      "capacity": 3,
+      "type": "Infrared",
+      "placement": "Indoor",
+      "spectrum": "Full Spectrum",
+      "voltage": "240V",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight-sanctuary-3-full-spectrum-three-person-infrared-sauna",
+          "price": 7799.0,
+          "reference_price": 8599.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
       "model_key": "clearlight-sanctuary-5-full-spectrum-infrared-sauna-5-person",
       "brand": "Clearlight",
       "model": "clearlight-sanctuary-5-full-spectrum-infrared-sauna-5-person",
@@ -1570,6 +1686,65 @@
           "url": "https://saunafriend.com/products/clearlight®-sanctuary-5-full-spectrum-infrared-sauna-5-person",
           "price": 8399.0,
           "reference_price": 9299.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "model_key": "clearlight-sanctuary-5-full-spectrum-infrared-sauna-5-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-5-full-spectrum-infrared-sauna-5-person",
+      "title": "Clearlight® SANCTUARY 5 FULL SPECTRUM INFRARED SAUNA (5 Person)",
+      "price": 8399.0,
+      "reference_price": 9299.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/sf_sactuary5_basswood.webp?v=1748905716",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight®-sanctuary-5-full-spectrum-infrared-sauna-5-person"
+      ],
+      "capacity": 5,
+      "type": "Infrared",
+      "placement": "Indoor",
+      "emf": "Low",
+      "spectrum": "Full Spectrum",
+      "voltage": "240V",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight®-sanctuary-5-full-spectrum-infrared-sauna-5-person",
+          "price": 8399.0,
+          "reference_price": 9299.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "model_key": "clearlight-sanctuary-c-full-spectrum-infrared-corner-sauna-4-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-c-full-spectrum-infrared-corner-sauna-4-person",
+      "title": "Clearlight® SANCTUARY C FULL SPECTRUM INFRARED CORNER SAUNA (4 person)",
+      "price": 9199.0,
+      "reference_price": 10199.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_c_fw.webp?v=1748905276",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight-sanctuary-c-4-person-full-spectrum-infrared-corner-sauna"
+      ],
+      "capacity": 3,
+      "type": "Infrared",
+      "placement": "Indoor",
+      "spectrum": "Full Spectrum",
+      "voltage": "240V",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight-sanctuary-c-4-person-full-spectrum-infrared-corner-sauna",
+          "price": 9199.0,
+          "reference_price": 10199.0,
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
@@ -1635,6 +1810,36 @@
       ]
     },
     {
+      "model_key": "clearlight-sanctuary-outdoor-2-full-spectrum-infrared-sauna-2-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-outdoor-2-full-spectrum-infrared-sauna-2-person",
+      "title": "Clearlight® SANCTUARY OUTDOOR 2 FULL SPECTRUM INFRARED SAUNA (2 PERSON)",
+      "price": 8699.0,
+      "reference_price": 9299.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_outdoor_2.webp?v=1748905313",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight-sanctuary-outdoor-2-two-person-outdoor-full-spectrum-infrared-sauna"
+      ],
+      "capacity": 2,
+      "type": "Infrared",
+      "placement": "Outdoor",
+      "spectrum": "Full Spectrum",
+      "voltage": "240V",
+      "wood": "Cedar",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight-sanctuary-outdoor-2-two-person-outdoor-full-spectrum-infrared-sauna",
+          "price": 8699.0,
+          "reference_price": 9299.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
       "model_key": "clearlight-sanctuary-outdoor-5-full-spectrum-infrared-sauna-4-5-person",
       "brand": "Clearlight",
       "model": "clearlight-sanctuary-outdoor-5-full-spectrum-infrared-sauna-4-5-person",
@@ -1659,6 +1864,65 @@
           "url": "https://saunafriend.com/products/clearlight-sanctuary-outdoor-5-4-5-person-outdoor-full-spectrum-infrared-sauna",
           "price": 9799.0,
           "reference_price": 10399.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "model_key": "clearlight-sanctuary-outdoor-5-full-spectrum-infrared-sauna-4-5-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-outdoor-5-full-spectrum-infrared-sauna-4-5-person",
+      "title": "Clearlight® SANCTUARY OUTDOOR 5 FULL SPECTRUM INFRARED SAUNA (4-5 PERSON)",
+      "price": 9799.0,
+      "reference_price": 10399.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/sf_sanctuary_5_outdoor.webp?v=1748905343",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight-sanctuary-outdoor-5-4-5-person-outdoor-full-spectrum-infrared-sauna"
+      ],
+      "capacity": 5,
+      "type": "Infrared",
+      "placement": "Outdoor",
+      "spectrum": "Full Spectrum",
+      "voltage": "240V",
+      "wood": "Cedar",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight-sanctuary-outdoor-5-4-5-person-outdoor-full-spectrum-infrared-sauna",
+          "price": 9799.0,
+          "reference_price": 10399.0,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "model_key": "clearlight-sanctuary-retreat-full-spectrum-infrared-sauna-4-person",
+      "brand": "Clearlight",
+      "model": "clearlight-sanctuary-retreat-full-spectrum-infrared-sauna-4-person",
+      "title": "Clearlight® SANCTUARY RETREAT FULL SPECTRUM INFRARED SAUNA (4 Person)",
+      "price": 9599.0,
+      "reference_price": 10299.0,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_retreat_fw.webp?v=1748905290",
+      "source_urls": [
+        "https://saunafriend.com/products/clearlight-sanctuary-retreat-4-person-ada-compliant-full-spectrum-infrared-sauna"
+      ],
+      "capacity": 4,
+      "type": "Infrared",
+      "placement": "Indoor",
+      "spectrum": "Full Spectrum",
+      "voltage": "240V",
+      "warranty": "Limited lifetime warranty",
+      "retailer_offers": [
+        {
+          "retailer": "SaunaFriend",
+          "url": "https://saunafriend.com/products/clearlight-sanctuary-retreat-4-person-ada-compliant-full-spectrum-infrared-sauna",
+          "price": 9599.0,
+          "reference_price": 10299.0,
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
@@ -1799,6 +2063,8 @@
       "heater": "Harvia 6 kW, Designer B series) or a traditional wood‑burning stove, the Serenity saun",
       "heater_kw": "6 kW",
       "wood": "Cedar",
+      "exterior_dimensions": "15.4\"W (390mm) x 13.2\"D (335mm) x 23.3\"H (590mm)",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -1816,9 +2082,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "exterior_dimensions": "15.4\"W (390mm) x 13.2\"D (335mm) x 23.3\"H (590mm)",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "ctc22lu",
@@ -1841,10 +2105,10 @@
       "placement": "Outdoor",
       "heater_kw": "6 kW",
       "wood": "Cedar",
-      "weight": "1526 lbs",
-      "warranty": "5-year residential limited warranty",
       "heater": "Electric sauna heater; 6-8 kW recommended",
       "exterior_dimensions": "86.22 in W x 84.65 in L x 86.22 in H",
+      "weight": "1526 lbs",
+      "warranty": "5-year residential limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -1897,6 +2161,10 @@
       "type": "Traditional",
       "placement": "Outdoor",
       "wood": "Cedar",
+      "heater": "Harvia Forte Electric Sauna Heater 6",
+      "heater_kw": "6 kW",
+      "exterior_dimensions": "20\"W (50cm) x 21\"D (53cm) x 35\"H (88cm)",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -1914,11 +2182,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "heater": "Harvia Forte Electric Sauna Heater 6",
-      "heater_kw": "6 kW",
-      "exterior_dimensions": "20\"W (50cm) x 21\"D (53cm) x 35\"H (88cm)",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "ctc2345",
@@ -1966,6 +2230,10 @@
       "type": "Traditional",
       "placement": "Outdoor",
       "wood": "Cedar",
+      "heater": "Harvia KIP 6kW Electric Sauna Heater w/ Built-in Controls and Stones",
+      "heater_kw": "6 kW",
+      "exterior_dimensions": "16\"W (406mm) x 11\"D (279mm) x 24\"H (609mm)",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -1983,11 +2251,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "heater": "Harvia KIP 6kW Electric Sauna Heater w/ Built-in Controls and Stones",
-      "heater_kw": "6 kW",
-      "exterior_dimensions": "16\"W (406mm) x 11\"D (279mm) x 24\"H (609mm)",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "ctc77mw",
@@ -2007,11 +2271,11 @@
       "type": "Traditional",
       "placement": "Outdoor",
       "wood": "Cedar",
-      "weight": "1403 lbs",
-      "warranty": "5-year residential limited warranty",
       "heater": "Electric 6-8 kW heater or wood-burning stove",
       "heater_kw": "6-8 kW",
       "exterior_dimensions": "Approx. 7 ft W x 7 ft L x 7 ft H",
+      "weight": "1403 lbs",
+      "warranty": "5-year residential limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2049,6 +2313,9 @@
       "placement": "Outdoor",
       "heater_kw": "8 kW",
       "wood": "Cedar",
+      "heater": "Harvia KIP 8kW Electric Sauna Heater w/ Built-in Controls and Stones",
+      "exterior_dimensions": "16\"W (406mm) x 11\"D (279mm) x 24\"H (609mm)",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2066,10 +2333,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "heater": "Harvia KIP 8kW Electric Sauna Heater w/ Built-in Controls and Stones",
-      "exterior_dimensions": "16\"W (406mm) x 11\"D (279mm) x 24\"H (609mm)",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "dyn-6103-01",
@@ -2094,6 +2358,10 @@
       "voltage": "120V",
       "amperage": "15A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2119,11 +2387,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "dyn-6103-01-elite",
@@ -2149,6 +2413,9 @@
       "amperage": "15A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "plug": "Standard 120V outlet",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2174,10 +2441,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "plug": "Standard 120V outlet",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "dyn-6106-01",
@@ -2202,6 +2466,11 @@
       "spectrum": "Far Infrared",
       "red_light": true,
       "wood": "Canadian Hemlock",
+      "voltage": "120V",
+      "amperage": "15A",
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2227,12 +2496,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "amperage": "15A",
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "dyn-6106-01-elite",
@@ -2255,6 +2519,10 @@
       "voltage": "120V",
       "amperage": "20A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2272,11 +2540,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "dyn-6115-05",
@@ -2301,6 +2565,10 @@
       "spectrum": "Far Infrared",
       "amperage": "15A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "voltage": "120V",
+      "plug": "Standard 120V outlet",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2326,11 +2594,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V",
-      "plug": "Standard 120V outlet",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "dyn-6119-01",
@@ -2352,6 +2616,11 @@
       "spectrum": "Full Spectrum",
       "voltage": "120V",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "amperage": "15A",
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "255 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2369,12 +2638,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "amperage": "15A",
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "255 lbs"
+      ]
     },
     {
       "model_key": "dyn-6119-01-elite",
@@ -2403,6 +2667,7 @@
       "plug": "Standard 120V outlet",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "weight": "255 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2428,8 +2693,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "255 lbs"
+      ]
     },
     {
       "model_key": "dyn-6119-03-fs",
@@ -2453,6 +2717,9 @@
       "amperage": "15A",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "voltage": "120V",
+      "max_temp": "Up to 140°F",
+      "weight": "255 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2470,10 +2737,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "max_temp": "Up to 140°F",
-      "weight": "255 lbs"
+      ]
     },
     {
       "model_key": "dyn-6202-03",
@@ -2499,6 +2763,10 @@
       "voltage": "120V",
       "amperage": "15A",
       "wood": "Canadian Hemlock",
+      "capacity": 2,
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "335 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2524,11 +2792,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "capacity": 2,
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "335 lbs"
+      ]
     },
     {
       "model_key": "dyn-6203-01-elite",
@@ -2552,6 +2816,12 @@
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "voltage": "120V",
+      "amperage": "15A",
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "300 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2577,13 +2847,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V",
-      "amperage": "15A",
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "300 lbs"
+      ]
     },
     {
       "model_key": "dyn-6209-01",
@@ -2609,6 +2873,9 @@
       "voltage": "120V",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "amperage": "15A",
+      "max_temp": "Up to 140°F",
+      "weight": "310 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2634,10 +2901,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "amperage": "15A",
-      "max_temp": "Up to 140°F",
-      "weight": "310 lbs"
+      ]
     },
     {
       "model_key": "dyn-6210-01",
@@ -2661,6 +2925,12 @@
       "emf": "Low",
       "spectrum": "Far Infrared",
       "red_light": true,
+      "voltage": "120V",
+      "amperage": "15A",
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "wood": "Canadian Hemlock",
+      "weight": "375 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2686,13 +2956,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "amperage": "15A",
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "wood": "Canadian Hemlock",
-      "weight": "375 lbs"
+      ]
     },
     {
       "model_key": "dyn-6210-01-elite",
@@ -2716,6 +2980,9 @@
       "amperage": "15A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "plug": "Standard 120V outlet",
+      "weight": "375 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2733,10 +3000,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "plug": "Standard 120V outlet",
-      "weight": "375 lbs"
+      ]
     },
     {
       "model_key": "dynamic-llumeneres-sauna",
@@ -2761,6 +3025,7 @@
       "amperage": "15A",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "weight": "350 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2778,8 +3043,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "350 lbs"
+      ]
     },
     {
       "model_key": "dyn-6215-05",
@@ -2802,6 +3066,9 @@
       "voltage": "120V",
       "amperage": "15A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "plug": "Standard 120V outlet",
+      "weight": "330 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2819,10 +3086,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "plug": "Standard 120V outlet",
-      "weight": "330 lbs"
+      ]
     },
     {
       "model_key": "dyn-6215-05-elite",
@@ -2848,6 +3112,8 @@
       "amperage": "15A",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "voltage": "120V",
+      "weight": "330 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2873,9 +3139,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "weight": "330 lbs"
+      ]
     },
     {
       "model_key": "dyn-6220-01",
@@ -2899,6 +3163,9 @@
       "voltage": "120V",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "amperage": "15A",
+      "max_temp": "Up to 140°F",
+      "weight": "330 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2916,10 +3183,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "amperage": "15A",
-      "max_temp": "Up to 140°F",
-      "weight": "330 lbs"
+      ]
     },
     {
       "model_key": "dyn-6220-01-elite",
@@ -2945,6 +3209,9 @@
       "amperage": "15A",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "voltage": "120V",
+      "max_temp": "Up to 140°F",
+      "weight": "330 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -2970,10 +3237,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "max_temp": "Up to 140°F",
-      "weight": "330 lbs"
+      ]
     },
     {
       "model_key": "dyn-6225-02",
@@ -2996,6 +3260,13 @@
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
       "wood": "Canadian Hemlock",
+      "capacity": 2,
+      "red_light": true,
+      "voltage": "120V",
+      "amperage": "15A",
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "345 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3021,14 +3292,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "capacity": 2,
-      "red_light": true,
-      "voltage": "120V",
-      "amperage": "15A",
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "345 lbs"
+      ]
     },
     {
       "model_key": "dyn-6225-02-elite",
@@ -3054,6 +3318,7 @@
       "plug": "Standard 120V outlet",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "weight": "345 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3071,8 +3336,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "345 lbs"
+      ]
     },
     {
       "model_key": "dyn-6229-01",
@@ -3099,6 +3363,9 @@
       "amperage": "15A",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "voltage": "120V",
+      "max_temp": "Up to 140°F",
+      "weight": "310 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3124,10 +3391,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "max_temp": "Up to 140°F",
-      "weight": "310 lbs"
+      ]
     },
     {
       "model_key": "dyn-6229-03-fs",
@@ -3152,6 +3416,9 @@
       "amperage": "15A",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "voltage": "120V",
+      "max_temp": "Up to 140°F",
+      "weight": "285 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3177,10 +3444,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "max_temp": "Up to 140°F",
-      "weight": "285 lbs"
+      ]
     },
     {
       "model_key": "dyn-6315-05",
@@ -3205,6 +3469,10 @@
       "spectrum": "Far Infrared",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "voltage": "120V",
+      "amperage": "20A",
+      "weight": "385 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3230,11 +3498,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V",
-      "amperage": "20A",
-      "weight": "385 lbs"
+      ]
     },
     {
       "model_key": "dyn-6336-02",
@@ -3261,6 +3525,7 @@
       "amperage": "20A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "weight": "350 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3286,8 +3551,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "350 lbs"
+      ]
     },
     {
       "model_key": "dyn-6336-02-elite",
@@ -3310,6 +3574,9 @@
       "voltage": "120V",
       "amperage": "20A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "max_temp": "Up to 140°F",
+      "weight": "350 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3327,10 +3594,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "max_temp": "Up to 140°F",
-      "weight": "350 lbs"
+      ]
     },
     {
       "model_key": "dyn-6440-01",
@@ -3357,6 +3621,8 @@
       "amperage": "20A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "weight": "410 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3382,9 +3648,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "weight": "410 lbs"
+      ]
     },
     {
       "model_key": "dyn-6996-01-elite",
@@ -3409,6 +3673,8 @@
       "amperage": "20A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "weight": "750 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3434,9 +3700,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "weight": "750 lbs"
+      ]
     },
     {
       "model_key": "gdi-6880-02-elite",
@@ -3465,9 +3729,9 @@
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
-          "url": "https://inhousewellness.com/products/golden-designs-gdi-6880-02-elite-catalonia",
-          "price": 9999.0,
-          "reference_price": 14999.0,
+          "url": "https://inhousewellness.com/products/catalonia-8p-infrared-sauna",
+          "price": 14999.0,
+          "reference_price": 19500.0,
           "source_type": "featured",
           "checked_at": "2026-08-14"
         },
@@ -3519,6 +3783,22 @@
           "reference_price": 19500.0,
           "source_type": "featured",
           "checked_at": "2026-08-14"
+        },
+        {
+          "retailer": "Ampsrus",
+          "url": "https://ampsrus.com/products/2025-golden-designs-catalonia-8-person-near-zero-emf-far-ir-sauna-gdi-6880-02-elite-1",
+          "price": 14999.0,
+          "reference_price": null,
+          "source_type": "retailer",
+          "checked_at": "2026-08-14"
+        },
+        {
+          "retailer": "Golden Designs Direct",
+          "url": "https://goldendesigninc.com/products/2025-catalonia-8-person-ultra-low-emf-far-infrared-sauna",
+          "price": 14999.0,
+          "reference_price": null,
+          "source_type": "manufacturer-direct",
+          "checked_at": "2026-08-14"
         }
       ]
     },
@@ -3544,6 +3824,9 @@
       "red_light": true,
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "voltage": "240V",
+      "amperage": "20A",
+      "weight": "750 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3569,10 +3852,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "240V",
-      "amperage": "20A",
-      "weight": "750 lbs"
+      ]
     },
     {
       "model_key": "gdi-6996-02",
@@ -3597,6 +3877,8 @@
       "voltage": "240V",
       "amperage": "20A",
       "wood": "Canadian Hemlock",
+      "max_temp": "Up to 140°F",
+      "weight": "750 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3622,9 +3904,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "max_temp": "Up to 140°F",
-      "weight": "750 lbs"
+      ]
     },
     {
       "model_key": "gdi-7202-01",
@@ -3649,6 +3929,11 @@
       "heater": "Harvia 6KW stove",
       "heater_kw": "6 kW",
       "wood": "Canadian Hemlock / Cedar",
+      "spectrum": "Infrared",
+      "amperage": "30A",
+      "max_temp": "Up to 190°F",
+      "weight": "600 lbs",
+      "warranty": "5-year electronics / 1-year stove",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3682,12 +3967,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "amperage": "30A",
-      "max_temp": "Up to 190°F",
-      "weight": "600 lbs",
-      "spectrum": "Infrared",
-      "warranty": "5-year electronics / 1-year stove"
+      ]
     },
     {
       "model_key": "gdi-7203-01",
@@ -3708,6 +3988,12 @@
       "placement": "Indoor",
       "spectrum": "Infrared",
       "wood": "Cedar",
+      "red_light": true,
+      "voltage": "120V/240V",
+      "amperage": "40A",
+      "heater_kw": "8.0 kW",
+      "max_temp": "Up to 190°F",
+      "weight": "700 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3733,13 +4019,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V/240V",
-      "amperage": "40A",
-      "heater_kw": "8.0 kW",
-      "max_temp": "Up to 190°F",
-      "weight": "700 lbs"
+      ]
     },
     {
       "model_key": "gdi-7206-01",
@@ -3765,6 +4045,7 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 195°F",
       "wood": "Canadian Hemlock / Cedar",
+      "weight": "850 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3790,8 +4071,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "850 lbs"
+      ]
     },
     {
       "model_key": "gdi-7289-02",
@@ -3815,6 +4095,11 @@
       "heater_kw": "6 kW",
       "max_temp": "Up to 190°F",
       "wood": "Pacific Cedar",
+      "spectrum": "Infrared",
+      "voltage": "120V/240V",
+      "amperage": "30A",
+      "weight": "475 lbs",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3848,12 +4133,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V/240V",
-      "amperage": "30A",
-      "weight": "475 lbs",
-      "spectrum": "Infrared",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "gdi-7389-02",
@@ -3876,6 +4156,9 @@
       "heater_kw": "8 kW",
       "max_temp": "Up to 190°F",
       "wood": "Pacific Cedar",
+      "voltage": "120V/240V",
+      "amperage": "40A",
+      "weight": "675 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3901,10 +4184,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V/240V",
-      "amperage": "40A",
-      "weight": "675 lbs"
+      ]
     },
     {
       "model_key": "gdi-8003-01",
@@ -3926,6 +4206,9 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Canadian Hemlock",
+      "voltage": "120V/240V",
+      "amperage": "40A",
+      "weight": "560 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3943,10 +4226,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V/240V",
-      "amperage": "40A",
-      "weight": "560 lbs"
+      ]
     },
     {
       "model_key": "gdi-8005-01",
@@ -3971,6 +4251,7 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Canadian Hemlock",
+      "weight": "720 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -3988,8 +4269,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "720 lbs"
+      ]
     },
     {
       "model_key": "gdi-8010-03",
@@ -4078,6 +4358,9 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Canadian Hemlock",
+      "voltage": "240V",
+      "amperage": "40A",
+      "weight": "750 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4103,10 +4386,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "240V",
-      "amperage": "40A",
-      "weight": "750 lbs"
+      ]
     },
     {
       "model_key": "gdi-8125-01",
@@ -4133,6 +4413,7 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Canadian Hemlock",
+      "weight": "1075 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4158,8 +4439,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "1075 lbs"
+      ]
     },
     {
       "model_key": "gdi-8202-01",
@@ -4185,6 +4465,7 @@
       "heater_kw": "6.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Cedar",
+      "weight": "915 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4210,8 +4491,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "915 lbs"
+      ]
     },
     {
       "model_key": "gdi-8203-01",
@@ -4235,6 +4515,8 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Cedar",
+      "red_light": true,
+      "weight": "1100 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4260,9 +4542,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "weight": "1100 lbs"
+      ]
     },
     {
       "model_key": "gdi-8206-01",
@@ -4286,6 +4566,9 @@
       "heater": "Harvia Sauna Stove', 'indoor sauna', 'Outdoor Sauna']",
       "heater_kw": "8 kW",
       "wood": "Cedar",
+      "red_light": true,
+      "max_temp": "Up to 190°F",
+      "weight": "1275 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4311,10 +4594,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "max_temp": "Up to 190°F",
-      "weight": "1275 lbs"
+      ]
     },
     {
       "model_key": "gdi-8222-01",
@@ -4336,6 +4616,12 @@
       "emf": "Low",
       "spectrum": "Infrared",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "voltage": "240V",
+      "amperage": "30A",
+      "heater_kw": "6.0 kW",
+      "max_temp": "Up to 190°F",
+      "weight": "925 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4361,13 +4647,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "240V",
-      "amperage": "30A",
-      "heater_kw": "6.0 kW",
-      "max_temp": "Up to 190°F",
-      "weight": "925 lbs"
+      ]
     },
     {
       "model_key": "gdi-8223-01",
@@ -4388,6 +4668,13 @@
       "placement": "Outdoor",
       "spectrum": "Full Spectrum",
       "wood": "Cedar",
+      "emf": "Near Zero",
+      "red_light": true,
+      "voltage": "240V",
+      "amperage": "40A",
+      "heater_kw": "8.0 kW",
+      "max_temp": "Up to 190°F",
+      "weight": "1105 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4413,14 +4700,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "emf": "Near Zero",
-      "red_light": true,
-      "voltage": "240V",
-      "amperage": "40A",
-      "heater_kw": "8.0 kW",
-      "max_temp": "Up to 190°F",
-      "weight": "1105 lbs"
+      ]
     },
     {
       "model_key": "gdi-8230-01",
@@ -4512,6 +4792,11 @@
       "amperage": "20A",
       "heater": "Harvia Stove",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "heater_kw": "6 kW",
+      "max_temp": "Up to 140°F",
+      "weight": "450 lbs",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4545,12 +4830,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "heater_kw": "6 kW",
-      "max_temp": "Up to 140°F",
-      "weight": "450 lbs",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "gdi-8360-01",
@@ -4574,6 +4854,13 @@
       "heater": "Harvia Traditional Stove",
       "heater_kw": "8 kW",
       "wood": "Canadian Hemlock",
+      "emf": "Near Zero",
+      "red_light": true,
+      "voltage": "240V",
+      "amperage": "40A",
+      "max_temp": "Up to 140°F",
+      "weight": "825 lbs",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4607,14 +4894,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "emf": "Near Zero",
-      "red_light": true,
-      "voltage": "240V",
-      "amperage": "40A",
-      "max_temp": "Up to 140°F",
-      "weight": "825 lbs",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "gdi-8506-01",
@@ -4638,6 +4918,8 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Canadian Hemlock / Cedar",
+      "amperage": "40A",
+      "weight": "1425 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4663,9 +4945,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "amperage": "40A",
-      "weight": "1425 lbs"
+      ]
     },
     {
       "model_key": "gdi-8526-01",
@@ -4689,6 +4969,10 @@
       "heater_kw": "8.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Cedar",
+      "emf": "Near Zero",
+      "voltage": "240V",
+      "amperage": "40A",
+      "weight": "1600 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4714,11 +4998,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "emf": "Near Zero",
-      "voltage": "240V",
-      "amperage": "40A",
-      "weight": "1600 lbs"
+      ]
     },
     {
       "model_key": "gdi-b002-01",
@@ -4744,6 +5024,9 @@
       "heater_kw": "6.0 kW",
       "max_temp": "Up to 190°F",
       "wood": "Pacific Cedar",
+      "exterior_dimensions": "84\" x 60\" x 84\"",
+      "interior_dimensions": "78\" x 52\" x 78\"",
+      "weight": "409 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -4769,10 +5052,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "exterior_dimensions": "84\" x 60\" x 84\"",
-      "interior_dimensions": "78\" x 52\" x 78\"",
-      "weight": "409 lbs"
+      ]
     },
     {
       "model_key": "gdi-b004-01",
@@ -4994,6 +5274,9 @@
       "voltage": "120V",
       "amperage": "15A",
       "wood": "Canadian Hemlock",
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "275 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5019,10 +5302,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "275 lbs"
+      ]
     },
     {
       "model_key": "mx-j206-01-zf",
@@ -5048,6 +5328,7 @@
       "plug": "Standard 120V outlet",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "weight": "275 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5065,8 +5346,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "275 lbs"
+      ]
     },
     {
       "model_key": "mx-j206-02s",
@@ -5093,6 +5373,8 @@
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock / Aspen",
       "warranty": "5-year limited warranty",
+      "plug": "Standard 120V outlet",
+      "weight": "275 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5118,9 +5400,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "plug": "Standard 120V outlet",
-      "weight": "275 lbs"
+      ]
     },
     {
       "model_key": "mx-j306-01",
@@ -5144,6 +5424,8 @@
       "voltage": "120V",
       "amperage": "20A",
       "wood": "Canadian Hemlock",
+      "max_temp": "Up to 140°F",
+      "weight": "315 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5161,9 +5443,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "max_temp": "Up to 140°F",
-      "weight": "315 lbs"
+      ]
     },
     {
       "model_key": "mx-j306-01-zf",
@@ -5189,6 +5469,8 @@
       "amperage": "20A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "weight": "315 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5214,9 +5496,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "weight": "315 lbs"
+      ]
     },
     {
       "model_key": "mx-j306-02s",
@@ -5238,6 +5518,11 @@
       "emf": "Low",
       "spectrum": "Far Infrared",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "voltage": "120V/240V",
+      "amperage": "20A",
+      "max_temp": "Up to 140°F",
+      "weight": "300 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5263,12 +5548,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V/240V",
-      "amperage": "20A",
-      "max_temp": "Up to 140°F",
-      "weight": "300 lbs"
+      ]
     },
     {
       "model_key": "mx-k206-01",
@@ -5293,6 +5573,10 @@
       "voltage": "120V",
       "amperage": "15A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5318,11 +5602,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "mx-k206-01-zf",
@@ -5344,6 +5624,12 @@
       "emf": "Near Zero",
       "spectrum": "Far Infrared",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "voltage": "120V",
+      "amperage": "15A",
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5369,13 +5655,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V",
-      "amperage": "15A",
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "mx-k306-01",
@@ -5399,6 +5679,11 @@
       "emf": "Low",
       "spectrum": "Far Infrared",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "voltage": "240V",
+      "amperage": "20A",
+      "max_temp": "Up to 140°F",
+      "weight": "320 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5424,12 +5709,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "240V",
-      "amperage": "20A",
-      "max_temp": "Up to 140°F",
-      "weight": "320 lbs"
+      ]
     },
     {
       "model_key": "mx-k306-01-ced",
@@ -5454,7 +5734,7 @@
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
-          "url": "https://inhousewellness.com/products/maxxus-3-person-infrared-sauna",
+          "url": "https://inhousewellness.com/products/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar",
           "price": 4299.0,
           "reference_price": 6499.0,
           "source_type": "featured",
@@ -5517,6 +5797,7 @@
       "amperage": "20A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "weight": "320 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5542,8 +5823,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "320 lbs"
+      ]
     },
     {
       "model_key": "mx-k306-01-zf-ced",
@@ -5564,6 +5844,11 @@
       "emf": "Near Zero",
       "spectrum": "Far Infrared",
       "wood": "Canadian Hemlock / Cedar",
+      "red_light": true,
+      "voltage": "120V/240V",
+      "amperage": "20A",
+      "max_temp": "Up to 140°F",
+      "weight": "310 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5581,12 +5866,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V/240V",
-      "amperage": "20A",
-      "max_temp": "Up to 140°F",
-      "weight": "310 lbs"
+      ]
     },
     {
       "model_key": "mx-k356-01",
@@ -5609,6 +5889,9 @@
       "voltage": "120V",
       "amperage": "20A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "max_temp": "Up to 140°F",
+      "weight": "390 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5626,10 +5909,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "max_temp": "Up to 140°F",
-      "weight": "390 lbs"
+      ]
     },
     {
       "model_key": "mx-k356-01-ced",
@@ -5655,7 +5935,7 @@
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
-          "url": "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock-1",
+          "url": "https://inhousewellness.com/products/maxxus-3-person-corner-2mg-infrared-sauna",
           "price": 4499.0,
           "reference_price": 6999.0,
           "source_type": "featured",
@@ -5721,6 +6001,9 @@
       "heater_kw": "2.2 kW",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "voltage": "120V/240V",
+      "amperage": "20A",
+      "weight": "390 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5746,10 +6029,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V/240V",
-      "amperage": "20A",
-      "weight": "390 lbs"
+      ]
     },
     {
       "model_key": "mx-k356-01-zf-ced",
@@ -5773,6 +6053,9 @@
       "amperage": "20A",
       "wood": "Canadian Hemlock / Cedar",
       "warranty": "5-year limited warranty",
+      "red_light": true,
+      "max_temp": "Up to 140°F",
+      "weight": "370 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5790,10 +6073,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "max_temp": "Up to 140°F",
-      "weight": "370 lbs"
+      ]
     },
     {
       "model_key": "mx-k406-01",
@@ -5850,6 +6130,11 @@
       "emf": "Low",
       "spectrum": "Far Infrared",
       "wood": "Cedar",
+      "red_light": true,
+      "voltage": "120V/240V",
+      "amperage": "20A",
+      "max_temp": "Up to 140°F",
+      "weight": "400 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5875,12 +6160,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "voltage": "120V/240V",
-      "amperage": "20A",
-      "max_temp": "Up to 140°F",
-      "weight": "400 lbs"
+      ]
     },
     {
       "model_key": "mx-k406-01-zf-ced",
@@ -5903,6 +6183,10 @@
       "spectrum": "Far Infrared",
       "red_light": true,
       "wood": "Cedar",
+      "voltage": "120V/240V",
+      "amperage": "20A",
+      "max_temp": "Up to 140°F",
+      "weight": "390 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5928,11 +6212,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V/240V",
-      "amperage": "20A",
-      "max_temp": "Up to 140°F",
-      "weight": "390 lbs"
+      ]
     },
     {
       "model_key": "mx-k406-01-zf-hem",
@@ -5960,6 +6240,7 @@
       "heater_kw": "2.1 kW",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "weight": "400 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -5985,8 +6266,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "400 lbs"
+      ]
     },
     {
       "model_key": "mx-m206-01-fs-ced",
@@ -6013,6 +6293,7 @@
       "plug": "Standard 120V outlet",
       "max_temp": "Up to 140°F",
       "wood": "Cedar",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6038,8 +6319,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "mx-m306-01-fs-ced",
@@ -6063,6 +6343,9 @@
       "voltage": "120V",
       "amperage": "20A",
       "wood": "Canadian Hemlock / Cedar",
+      "red_light": true,
+      "max_temp": "Up to 140°F",
+      "weight": "310 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6088,10 +6371,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "max_temp": "Up to 140°F",
-      "weight": "310 lbs"
+      ]
     },
     {
       "model_key": "mx-m356-01-fs",
@@ -6115,6 +6395,10 @@
       "voltage": "120V",
       "plug": "Standard 120V outlet",
       "wood": "Canadian Hemlock / Cedar",
+      "red_light": true,
+      "amperage": "20A",
+      "max_temp": "Up to 140°F",
+      "weight": "380 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6140,11 +6424,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "amperage": "20A",
-      "max_temp": "Up to 140°F",
-      "weight": "380 lbs"
+      ]
     },
     {
       "model_key": "mx-s106-01",
@@ -6172,6 +6452,8 @@
       "amperage": "15A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "plug": "Standard 120V outlet",
+      "weight": "250 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6197,9 +6479,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "plug": "Standard 120V outlet",
-      "weight": "250 lbs"
+      ]
     },
     {
       "model_key": "mx-s206-01",
@@ -6225,6 +6505,10 @@
       "voltage": "120V",
       "amperage": "15A",
       "wood": "Canadian Hemlock",
+      "red_light": true,
+      "plug": "Standard 120V outlet",
+      "max_temp": "Up to 140°F",
+      "weight": "330 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6250,11 +6534,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "red_light": true,
-      "plug": "Standard 120V outlet",
-      "max_temp": "Up to 140°F",
-      "weight": "330 lbs"
+      ]
     },
     {
       "model_key": "mx-s206-01-elite",
@@ -6316,6 +6596,7 @@
       "amperage": "20A",
       "max_temp": "Up to 140°F",
       "wood": "Canadian Hemlock",
+      "weight": "385 lbs",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6341,8 +6622,7 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-14"
         }
-      ],
-      "weight": "385 lbs"
+      ]
     },
     {
       "model_key": "medical-sauna-traditional5",
@@ -6533,6 +6813,11 @@
       "type": "Traditional",
       "placement": "Outdoor",
       "wood": "Thermo-Spruce / Thermo-Aspen",
+      "voltage": "120V",
+      "heater": "on/off, temperature, up to 12 hours delayed start, and up to 12-hour timed shut off",
+      "heater_kw": "4.5 kW",
+      "max_temp": "Up to 200°F",
+      "warranty": "Limited lifetime warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6550,12 +6835,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "120V",
-      "heater": "on/off, temperature, up to 12 hours delayed start, and up to 12-hour timed shut off",
-      "heater_kw": "4.5 kW",
-      "max_temp": "Up to 200°F",
-      "warranty": "Limited lifetime warranty"
+      ]
     },
     {
       "model_key": "sl-modele8g",
@@ -6688,6 +6968,9 @@
       "type": "Traditional",
       "placement": "Outdoor",
       "wood": "Thermo-Spruce / Thermo-Aspen",
+      "capacity": 4,
+      "amperage": "1.2A",
+      "warranty": "Limited lifetime warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6705,10 +6988,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "capacity": 4,
-      "amperage": "1.2A",
-      "warranty": "Limited lifetime warranty"
+      ]
     },
     {
       "model_key": "sl-modelg6-l-1",
@@ -6755,6 +7035,11 @@
       "placement": "Outdoor",
       "heater": "Scandia Electric Barrel Sauna Kit – Traditional Sauna",
       "wood": "Cedar",
+      "voltage": "220V",
+      "plug": "NEMA10-30R",
+      "heater_kw": "9.0 kW",
+      "max_temp": "Up to 180°F",
+      "warranty": "5-year limited warranty",
       "retailer_offers": [
         {
           "retailer": "InHouse Wellness",
@@ -6772,12 +7057,7 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ],
-      "voltage": "220V",
-      "plug": "NEMA10-30R",
-      "heater_kw": "9.0 kW",
-      "max_temp": "Up to 180°F",
-      "warranty": "5-year limited warranty"
+      ]
     },
     {
       "model_key": "bs65-t",
