@@ -42,14 +42,7 @@ No API key is required for the current updater.
 
 ## Adding manufacturer sources
 
-Edit `data/manufacturer_sources.csv`:
-
-```csv
-model_key,match_text,source_name,url,active,notes
-,FD-4,Finnmark Designs,https://manufacturer.example/fd-4,1,Official product page
-```
-
-`match_text` can be used when the live Shopify SKU creates a different model key. Manufacturer sources only fill missing fields; they are not used as competing retail links.
+Edit `data/manufacturer_sources.csv`. `match_text` can be used when a retailer SKU creates a different model key. `fetch_page=1` enables page parsing; `fetch_page=0` registers the source URL and uses only explicit verified values in that row. Manufacturer/specification rows fill missing fields and are separate from competing retail offers.
 
 ## Adding curated comparisons
 
@@ -65,3 +58,30 @@ Only curated pairs are generated as indexable static pages. The main `/compare/`
 ## Important data rule
 
 The scraper intentionally leaves uncertain fields as `Not verified`. Do not change it to infer electrical or safety-critical values from adjacent models.
+
+## Multi-source specification and retailer enrichment
+
+The updater now has three source registries:
+
+- `data/manufacturer_sources.csv` — controlled technical-specification sources and explicit verified overrides.
+- `data/retailer_sources.csv` — direct exact-model retailer price checks.
+- `data/retailer_catalogs.csv` — scalable Shopify-style catalog sources for offer matching and optional external-only model discovery.
+
+`InHouse Wellness` remains the featured offer whenever a model has an InHouse URL. Other captured offers are stored in each product's `retailer_offers` array and shown in the live comparison table. External-only models can be added only by catalog/source rows with `allow_new=1`.
+
+### Adding a technical source
+
+Add a row to `manufacturer_sources.csv`. Use `fetch_page=0` plus explicit columns for a source page that contains several configurations/heaters and could be mis-parsed. Use `fetch_page=1` when the page is model-specific enough for automated text extraction. Explicit values only fill blank fields.
+
+### Adding a retailer
+
+For one important model, add its product page to `retailer_sources.csv`. For a Shopify-compatible collection, add a row to `retailer_catalogs.csv`. Set `allow_new=0` when the catalog should only match existing models; set it to `1` only when you intentionally want that source to expand the catalog.
+
+### Safety/quality rules
+
+- Exact normalized model/SKU matches are preferred before suffix matching.
+- Existing populated technical fields are preserved.
+- InHouse offers are sorted first where available.
+- A missing field remains `Not verified`.
+- Retail prices are snapshots; heater/configuration equivalence must still be checked.
+

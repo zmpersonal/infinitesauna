@@ -9,6 +9,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
+from source_enrichment import apply_verified_overrides, enrich_retailers
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'saunas.json'
 CSV_OUT = ROOT / 'data' / 'saunas.csv'
@@ -278,7 +280,7 @@ def get_shopify_products():
 
 def infer_model_from_title(title):
     t = title.upper().replace('‑','-').replace('–','-')
-    pats = [r'\bFD-?[1-9]\b', r'\bDYN-[A-Z0-9-]+\b', r'\bMX-[A-Z0-9-]+\b', r'\bGDI-[A-Z0-9-]+\b', r'\b(?:EE|E|G|CL|X)\d+[A-Z]*\b', r'\bMW\d+\b']
+    pats = [r'\bCTC[A-Z0-9-]+\b', r'\bFD-(?:KN)?0?[1-9]\b', r'\bFD-?[1-9]\b', r'\bDYN-[A-Z0-9-]+(?:\s+ELITE)?\b', r'\bMX-[A-Z0-9-]+(?:\s+(?:CED|HEM|FS|ZF))?\b', r'\bGDI-[A-Z0-9-]+(?:\s+ELITE)?\b', r'\b(?:EE|E|G|CL|X)\d+[A-Z0-9-]*\b', r'\bMW\d+[A-Z0-9-]*\b', r'\bIS-[1-5]\b']
     for p in pats:
         m = re.search(p, t)
         if m:
@@ -336,6 +338,13 @@ def enrich_from_sources(products):
             target = next((p for p in products if needle in ((p.get('model') or '') + ' ' + (p.get('title') or '')).lower()), None)
         if not url or target is None:
             continue
+        urls = target.setdefault('source_urls', [])
+        if url not in urls:
+            urls.append(url)
+        fetch_page = str(row.get('fetch_page', '1')).strip().lower() not in ('0','false','no','off')
+        if not fetch_page:
+            print(f'Registered source for {target.get("model_key")} from {row.get("source_name") or url}')
+            continue
         try:
             specs = fetch_page_specs(url)
             key = target.get('model_key')
@@ -345,9 +354,6 @@ def enrich_from_sources(products):
                         target['image'] = value
                 elif not target.get(field):
                     target[field] = value
-            urls = target.setdefault('source_urls', [])
-            if url not in urls:
-                urls.append(url)
             print(f'Enriched {key} from {row.get("source_name") or url}')
         except Exception as e:
             print(f'Enrichment skipped {key}: {e}', file=sys.stderr)
@@ -357,7 +363,7 @@ def enrich_from_sources(products):
 
 def merge_existing(live, old):
     oldmap = {p.get('model_key'): p for p in old.get('products', [])}
-    protected = ['capacity','type','placement','emf','spectrum','red_light','voltage','amperage','plug','ir_wattage','heater','heater_kw','max_temp','exterior_dimensions','interior_dimensions','wood','weight','warranty','image','reference_price']
+    protected = ['capacity','type','placement','emf','spectrum','red_light','voltage','amperage','plug','ir_wattage','heater','heater_kw','max_temp','exterior_dimensions','interior_dimensions','wood','weight','warranty','image','reference_price','retailer_offers']
     for p in live:
         prior = oldmap.get(p.get('model_key'))
         if prior:
@@ -391,7 +397,48 @@ def spec_value(p, field):
 
 HEAD = '''<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/style.css"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>∞</text></svg>">'''
 HEADER = '''<header class="site-header"><div class="wrap nav"><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><nav><a href="/#database">Database</a><a href="/compare/">Compare</a><a href="/guides/120v-vs-240v/">Guides</a><a href="/methodology/">Methodology</a></nav></div></header>'''
-FOOTER = '''<footer><div class="wrap footer-grid"><div><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><p>An independent sauna specification database. Retail links to InHouse Wellness are featured and may be commercial.</p></div><div><strong>Database</strong><a href="/#database">All models</a><a href="/compare/">Compare saunas</a><a href="/methodology/">Data methodology</a></div><div><strong>Guides</strong><a href="/guides/120v-vs-240v/">120V vs 240V</a><a href="/guides/infrared-vs-traditional/">Infrared vs traditional</a><a href="/guides/emf-levels/">EMF terminology</a></div></div></footer>'''
+FOOTER = '''<footer><div class="wrap footer-grid"><div><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><p>An independent sauna specification database. InHouse Wellness is featured where available; additional retailer prices are shown for comparison.</p></div><div><strong>Database</strong><a href="/#database">All models</a><a href="/compare/">Compare saunas</a><a href="/methodology/">Data methodology</a></div><div><strong>Guides</strong><a href="/guides/120v-vs-240v/">120V vs 240V</a><a href="/guides/infrared-vs-traditional/">Infrared vs traditional</a><a href="/guides/emf-levels/">EMF terminology</a></div></div></footer>'''
+
+
+def retailer_offers(p):
+    offers = [o for o in (p.get('retailer_offers') or []) if o.get('retailer') and o.get('url')]
+    if not offers and p.get('inhouse_url'):
+        offers = [{'retailer':'InHouse Wellness','url':p.get('inhouse_url'),'price':p.get('price'),'reference_price':p.get('reference_price'),'source_type':'featured'}]
+    return offers
+
+
+def featured_offer(p):
+    offers = retailer_offers(p)
+    ih = next((o for o in offers if (o.get('retailer') or '').lower() == 'inhouse wellness'), None)
+    return ih or (offers[0] if offers else None)
+
+
+def offer_link_rel(offer):
+    return 'sponsored noopener' if (offer.get('retailer') or '').lower() == 'inhouse wellness' else 'nofollow noopener'
+
+
+def retailer_offer_html(p, compact=False):
+    offers = retailer_offers(p)
+    if not offers:
+        return '<span class="muted-offer">No current retail offer captured</span>'
+    ih = next((o for o in offers if (o.get('retailer') or '').lower() == 'inhouse wellness' and isinstance(o.get('price'), (int,float))), None)
+    ih_price = ih.get('price') if ih else None
+    lines = []
+    for offer in offers:
+        price = fmt_price(offer.get('price'))
+        delta = ''
+        if ih_price and isinstance(offer.get('price'), (int,float)) and (offer.get('retailer') or '').lower() != 'inhouse wellness':
+            diff = offer['price'] - ih_price
+            if abs(diff) >= 1:
+                direction = 'higher' if diff > 0 else 'lower'
+                delta = f'<span class="offer-delta">{fmt_price(abs(diff))} {direction} than InHouse</span>'
+        badge = '<span class="offer-badge">Featured</span>' if (offer.get('retailer') or '').lower() == 'inhouse wellness' else ''
+        lines.append(f'<div class="offer-line"><a href="{h(offer.get("url"))}" target="_blank" rel="{offer_link_rel(offer)}"><strong>{h(offer.get("retailer"))}</strong></a>{badge}<span class="offer-price">{price}</span>{delta}</div>')
+        if compact and len(lines) >= 2:
+            break
+    if compact and len(offers) > len(lines):
+        lines.append(f'<span class="offer-more">+{len(offers)-len(lines)} more price source(s)</span>')
+    return ''.join(lines)
 
 
 def model_page(p):
@@ -401,15 +448,23 @@ def model_page(p):
         ('Max temperature','max_temp'),('Exterior dimensions','exterior_dimensions'),('Interior dimensions','interior_dimensions'),('Wood / materials','wood'),('Weight','weight'),('Warranty','warranty')
     ]
     specs = ''.join(f'<div class="spec-row"><span>{h(label)}</span><strong>{h(spec_value(p,key))}</strong></div>' for label,key in fields)
-    srcs = ''.join(f'<li><a href="{h(u)}" target="_blank" rel="nofollow noopener">{h(u.split("/")[2])}</a></li>' for u in p.get('source_urls',[]))
+    srcs = ''.join(f'<li><a href="{h(u)}" target="_blank" rel="nofollow noopener">{h(u.split("/")[2])}</a></li>' for u in p.get('source_urls',[]) if u)
     img = f'<img src="{h(p.get("image"))}" alt="{h(p.get("title"))}">' if p.get('image') else '<div class="image-placeholder">∞</div>'
-    price = fmt_price(p.get('price'))
+    feat = featured_offer(p)
+    feat_name = h(feat.get('retailer')) if feat else 'No current retailer captured'
+    feat_price = fmt_price(feat.get('price')) if feat else fmt_price(p.get('price'))
+    feat_button = f'<a class="btn primary" href="{h(feat.get("url"))}" target="_blank" rel="{offer_link_rel(feat)}">Check price at {feat_name}</a>' if feat else ''
+    offer_schema = []
+    for offer in retailer_offers(p):
+        if isinstance(offer.get('price'), (int,float)):
+            offer_schema.append({'@type':'Offer','priceCurrency':'USD','price':offer.get('price'),'url':offer.get('url'),'seller':{'@type':'Organization','name':offer.get('retailer')}})
     schema = {
         '@context':'https://schema.org','@type':'Product','name':p.get('title'),'sku':p.get('model'),'brand':{'@type':'Brand','name':p.get('brand')},
-        'image':p.get('image') or None,'offers':{'@type':'Offer','priceCurrency':'USD','price':p.get('price'),'url':p.get('inhouse_url'),'seller':{'@type':'Organization','name':'InHouse Wellness'}} if p.get('price') else None
+        'image':p.get('image') or None,'offers':offer_schema or None
     }
     schema = {k:v for k,v in schema.items() if v is not None}
-    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(p.get('brand'))} {h(p.get('model'))} Specs & Comparison | Infinite Sauna</title><meta name="description" content="Specifications for {h(p.get('title'))}: electrical requirements, dimensions, capacity, heating type, EMF terminology and current featured retailer."><link rel="canonical" href="https://infinitesauna.com/models/{h(p.get('model_key'))}/"><script type="application/ld+json">{json.dumps(schema)}</script></head><body>{HEADER}<main><section class="model-hero"><div class="wrap model-hero-grid"><div class="product-image">{img}</div><div><span class="eyebrow">Sauna model database</span><h1>{h(p.get('brand'))} {h(p.get('model'))}</h1><p class="lede">{h(p.get('title'))}</p><div class="chips"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'placement'))}</span><span>{h(spec_value(p,'capacity'))}</span></div><div class="buy-box"><div><span class="micro">Featured retailer</span><strong>InHouse Wellness</strong><small>Current listed price: {price}</small></div><a class="btn primary" href="{h(p.get('inhouse_url'))}" target="_blank" rel="sponsored noopener">Check price at InHouse</a></div></div></div></section><section class="section"><div class="wrap two-col"><div><div class="section-title"><span class="eyebrow">Specifications</span><h2>Side-by-side-ready specs</h2></div><div class="spec-table">{specs}</div><p class="note">“Not verified” means the current automated sources did not expose that field reliably. We do not infer a value merely to fill the table.</p></div><aside class="panel"><h3>Compare this model</h3><p>Add this sauna to the comparison engine and select up to three alternatives.</p><a class="btn secondary" href="/compare/?models={h(p.get('model_key'))}">Compare {h(p.get('model'))}</a><hr><h3>Sources checked</h3><ul class="source-list">{srcs or '<li>InHouse Wellness catalog feed</li>'}</ul><p class="micro">Last database refresh: {h(datetime.now(timezone.utc).date().isoformat())}</p></aside></div></section></main>{FOOTER}</body></html>'''
+    offers_html = retailer_offer_html(p)
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(p.get('brand'))} {h(p.get('model'))} Specs & Comparison | Infinite Sauna</title><meta name="description" content="Specifications for {h(p.get('title'))}: electrical requirements, dimensions, capacity, heating type, EMF terminology and current retailer prices."><link rel="canonical" href="https://infinitesauna.com/models/{h(p.get('model_key'))}/"><script type="application/ld+json">{json.dumps(schema)}</script></head><body>{HEADER}<main><section class="model-hero"><div class="wrap model-hero-grid"><div class="product-image">{img}</div><div><span class="eyebrow">Sauna model database</span><h1>{h(p.get('brand'))} {h(p.get('model'))}</h1><p class="lede">{h(p.get('title'))}</p><div class="chips"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'placement'))}</span><span>{h(spec_value(p,'capacity'))}</span></div><div class="buy-box"><div><span class="micro">Featured retailer</span><strong>{feat_name}</strong><small>Current listed price: {feat_price}</small></div>{feat_button}</div></div></div></section><section class="section"><div class="wrap two-col"><div><div class="section-title"><span class="eyebrow">Specifications</span><h2>Side-by-side-ready specs</h2></div><div class="spec-table">{specs}</div><p class="note">“Not verified” means the current automated sources did not expose that field reliably. We do not infer a value merely to fill the table.</p><div class="retail-panel"><span class="eyebrow">Retail price checks</span><h2>Current offers captured</h2>{offers_html}<p class="note">Prices are source snapshots and can change. Compare configurations, heater packages, shipping and options before treating two prices as equivalent.</p></div></div><aside class="panel"><h3>Compare this model</h3><p>Add this sauna to the comparison engine and select up to three alternatives.</p><a class="btn secondary" href="/compare/?models={h(p.get('model_key'))}">Compare {h(p.get('model'))}</a><hr><h3>Sources checked</h3><ul class="source-list">{srcs or '<li>Retail catalog source</li>'}</ul><p class="micro">Last database refresh: {h(datetime.now(timezone.utc).date().isoformat())}</p></aside></div></section></main>{FOOTER}</body></html>'''
 
 
 def brand_page(brand, products):
@@ -426,23 +481,26 @@ def card_html(p, compact=False):
         f'data-search="{h((p.get("title") or "") + " " + (p.get("model") or "") + " " + (p.get("brand") or ""))}"'
     ])
     compare = '' if compact else f'<label class="compare-check"><input type="checkbox" data-compare="{h(p.get("model_key"))}"> Compare</label>'
-    return f'''<article class="sauna-card" {attrs}><a class="thumb" href="/models/{h(p.get('model_key'))}/">{img}</a><div class="card-body"><div class="card-top"><span class="model-code">{h(p.get('model'))}</span>{compare}</div><h3><a href="/models/{h(p.get('model_key'))}/">{h(p.get('title'))}</a></h3><div class="mini-specs"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'capacity'))}</span><span>{h(spec_value(p,'voltage'))}</span><span>{h(spec_value(p,'emf'))}</span></div><div class="card-foot"><div><span class="micro">Featured price</span><strong>{fmt_price(p.get('price'))}</strong></div><a class="text-link" href="{h(p.get('inhouse_url'))}" target="_blank" rel="sponsored noopener">InHouse Wellness →</a></div></div></article>'''
+    feat = featured_offer(p)
+    retailer = h(feat.get('retailer')) if feat else 'Price source'
+    link = f'<a class="text-link" href="{h(feat.get("url"))}" target="_blank" rel="{offer_link_rel(feat)}">{retailer} →</a>' if feat else '<a class="text-link" href="/models/{}/">See sources →</a>'.format(h(p.get('model_key')))
+    return f'''<article class="sauna-card" {attrs}><a class="thumb" href="/models/{h(p.get('model_key'))}/">{img}</a><div class="card-body"><div class="card-top"><span class="model-code">{h(p.get('model'))}</span>{compare}</div><h3><a href="/models/{h(p.get('model_key'))}/">{h(p.get('title'))}</a></h3><div class="mini-specs"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'capacity'))}</span><span>{h(spec_value(p,'voltage'))}</span><span>{h(spec_value(p,'emf'))}</span></div><div class="card-foot"><div><span class="micro">Featured price</span><strong>{fmt_price(p.get('price'))}</strong></div>{link}</div></div></article>'''
 
 
 def comparison_page(a, b):
     fields = [('Type','type'),('Placement','placement'),('Capacity','capacity'),('Voltage','voltage'),('Amperage','amperage'),('Plug','plug'),('EMF','emf'),('Spectrum','spectrum'),('Red light','red_light'),('Heater','heater'),('Max temp','max_temp'),('Exterior size','exterior_dimensions'),('Interior size','interior_dimensions'),('Wood','wood'),('Warranty','warranty')]
     rows = ''.join(f'<tr><th>{h(label)}</th><td>{h(spec_value(a,key))}</td><td>{h(spec_value(b,key))}</td></tr>' for label,key in fields)
     slugname = f'{a["model_key"]}-vs-{b["model_key"]}'
-    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(a.get('brand'))} {h(a.get('model'))} vs {h(b.get('brand'))} {h(b.get('model'))} | Infinite Sauna</title><meta name="description" content="Compare {h(a.get('model'))} and {h(b.get('model'))} sauna specifications side by side: size, electrical requirements, heat type, EMF terminology and more."><link rel="canonical" href="https://infinitesauna.com/comparisons/{slugname}/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Sauna comparison</span><h1>{h(a.get('model'))} vs {h(b.get('model'))}</h1><p>{h(a.get('brand'))} {h(a.get('model'))} and {h(b.get('brand'))} {h(b.get('model'))} compared using the fields our sources currently verify.</p></div></section><section class="section"><div class="wrap"><div class="comparison-scroll"><table class="comparison-table"><thead><tr><th>Specification</th><th>{h(a.get('model'))}</th><th>{h(b.get('model'))}</th></tr></thead><tbody>{rows}<tr><th>Featured price</th><td>{fmt_price(a.get('price'))}<br><a href="{h(a.get('inhouse_url'))}" target="_blank" rel="sponsored noopener">View at InHouse Wellness</a></td><td>{fmt_price(b.get('price'))}<br><a href="{h(b.get('inhouse_url'))}" target="_blank" rel="sponsored noopener">View at InHouse Wellness</a></td></tr></tbody></table></div><p class="note">No universal “winner” is assigned. Electrical service, space, preferred heat type and capacity can make different models better fits for different installations.</p></div></section></main>{FOOTER}</body></html>'''
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(a.get('brand'))} {h(a.get('model'))} vs {h(b.get('brand'))} {h(b.get('model'))} | Infinite Sauna</title><meta name="description" content="Compare {h(a.get('model'))} and {h(b.get('model'))} sauna specifications and retailer prices side by side."><link rel="canonical" href="https://infinitesauna.com/comparisons/{slugname}/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Sauna comparison</span><h1>{h(a.get('model'))} vs {h(b.get('model'))}</h1><p>{h(a.get('brand'))} {h(a.get('model'))} and {h(b.get('brand'))} {h(b.get('model'))} compared using fields and retail sources our database currently verifies.</p></div></section><section class="section"><div class="wrap"><div class="comparison-scroll"><table class="comparison-table"><thead><tr><th>Specification</th><th>{h(a.get('model'))}</th><th>{h(b.get('model'))}</th></tr></thead><tbody>{rows}<tr><th>Retail offers</th><td>{retailer_offer_html(a)}</td><td>{retailer_offer_html(b)}</td></tr></tbody></table></div><p class="note">No universal “winner” is assigned. Electrical service, space, preferred heat type, capacity, configuration and delivered price can make different models better fits.</p></div></section></main>{FOOTER}</body></html>'''
 
 
 def write_csv(products):
-    fields = ['model_key','brand','model','title','price','reference_price','type','placement','capacity','voltage','amperage','plug','emf','spectrum','red_light','ir_wattage','heater','heater_kw','max_temp','exterior_dimensions','interior_dimensions','wood','weight','warranty','inhouse_url']
+    fields = ['model_key','brand','model','title','price','reference_price','type','placement','capacity','voltage','amperage','plug','emf','spectrum','red_light','ir_wattage','heater','heater_kw','max_temp','exterior_dimensions','interior_dimensions','wood','weight','warranty','inhouse_url','retailer_count','retailers']
     with CSV_OUT.open('w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         for p in products:
-            w.writerow({k:p.get(k) for k in fields})
+            row = {k:p.get(k) for k in fields}; row['retailer_count'] = len(retailer_offers(p)); row['retailers'] = ' | '.join(o.get('retailer','') for o in retailer_offers(p)); w.writerow(row)
 
 
 def home_page(products):
@@ -527,6 +585,8 @@ def main():
         print('Preserving existing database because live catalog could not be retrieved.', file=sys.stderr)
         products = old.get('products', [])
     products = enrich_from_sources(products)
+    products = apply_verified_overrides(products, MANUFACTURERS, infer_model_from_title)
+    products = enrich_retailers(products, ROOT, session(), BeautifulSoup, parse_specs, infer_model_from_title)
     products.sort(key=lambda p:((p.get('brand') or '').lower(), (p.get('model') or '').lower()))
     payload = {'generated_at': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'currency':'USD', 'products':products}
     DATA.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n')

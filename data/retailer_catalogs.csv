@@ -1,0 +1,7 @@
+retailer,base_url,collection_path,active,allow_new,use_specs,manufacturer_direct,title_regex,brand_regex,max_pages,notes
+Golden Designs Direct,https://goldendesigninc.com,collections/products,1,0,1,1,sauna,Dynamic|Golden Designs|Maxxus,2,Official manufacturer-direct catalog. Strong overlap with InHouse models and often higher direct/MSRP pricing.
+Ampsrus,https://ampsrus.com,collections/golden-design,1,0,1,0,sauna,Golden Designs|Dynamic|Maxxus,2,Independent retailer with broad Golden Designs/Dynamic/Maxxus coverage and many prices above InHouse Wellness.
+Solaci Home,https://solacihome.com,collections/saunas,1,0,1,0,sauna,,2,"Multi-brand retailer. Adds overlap for LeisureCraft, SaunaLife, Scandia, Finnmark and Golden Designs plus additional brands/models."
+Medical Saunas Direct,https://medicalsaunas.com,collections/all,1,0,1,1,sauna|medical|traditional|nature|commercial,,2,Official manufacturer-direct catalog used to enrich matching Medical Saunas models without adding non-sauna accessories.
+Almost Heaven Direct,https://almostheaven.com,collections/shop-saunas,1,1,1,1,sauna,,2,Manufacturer-direct catalog. Adds an established sauna brand and models not offered by InHouse Wellness.
+SaunaFriend,https://saunafriend.com,collections/clearlight-infrared-saunas,1,1,1,0,sauna,Clearlight|CLEARLIGHT|SaunaFriend,2,"Retailer catalog focused on Clearlight Premier and Sanctuary infrared saunas, which expands the model database beyond InHouse inventory."
