@@ -5,9 +5,10 @@ import json
 import re
 import sys
 import time
+import random
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from source_enrichment import apply_verified_overrides, enrich_retailers
 
@@ -362,7 +363,8 @@ def enrich_from_sources(products):
 
 
 def merge_existing(live, old):
-    oldmap = {p.get('model_key'): p for p in old.get('products', [])}
+    old_products = old.get('products', [])
+    oldmap = {p.get('model_key'): p for p in old_products}
     protected = ['capacity','type','placement','emf','spectrum','red_light','voltage','amperage','plug','ir_wattage','heater','heater_kw','max_temp','exterior_dimensions','interior_dimensions','wood','weight','warranty','image','reference_price','retailer_offers']
     for p in live:
         prior = oldmap.get(p.get('model_key'))
@@ -375,6 +377,16 @@ def merge_existing(live, old):
             for u in oldurls:
                 if u not in urls:
                     urls.append(u)
+
+    # Retailer/manufacturer-only models are not present in the InHouse Shopify
+    # response. Keep them in the seed between runs even if an outside catalog is
+    # temporarily unavailable, then let retailer enrichment refresh them.
+    live_keys = {p.get('model_key') for p in live}
+    for prior in old_products:
+        key = prior.get('model_key')
+        if key and key not in live_keys and not prior.get('inhouse_url'):
+            live.append(prior)
+            live_keys.add(key)
     return live
 
 
@@ -384,6 +396,11 @@ def h(v):
 
 def fmt_price(v):
     return f'${v:,.0f}' if isinstance(v, (int,float)) else 'Price not verified'
+
+
+def display_model(p):
+    raw = str(p.get('model') or '')
+    return raw.split('|', 1)[0].strip() if '|' in raw else raw
 
 
 def spec_value(p, field):
@@ -484,14 +501,25 @@ def card_html(p, compact=False):
     feat = featured_offer(p)
     retailer = h(feat.get('retailer')) if feat else 'Price source'
     link = f'<a class="text-link" href="{h(feat.get("url"))}" target="_blank" rel="{offer_link_rel(feat)}">{retailer} →</a>' if feat else '<a class="text-link" href="/models/{}/">See sources →</a>'.format(h(p.get('model_key')))
-    return f'''<article class="sauna-card" {attrs}><a class="thumb" href="/models/{h(p.get('model_key'))}/">{img}</a><div class="card-body"><div class="card-top"><span class="model-code">{h(p.get('model'))}</span>{compare}</div><h3><a href="/models/{h(p.get('model_key'))}/">{h(p.get('title'))}</a></h3><div class="mini-specs"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'capacity'))}</span><span>{h(spec_value(p,'voltage'))}</span><span>{h(spec_value(p,'emf'))}</span></div><div class="card-foot"><div><span class="micro">Featured price</span><strong>{fmt_price(p.get('price'))}</strong></div>{link}</div></div></article>'''
+    offers = retailer_offers(p)
+    retail_links = ''.join(f'<a href="{h(o.get("url"))}" target="_blank" rel="{offer_link_rel(o)}">{h(o.get("retailer"))}</a>' for o in offers[:3])
+    if len(offers) > 3:
+        retail_links += f'<span>+{len(offers)-3} more</span>'
+    if not retail_links:
+        retail_links = '<span class="retailer-none">No retailer captured</span>'
+    return f'''<article class="sauna-card" {attrs}><a class="thumb" href="/models/{h(p.get('model_key'))}/">{img}</a><div class="card-body"><div class="card-top"><span class="model-code">{h(display_model(p))}</span>{compare}</div><h3><a href="/models/{h(p.get('model_key'))}/">{h(p.get('title'))}</a></h3><div class="mini-specs"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'capacity'))}</span><span>{h(spec_value(p,'voltage'))}</span><span>{h(spec_value(p,'emf'))}</span></div><div class="card-retailers"><span class="micro">Retailers captured</span><div class="retailer-mini-list">{retail_links}</div></div><div class="card-foot"><div><span class="micro">Featured price</span><strong>{fmt_price(p.get('price'))}</strong></div>{link}</div></div></article>'''
 
 
 def comparison_page(a, b):
     fields = [('Type','type'),('Placement','placement'),('Capacity','capacity'),('Voltage','voltage'),('Amperage','amperage'),('Plug','plug'),('EMF','emf'),('Spectrum','spectrum'),('Red light','red_light'),('Heater','heater'),('Max temp','max_temp'),('Exterior size','exterior_dimensions'),('Interior size','interior_dimensions'),('Wood','wood'),('Warranty','warranty')]
     rows = ''.join(f'<tr><th>{h(label)}</th><td>{h(spec_value(a,key))}</td><td>{h(spec_value(b,key))}</td></tr>' for label,key in fields)
     slugname = f'{a["model_key"]}-vs-{b["model_key"]}'
-    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(a.get('brand'))} {h(a.get('model'))} vs {h(b.get('brand'))} {h(b.get('model'))} | Infinite Sauna</title><meta name="description" content="Compare {h(a.get('model'))} and {h(b.get('model'))} sauna specifications and retailer prices side by side."><link rel="canonical" href="https://infinitesauna.com/comparisons/{slugname}/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Sauna comparison</span><h1>{h(a.get('model'))} vs {h(b.get('model'))}</h1><p>{h(a.get('brand'))} {h(a.get('model'))} and {h(b.get('brand'))} {h(b.get('model'))} compared using fields and retail sources our database currently verifies.</p></div></section><section class="section"><div class="wrap"><div class="comparison-scroll"><table class="comparison-table"><thead><tr><th>Specification</th><th>{h(a.get('model'))}</th><th>{h(b.get('model'))}</th></tr></thead><tbody>{rows}<tr><th>Retail offers</th><td>{retailer_offer_html(a)}</td><td>{retailer_offer_html(b)}</td></tr></tbody></table></div><p class="note">No universal “winner” is assigned. Electrical service, space, preferred heat type, capacity, configuration and delivered price can make different models better fits.</p></div></section></main>{FOOTER}</body></html>'''
+    def head(product):
+        href = product.get('inhouse_url') or f'/models/{product.get("model_key")}/'
+        attrs = ' target="_blank" rel="sponsored noopener"' if product.get('inhouse_url') else ''
+        note = 'View at InHouse Wellness ↗' if product.get('inhouse_url') else 'View model specs'
+        return f'<a class="compare-model-link" href="{h(href)}"{attrs}><span>{h(product.get("brand"))}</span><strong>{h(display_model(product))}</strong></a><span class="compare-inhouse-note">{note}</span>'
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(a.get('brand'))} {h(display_model(a))} vs {h(b.get('brand'))} {h(display_model(b))} | Infinite Sauna</title><meta name="description" content="Compare {h(display_model(a))} and {h(display_model(b))} sauna specifications and retailer prices side by side."><link rel="canonical" href="https://infinitesauna.com/comparisons/{slugname}/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Sauna comparison</span><h1>{h(display_model(a))} vs {h(display_model(b))}</h1><p>{h(a.get('brand'))} {h(display_model(a))} and {h(b.get('brand'))} {h(display_model(b))} compared using fields and retail sources our database currently verifies.</p></div></section><section class="section"><div class="wrap"><div class="comparison-scroll"><table class="comparison-table" data-count="2"><colgroup><col class="comparison-spec-col"><col class="comparison-model-col"><col class="comparison-model-col"></colgroup><thead><tr><th>Specification</th><th>{head(a)}</th><th>{head(b)}</th></tr></thead><tbody>{rows}<tr><th>Retail offers</th><td>{retailer_offer_html(a)}</td><td>{retailer_offer_html(b)}</td></tr></tbody></table></div><p class="note">No universal “winner” is assigned. Electrical service, space, preferred heat type, capacity, configuration and delivered price can make different models better fits.</p></div></section></main>{FOOTER}</body></html>'''
 
 
 def write_csv(products):
@@ -506,14 +534,54 @@ def write_csv(products):
 def home_page(products):
     template = (ROOT / 'templates' / 'index.template.html').read_text()
     brands = sorted(set(p.get('brand') for p in products if p.get('brand')))
-    cards = ''.join(card_html(p) for p in products)
+
+    # Rotate the unfiltered homepage across retailer buckets so the first screen
+    # is not dominated by a single source. JavaScript repeats this against the
+    # live JSON, but this also makes the generated HTML itself diverse.
+    buckets = {}
+    for product in products:
+        offer = featured_offer(product)
+        name = (offer or {}).get('retailer') or 'No retailer'
+        buckets.setdefault(name, []).append(product)
+    rng = random.Random(datetime.now(timezone.utc).date().isoformat())
+    for bucket in buckets.values():
+        rng.shuffle(bucket)
+    retailer_names = list(buckets)
+    rng.shuffle(retailer_names)
+    mixed = []
+    while any(buckets.values()):
+        for name in retailer_names:
+            if buckets[name]:
+                mixed.append(buckets[name].pop())
+    cards = ''.join(card_html(p) for p in mixed)
+
     brandcloud = ''.join(f'<a href="/brands/{slug(b)}/">{h(b)}</a>' for b in brands)
+    retailer_map = {}
+    for product in products:
+        for offer in retailer_offers(product):
+            name = offer.get('retailer')
+            if not name:
+                continue
+            entry = retailer_map.setdefault(name, {'count':0, 'url':offer.get('url')})
+            entry['count'] += 1
+    retailer_items = list(retailer_map.items())
+    rng.shuffle(retailer_items)
+    retailer_parts = []
+    for name, value in retailer_items:
+        parsed = urlparse(value.get('url') or '')
+        destination = f'{parsed.scheme}://{parsed.netloc}' if parsed.scheme and parsed.netloc else (value.get('url') or '#')
+        rel = 'sponsored noopener' if name.lower() == 'inhouse wellness' else 'nofollow noopener'
+        plural = '' if value['count'] == 1 else 's'
+        retailer_parts.append(f'<a href="{h(destination)}" target="_blank" rel="{rel}"><strong>{h(name)}</strong><span>{value["count"]} model{plural}</span></a>')
+    retailercloud = ''.join(retailer_parts)
     return (template
             .replace('{{MODEL_COUNT}}', str(len(products)))
             .replace('{{BRAND_COUNT}}', str(len(brands)))
+            .replace('{{RETAILER_COUNT}}', str(len(retailer_map)))
             .replace('{{UPDATED}}', datetime.now(timezone.utc).date().isoformat())
             .replace('{{CARDS}}', cards)
-            .replace('{{BRANDS}}', brandcloud))
+            .replace('{{BRANDS}}', brandcloud)
+            .replace('{{RETAILERS}}', retailercloud))
 
 
 def generate_pages(products):
