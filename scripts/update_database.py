@@ -17,6 +17,7 @@ DATA = ROOT / 'data' / 'saunas.json'
 CSV_OUT = ROOT / 'data' / 'saunas.csv'
 MANUFACTURERS = ROOT / 'data' / 'manufacturer_sources.csv'
 COMPARISONS = ROOT / 'data' / 'comparisons.csv'
+RETAILERS = ROOT / 'data' / 'retailers.csv'
 BASE = 'https://inhousewellness.com'
 UA = 'InfiniteSaunaDatabaseBot/1.0 (+https://infinitesauna.com/methodology/)'
 
@@ -414,7 +415,28 @@ def spec_value(p, field):
 
 HEAD = '''<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/style.css"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>∞</text></svg>">'''
 HEADER = '''<header class="site-header"><div class="wrap nav"><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><nav><a href="/#database">Database</a><a href="/compare/">Compare</a><a href="/guides/120v-vs-240v/">Guides</a><a href="/methodology/">Methodology</a></nav></div></header>'''
-FOOTER = '''<footer><div class="wrap footer-grid"><div><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><p>An independent sauna specification database. InHouse Wellness is featured where available; additional retailer prices are shown for comparison.</p></div><div><strong>Database</strong><a href="/#database">All models</a><a href="/compare/">Compare saunas</a><a href="/methodology/">Data methodology</a></div><div><strong>Guides</strong><a href="/guides/120v-vs-240v/">120V vs 240V</a><a href="/guides/infrared-vs-traditional/">Infrared vs traditional</a><a href="/guides/emf-levels/">EMF terminology</a></div></div></footer>'''
+FOOTER = '''<footer><div class="wrap footer-grid"><div><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><p>An independent sauna specification database. InHouse Wellness is featured where available; additional retailer prices are shown for comparison.</p></div><div><strong>Database</strong><a href="/#database">All models</a><a href="/compare/">Compare saunas</a><a href="/retailers/">Retailers</a><a href="/methodology/">Data methodology</a></div><div><strong>Guides</strong><a href="/guides/120v-vs-240v/">120V vs 240V</a><a href="/guides/infrared-vs-traditional/">Infrared vs traditional</a><a href="/guides/emf-levels/">EMF terminology</a></div></div></footer>'''
+
+
+def load_retailer_profiles():
+    if not RETAILERS.exists():
+        return []
+    with RETAILERS.open(newline='') as f:
+        return list(csv.DictReader(f))
+
+
+def nofollow_home_links(markup):
+    """Apply nofollow to every homepage anchor while preserving other rel values."""
+    def add_rel(match):
+        tag = match.group(0)
+        rel = re.search(r'\srel=(["\'])(.*?)\1', tag, re.I)
+        if rel:
+            values = rel.group(2).split()
+            if 'nofollow' not in [value.lower() for value in values]:
+                values.append('nofollow')
+            return tag[:rel.start(2)] + ' '.join(values) + tag[rel.end(2):]
+        return tag[:-1] + ' rel="nofollow">'
+    return re.sub(r'<a\b[^>]*>', add_rel, markup, flags=re.I)
 
 
 def retailer_offers(p):
@@ -488,6 +510,26 @@ def brand_page(brand, products):
     bslug = slug(brand)
     cards = ''.join(card_html(p, compact=True) for p in products)
     return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(brand)} Sauna Models & Specifications | Infinite Sauna</title><meta name="description" content="Compare {h(brand)} sauna models by capacity, heating type, electrical requirements, dimensions and current price."><link rel="canonical" href="https://infinitesauna.com/brands/{bslug}/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Brand database</span><h1>{h(brand)} sauna models</h1><p>{len(products)} models currently indexed. Compare specifications first, then verify the exact configuration with the retailer or manufacturer before purchase.</p></div></section><section class="section"><div class="wrap"><div class="card-grid">{cards}</div></div></section></main>{FOOTER}</body></html>'''
+
+
+def retailers_page(products):
+    counts = {}
+    for product in products:
+        for offer in retailer_offers(product):
+            name = offer.get('retailer')
+            if name:
+                counts[name] = counts.get(name, 0) + 1
+    profiles = load_retailer_profiles()
+    cards = []
+    for profile in profiles:
+        name = clean(profile.get('retailer'))
+        url = clean(profile.get('url'))
+        if not name or not url:
+            continue
+        count = counts.get(name, 0)
+        coverage = f'{count} model' + ('' if count == 1 else 's') + ' currently indexed' if count else 'Catalog source configured'
+        cards.append(f'''<article class="retailer-card"><span class="eyebrow">{h(profile.get('brand_focus') or 'Sauna retailer')}</span><h2>{h(name)}</h2><p>{h(profile.get('description'))}</p><div class="retailer-card-foot"><span>{h(coverage)}</span><a class="btn secondary" href="{h(url)}" target="_blank" rel="nofollow sponsored noopener">Visit {h(name)}</a></div></article>''')
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>Sauna Retailers in the Infinite Sauna Database</title><meta name="description" content="Learn about every sauna retailer and manufacturer-direct store represented in the Infinite Sauna model database."><link rel="canonical" href="https://infinitesauna.com/retailers/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Retail directory</span><h1>Sauna retailers represented</h1><p>These retailers and manufacturer-direct stores provide the product listings used in our model database. InHouse Wellness remains the featured destination whenever it carries the brand; outside retailers are used to add brands not available there or to document an exact-model comparison source.</p></div></section><section class="section"><div class="wrap"><div class="retailer-directory">{''.join(cards)}</div><p class="note">Retail links may be commercial. Product availability, configuration, shipping and pricing can change; confirm details directly with the retailer before purchasing.</p></div></section></main>{FOOTER}</body></html>'''
 
 
 def card_html(p, compact=False):
@@ -574,7 +616,7 @@ def home_page(products):
         plural = '' if value['count'] == 1 else 's'
         retailer_parts.append(f'<a href="{h(destination)}" target="_blank" rel="{rel}"><strong>{h(name)}</strong><span>{value["count"]} model{plural}</span></a>')
     retailercloud = ''.join(retailer_parts)
-    return (template
+    page = (template
             .replace('{{MODEL_COUNT}}', str(len(products)))
             .replace('{{BRAND_COUNT}}', str(len(brands)))
             .replace('{{RETAILER_COUNT}}', str(len(retailer_map)))
@@ -582,10 +624,13 @@ def home_page(products):
             .replace('{{CARDS}}', cards)
             .replace('{{BRANDS}}', brandcloud)
             .replace('{{RETAILERS}}', retailercloud))
+    return nofollow_home_links(page)
 
 
 def generate_pages(products):
     (ROOT / 'index.html').write_text(home_page(products))
+    retailers_dir = ROOT / 'retailers'; retailers_dir.mkdir(exist_ok=True)
+    (retailers_dir / 'index.html').write_text(retailers_page(products))
     models_dir = ROOT / 'models'; models_dir.mkdir(exist_ok=True)
     brands_dir = ROOT / 'brands'; brands_dir.mkdir(exist_ok=True)
     comps_dir = ROOT / 'comparisons'; comps_dir.mkdir(exist_ok=True)
@@ -625,7 +670,7 @@ def generate_pages(products):
             d.rmdir()
 
     today = datetime.now(timezone.utc).date().isoformat()
-    urls = ['https://infinitesauna.com/','https://infinitesauna.com/compare/','https://infinitesauna.com/methodology/','https://infinitesauna.com/guides/120v-vs-240v/','https://infinitesauna.com/guides/infrared-vs-traditional/','https://infinitesauna.com/guides/emf-levels/']
+    urls = ['https://infinitesauna.com/','https://infinitesauna.com/compare/','https://infinitesauna.com/retailers/','https://infinitesauna.com/methodology/','https://infinitesauna.com/guides/120v-vs-240v/','https://infinitesauna.com/guides/infrared-vs-traditional/','https://infinitesauna.com/guides/emf-levels/']
     urls += [f'https://infinitesauna.com/models/{p["model_key"]}/' for p in products]
     urls += [f'https://infinitesauna.com/brands/{slug(b)}/' for b in bybrand]
     urls += [f'https://infinitesauna.com/comparisons/{c}/' for c in sorted(valid_comps)]

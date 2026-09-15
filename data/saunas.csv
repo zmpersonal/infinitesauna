@@ -139,6 +139,14 @@ gdi-8506-01,Golden Designs Inc,GDI-8506-01,Golden Designs Kaarina GDI-8506-01 6 
 gdi-8526-01,Golden Designs Inc,GDI-8526-01,Golden Designs Kaskinen 6-Person Hybrid Outdoor Sauna – Canadian Red Cedar Interior,18999.0,22999.0,Hybrid,Outdoor,6,240V,40A,,Near Zero,Full Spectrum,,,Harvia stove and PureTech™ Full Spectrum infrared heating technology,8.0 kW,Up to 190°F,,,Cedar,1600 lbs,,https://inhousewellness.com/products/kaskinen-6-sauna,3,InHouse Wellness | Ampsrus | Golden Designs Direct
 gdi-b002-01,Golden Designs Inc,GDI-B002-01,Golden Designs GDI-B002-01 St. Moritz 2 Person Barrel Traditional Sauna 6.0 kW,4999.0,6999.0,Hybrid,Outdoor,2,120V/240V,30A,,,Infrared,,,Harvia “WALL” stove,6.0 kW,Up to 190°F,"84"" x 60"" x 84""","78"" x 52"" x 78""",Pacific Cedar,409 lbs,,https://inhousewellness.com/products/golden-designs-st-moritz-barrel-sauna,3,InHouse Wellness | Ampsrus | Golden Designs Direct
 gdi-b004-01,Golden Designs Inc,GDI-B004-01,"Golden Designs ""Arosa"" 4 Person Barrel Traditional Sauna",5999.0,7999.0,Traditional,Outdoor,4,120V/240V,30A,,Near Zero,Full Spectrum,True,,Harvia 6KW stove,6 kW,Up to 190°F,"84"" x 73"" x 84""","78"" x 65"" x 78""",Pacific Cedar,477 lbs,,https://inhousewellness.com/products/arosa-4p-barrel-sauna,3,InHouse Wellness | Ampsrus | Golden Designs Direct
+hhs-sau-1p-ir,Heavenly Heat Saunas,HHS-SAU-1P-IR,1-Person Infrared Sauna,6700.0,6700.0,Infrared,Indoor,1,,,,,Far Infrared,,,,,,,,,,,,1,Heavenly Heat Saunas
+hhs-sau-2p-comb,Heavenly Heat Saunas,HHS-SAU-2P-COMB,2-Person Combination Sauna,11300.0,11300.0,Hybrid,Indoor,2,,,,Ultra Low,Infrared,,,,,,,,,,,,1,Heavenly Heat Saunas
+hhs-sau-2p-ir,Heavenly Heat Saunas,HHS-SAU-2P-IR,2-Person Infrared Sauna,7400.0,7400.0,Infrared,Indoor,2,,,,,Far Infrared,,,,,,,,,,,,1,Heavenly Heat Saunas
+hhs-sau-2p-rl-ir,Heavenly Heat Saunas,HHS-SAU-2P-RL-IR,2-Person Red Light & Infrared Sauna,11495.0,11495.0,Infrared,Indoor,2,,,,,Full Spectrum,True,,,,,,,,,,,1,Heavenly Heat Saunas
+hhs-sau-3p-ir,Heavenly Heat Saunas,HHS-SAU-3P-IR,3-Person Infrared Sauna,10500.0,10500.0,Infrared,Indoor,3,,,,,Far Infrared,,,,,,,,,,,,1,Heavenly Heat Saunas
+hhs-sau-4p-rl-ir,Heavenly Heat Saunas,HHS-SAU-4P-RL-IR,4-Person Red Light & Infrared Sauna,22200.0,22200.0,Infrared,Indoor,4,,,,Ultra Low,Far Infrared,True,,,,,,,,,,,1,Heavenly Heat Saunas
+hhs-sau-box-1p-ir,Heavenly Heat Saunas,HHS-SAU-BOX-1P-IR,1-Person Infrared BOX Sauna,4500.0,4500.0,Infrared,Indoor,1,,,,Ultra Low,Far Infrared,,,,,,,,,,,,1,Heavenly Heat Saunas
+hhs-sau-eco-1p-ir,Heavenly Heat Saunas,HHS-SAU-ECO-1P-IR,1-Person Infrared ECO Sauna,5600.0,5600.0,Infrared,Indoor,1,,,,,Far Infrared,,,,,Up to 165°F,,,,,,,1,Heavenly Heat Saunas
 kohler-c1-k-38440,Kohler,kohler-c1-k-38440,"Kohler C1 K-38440-0FNC-SPS Two-Person Indoor Sauna, Scandinavian Spruce",17866.67,,Traditional,Indoor,,240V,,,,,,,,4.5 kW,,,,Spruce,,5-year limited warranty,https://inhousewellness.com/products/kohler-c1-k-38440,1,InHouse Wellness
 kohler-c1-k-39963-0fnc,Kohler,kohler-c1-k-39963-0fnc,"Kohler C1 Two-Person Indoor Sauna, Graphite Grey",18666.67,,Traditional,Indoor,,240V,30A,NEMA6-30P,,,,,,4.5 kW,,,,Spruce,,5-year limited warranty,https://inhousewellness.com/products/kohler-c1-k-39963-0fnc,1,InHouse Wellness
 mw12,Mande Spa,MW12,MW12 ThermoWood® Outdoor Sauna – 2–3 Person,5939.0,6599.0,Traditional,Outdoor,3,,,,,,,,,,,,,,,,https://inhousewellness.com/products/mw12-thermowood-r-outdoor-sauna-2-3-person,1,InHouse Wellness
@@ -177,8 +185,90 @@ medical-sauna-traditional5,Medical Saunas,medical-sauna-traditional5,Traditional
 medical-sauna-traditional6,Medical Saunas,medical-sauna-traditional6,"Traditional 6 Steam Sauna - 3 Person Capacity, Canadian Hemlock, Rapid Heating",8799.0,18999.0,Traditional,Indoor,3,220V/240V,30A,,,,,,,,,,,Canadian Hemlock,,,https://inhousewellness.com/products/medical-sauna-traditional6,1,InHouse Wellness
 medical-sauna-traditional7,Medical Saunas,medical-sauna-traditional7,Traditional 7™ Sauna | 4-Person Hemlock Sauna with Rapid Heating,10799.0,22999.0,Traditional,Indoor,4,220V,30A,,,,,,,,Up to 194°F,,,Canadian Hemlock,,,https://inhousewellness.com/products/medical-sauna-traditional7,1,InHouse Wellness
 medical-sauna-traditional8,Medical Saunas,medical-sauna-traditional8,Traditional 8 Plus Steam Sauna - 4-6 Person Luxury Hemlock Sauna,13649.0,28999.0,Traditional,Indoor,6,220V/240V,50A,,,,,,,,,,,Canadian Hemlock,,,https://inhousewellness.com/products/medical-sauna-traditional8,1,InHouse Wellness
+sn-abu-h8k002f,Redwood Outdoors,SN-ABU-H8K002F,Grove Outdoor Sauna - 8 Person,11699.0,,Traditional,Outdoor,8,,,,,,,,Harvia Fenix for better sauna control,9 kW,,,,Canadian Hemlock,,,,1,Redwood Outdoors
+sn-bbu-h6k001n,Redwood Outdoors,SN-BBU-H6K001N,Barrel Outdoor Sauna - 6 Person,6299.0,,Traditional,Outdoor,6,,,,,,,,Harvia KIP,6 kW,,,,Canadian Hemlock,,,,1,Redwood Outdoors
+sn-bbu-h8k001f,Redwood Outdoors,SN-BBU-H8K001F,Barrel Outdoor Sauna - 8 Person,6899.0,,Traditional,Outdoor,8,,,,,,,,Harvia KIP,8 kW,,,,Canadian Hemlock,,,,1,Redwood Outdoors
+sn-bnu-h6k001f,Redwood Outdoors,SN-BNU-H6K001F,Horizon Outdoor Sauna - 6 Person w/ Porch,7599.0,,Traditional,Outdoor,6,,,,,,,,Harvia KIP,6 kW,,,,,,,,1,Redwood Outdoors
+sn-bpu-h6k001n,Redwood Outdoors,SN-BPU-H6K001N,Barrel Outdoor Sauna w/ Porch - 6 Person,6999.0,,Traditional,Outdoor,6,,,,,,,,Harvia KIP,6 kW,,,,,,,,1,Redwood Outdoors
+sn-bwu-h6k001f,Redwood Outdoors,SN-BWU-H6K001F,Vista Outdoor Sauna - 6 Person,6899.0,,Traditional,Outdoor,6,,,,,,,,Harvia KIP,6 kW,,,,,,,,1,Redwood Outdoors
+sn-cbk-h8k001f,Redwood Outdoors,SN-CBK-H8K001F,Noctra Outdoor Sauna - 8 Person,9499.0,,Traditional,Outdoor,8,,,,,,,,"Harvia KIP, with upgrades available",8 kW,,,,,,,,1,Redwood Outdoors
+sn-cbu-h3k003f,Redwood Outdoors,SN-CBU-H3K003F,Cove Outdoor Sauna - 3 Person,7399.0,,Traditional,Outdoor,3,,,,,,,,"Harvia KIP heater, with upgrades available",6 kW,,,,,,,,1,Redwood Outdoors
+sn-cbu-h4k003f,Redwood Outdoors,SN-CBU-H4K003F,Cabin Outdoor Sauna - 4 Person,7299.0,,Traditional,Outdoor,4,,,,,,,,Harvia KIP,6 kW,,,,,,,,1,Redwood Outdoors
+sn-cbu-h8k003f,Redwood Outdoors,SN-CBU-H8K003F,Garden Outdoor Sauna - 8 Person,8699.0,,Traditional,Outdoor,8,,,,,,,,Harvia KIP,8 kW,,,,Canadian Hemlock,,,,1,Redwood Outdoors
+sn-ebu-h6k002f,Redwood Outdoors,SN-EBU-H6K002F,Extra-Wide Outdoor Barrel Sauna - 6 Person,8299.0,,Traditional,Outdoor,6,,,,,,,,Harvia KIP,6 kW,,,,Canadian Hemlock,,,,1,Redwood Outdoors
+sn-epu-h6k001f,Redwood Outdoors,SN-EPU-H6K001F,Extra-Wide Outdoor Barrel Sauna w/ Porch - 6 Person,8499.0,,Traditional,Outdoor,6,,,,,,,,"Harvia KIP heater & Harvia KIP Guard, with upgrades available",6 kW,,,,Canadian Hemlock,,,,1,Redwood Outdoors
+sn-ibu-h2k001f,Redwood Outdoors,SN-IBU-H2K001F,Alcove Indoor Sauna - 2 Person,4299.0,,Traditional,Outdoor,2,,,,,,,,"Harvia KIP, with upgrades available",8 kW,Up to 194°F,,,,,,,1,Redwood Outdoors
+sn-ibu-h3k002f,Redwood Outdoors,SN-IBU-H3K002F,Haven Indoor Sauna - 3 Person,5499.0,,Traditional,Outdoor,3,,,,,,,,"Harvia KIP heater, with upgrades available",6 kW,,,,,,,,1,Redwood Outdoors
+sn-ibu-h4k001f,Redwood Outdoors,SN-IBU-H4K001F,Retreat Indoor Sauna - 4 Person,5499.0,,Traditional,Outdoor,4,,,,,,,,Harvia KIP heater (with the option to upgrade),6 kW,,,,,,,,1,Redwood Outdoors
+sn-qbu-h2k002f,Redwood Outdoors,SN-QBU-H2K002F,Duo Outdoor Sauna - 2 Person,5899.0,,Traditional,Outdoor,2,,,,,,,,Harvia KIP Heater with upgrade options available,6 kW,,,,,,,,1,Redwood Outdoors
+sn-qbu-h6k002f,Redwood Outdoors,SN-QBU-H6K002F,Summit Outdoor Sauna - 6 Person,7999.0,,Traditional,Outdoor,6,,,,,,,,Harvia KIP,6 kW,,,,Canadian Hemlock,,,,1,Redwood Outdoors
 rip-soi,Ripavi,RIP-SOI,Ripavi Sointu Finnish Outdoor Sauna – Luxury 8-Person Sauna with Shower & Skylight,49900.0,68000.0,Traditional,Outdoor,8,,,,,,,,,,,,,Spruce,,,https://inhousewellness.com/products/ripavi-sointu-traditional-outdoor,1,InHouse Wellness
 rip-tau,Ripavi,RIP-TAU,"Ripavi Tauko Premium Finnish Sauna – Traditional Wood-Burning or Electric Heater, Luxurious and Sustainable Design",36900.0,44000.0,Traditional,Outdoor,4,,,,,,,,,,,,,Spruce,,,https://inhousewellness.com/products/ripavi-tauko-finish-sauna,1,InHouse Wellness
+san01m001,Salus Saunas,SAN01M001,Nordic II Traditional Outdoor Barrel Sauna - 3 Person,7895.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m001f,Salus Saunas,SAN01M001F,Nordic II Front Glass Traditional Outdoor Barrel Sauna - 3 Person,8745.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m002,Salus Saunas,SAN01M002,Nordic King Traditional Outdoor Barrel Sauna - 4 Person,10495.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m002f,Salus Saunas,SAN01M002F,Nordic King Front Glass Traditional Outdoor Barrel Sauna - 4 Person,12495.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m003,Salus Saunas,SAN01M003,Grand Nordic Traditional Outdoor Barrel Sauna - 6 Person,13495.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m003f,Salus Saunas,SAN01M003F,Grand Nordic Front Glass Traditional Outdoor Barrel Sauna - 6 Person,14495.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m005,Salus Saunas,SAN01M005,Stellar Traditional Outdoor Barrel Sauna - 6 Person,19495.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m005r,Salus Saunas,SAN01M005R,Stellar With Relax Room Traditional Outdoor Barrel Sauna - 6 Person,20695.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san01m008,Salus Saunas,SAN01M008,Horizon Traditional Outdoor Barrel Sauna - 6 Person,12695.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m001,Salus Saunas,SAN02M001,Ally Traditional Indoor Sauna - 2 Person,6995.0,,Traditional,Indoor,2,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m002,Salus Saunas,SAN02M002,Ally King Traditional Indoor Sauna - 3 Person,7995.0,,Traditional,Indoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m003,Salus Saunas,SAN02M003,Grand Ally Traditional Indoor Sauna - 6 Person,8899.0,,Traditional,Indoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m004,Salus Saunas,SAN02M004,Heavenly Traditional Indoor Sauna - 2 Person,6995.0,,Traditional,Indoor,2,,,,,,True,,,,,,,,,,,1,Salus Saunas
+san02m005,Salus Saunas,SAN02M005,Fierce Traditional Indoor Sauna - 3 Person,7995.0,,Traditional,Indoor,3,,,,,,True,,,,,,,,,,,1,Salus Saunas
+san02m006,Salus Saunas,SAN02M006,Charisma Traditional Indoor Sauna - 6 Person,8999.0,,Traditional,Indoor,6,,,,,,True,,,,,,,,,,,1,Salus Saunas
+san02m013,Salus Saunas,SAN02M013,Renew II Traditional Indoor/Outdoor Sauna - 2 Person,12649.0,,Traditional,Outdoor,2,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m014,Salus Saunas,SAN02M014,Relieve Traditional Indoor Sauna - 3 Person,7495.0,,Traditional,Indoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m015,Salus Saunas,SAN02M015,Restore Traditional Indoor Sauna - 6 Person,6495.0,8995.0,Traditional,Indoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m016,Salus Saunas,SAN02M016,Revive II Traditional Indoor/Outdoor Sauna - 3 Person,14449.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san02m017,Salus Saunas,SAN02M017,Aspire II Traditional Indoor/Outdoor Sauna - 6 Person,16499.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san03m001,Salus Saunas,SAN03M001,Glamour Far Infrared Indoor Sauna - 1 Person,5195.0,,Infrared,Indoor,1,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m002,Salus Saunas,SAN03M002,Laurel Far Infrared Indoor Sauna - 1 Person,5195.0,,Infrared,Indoor,1,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m005,Salus Saunas,SAN03M005,Laurel King Far Infrared Indoor Sauna - 2 Person,6295.0,,Infrared,Indoor,2,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m006,Salus Saunas,SAN03M006,Paramount Far Infrared Indoor Sauna - 2 Person,5295.0,6295.0,Infrared,Indoor,2,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m008,Salus Saunas,SAN03M008,Grand Laurel Far Infrared Indoor Sauna - 3 Person,7245.0,,Infrared,Indoor,3,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m011,Salus Saunas,SAN03M011,Elite Far Infrared Indoor Sauna - 6 Person,7995.0,,Infrared,Indoor,6,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m012,Salus Saunas,SAN03M012,Majestic Far Infrared Indoor Sauna - 8 Person,9995.0,,Infrared,Indoor,8,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m014,Salus Saunas,SAN03M014,Nirvana Far Infrared Indoor Sauna - 2 Person,3795.0,,Infrared,Indoor,2,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m015,Salus Saunas,SAN03M015,Prana Far Infrared Indoor Sauna - 2 Person,2995.0,,Infrared,Indoor,2,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m016,Salus Saunas,SAN03M016,Novalis Far Infrared Indoor Sauna - 2 Person,3195.0,,Infrared,Indoor,2,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san03m017,Salus Saunas,SAN03M017,Luxen Far Infrared Indoor Sauna - 4 Person,4695.0,,Infrared,Indoor,4,,,,,Far Infrared,,,,,,,,,,,,1,Salus Saunas
+san04m002,Salus Saunas,SAN04M002,Element Full Spectrum Infrared Indoor Sauna - 2 Person,4995.0,,Infrared,Indoor,2,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san04m003,Salus Saunas,SAN04M003,Element King Full Spectrum Infrared Indoor Sauna - 3 Person,5895.0,,Infrared,Indoor,3,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san04m005,Salus Saunas,SAN04M005,Grand Element Full Spectrum Infrared Indoor Sauna - 4 Person,6895.0,,Infrared,Indoor,4,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san04m006,Salus Saunas,SAN04M006,Ascend Full Spectrum Infrared Indoor Sauna - 2 Person,5295.0,,Infrared,Indoor,2,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san04m007,Salus Saunas,SAN04M007,Affinity Full Spectrum Infrared Indoor Sauna - 3 Person,5995.0,,Infrared,Indoor,3,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san04m009,Salus Saunas,SAN04M009,Reprieve Full Spectrum Infrared Indoor Sauna - 2 Person,4995.0,,Infrared,Indoor,2,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san04m010,Salus Saunas,SAN04M010,Uplift Full Spectrum Infrared Indoor Sauna - 3 Person,5495.0,,Infrared,Indoor,3,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san04m014,Salus Saunas,SAN04M014,Grand Retreat Full Spectrum Infrared Indoor Sauna - 6 Person,7499.0,,Infrared,Indoor,6,,,,Near Zero,Full Spectrum,True,,,,,,,Canadian Hemlock,,,,1,Salus Saunas
+san05m001,Salus Saunas,SAN05M001,Serenity Hybrid Indoor Sauna - 3 Person,8995.0,,Traditional,Indoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san05m002,Salus Saunas,SAN05M002,Harmony Hybrid Indoor Sauna - 6 Person,10995.0,,Traditional,Indoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san06m001,Salus Saunas,SAN06M001,Renew Hybrid Outdoor Sauna - 2 Person,15649.0,,Traditional,Outdoor,2,,,,,,,,,,,,,,,,,1,Salus Saunas
+san06m003,Salus Saunas,SAN06M003,Renew King Hybrid Outdoor Sauna - 3 Person,17799.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san06m004,Salus Saunas,SAN06M004,Grand Renew Hybrid Outdoor Sauna - 6 Person,19899.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san06m005,Salus Saunas,SAN06M005,Elevation Hybrid Outdoor Sauna - 6 Person,16449.0,19949.0,Hybrid,Outdoor,6,,,,,Full Spectrum,,,,,,,,,,,,1,Salus Saunas
+san07m001,Salus Saunas,SAN07M001,Tuscany Traditional Outdoor Luxury Sauna - 4 Person,15445.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Salus Saunas
+san07m002,Salus Saunas,SAN07M002,Florence Relax Traditional Outdoor Luxury Sauna - 6 Person,20845.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san07m003,Salus Saunas,SAN07M003,Vienna Single Traditional Outdoor Luxury Sauna - 8 Person,21845.0,,Traditional,Outdoor,8,,,,,,,,Huum Hive Mini Heater),,,,,,,,,1,Salus Saunas
+san07m004,Salus Saunas,SAN07M004,Santorini Double Traditional Outdoor Luxury Sauna - 5 Person,19295.0,,Traditional,Outdoor,5,,,,,,,,Huum Hive Mini Heater),,,,,,,,,1,Salus Saunas
+san07m005,Salus Saunas,SAN07M005,Flora Traditional Outdoor Luxury Sauna - 3 Person,14595.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m001-2,Salus Saunas,SAN08M001-2,Monarch II Traditional Outdoor Sauna - 3 Person,9495.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m002,Salus Saunas,SAN08M002,Monarch King Traditional Outdoor Sauna - 4 Person,10595.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m003-2,Salus Saunas,SAN08M003-2,Grand Monarch II Traditional Outdoor Sauna - 6 Person,14695.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m007,Salus Saunas,SAN08M007,Governor Traditional Outdoor Sauna - 3 Person,8395.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m007f,Salus Saunas,SAN08M007F,Governor Front Glass Traditional Outdoor Sauna - 3 Person,8895.0,,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m008,Salus Saunas,SAN08M008,Governor King Traditional Outdoor Sauna - 4 Person,9495.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m008f,Salus Saunas,SAN08M008F,Governor King Front Glass Traditional Outdoor Sauna - 4 Person,9995.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m009,Salus Saunas,SAN08M009,Grand Governor Traditional Outdoor Sauna - 6 Person,13095.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m009f,Salus Saunas,SAN08M009F,Grand Governor Front Glass Traditional Outdoor Sauna - 6 Person,14095.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m010,Salus Saunas,SAN08M010,Governor Mini Traditional Outdoor Sauna - 2 Person,6595.0,,Traditional,Outdoor,2,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m010f,Salus Saunas,SAN08M010F,Governor Mini Front Glass Traditional Outdoor Sauna - 2 Person,7095.0,,Traditional,Outdoor,2,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m011,Salus Saunas,SAN08M011,Solis Traditional Outdoor Sauna - 3 Person,10499.0,13999.0,Traditional,Outdoor,3,,,,,,,,,,,,,,,,,1,Salus Saunas
+san08m012,Salus Saunas,SAN08M012,Solara Traditional Outdoor Sauna - 6 Person,12499.0,15999.0,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
+san09m001,Salus Saunas,SAN09M001,Panorama Glass Traditional Outdoor Luxury Sauna - 4 Person,17995.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Salus Saunas
+san09m002l,Salus Saunas,SAN09M002L,Deluxe Panorama Glass Traditional Outdoor Luxury Sauna - 6 Person,19995.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Salus Saunas
 sl-cl3g,SaunaLife,SL-CL3G,SaunaLife Model CL3G 2-Person Outdoor Cube Sauna Kit with Glass Front,4940.0,5208.0,Traditional,Outdoor,2,120V,,,,,,,"on/off, temperature, up to 12 hours delayed start, and up to 12-hour timed shut off",4.5 kW,Up to 200°F,,,Thermo-Spruce / Thermo-Aspen,,Limited lifetime warranty,https://inhousewellness.com/products/saunalife-cl3g,2,InHouse Wellness | Solaci Home
 sl-modele8g,SaunaLife,SL-MODELE8G,SaunaLife Model E8G Outdoor Barrel Sauna with Glass Front,7940.0,8734.0,Traditional,Outdoor,6,,,,,,,,,,,,,Thermo-Spruce / Thermo-Aspen,,Limited lifetime warranty,https://inhousewellness.com/products/saunalife-e8g,1,InHouse Wellness
 sl-modelee6g,SaunaLife,SL-MODELEE6G,SaunaLife Ergo Elegance Outdoor Sauna Barrel with Full Glass Front – Seats 4,6940.0,7634.0,Traditional,Outdoor,,,,,,,,,,,,,,Thermo-Spruce / Thermo-Aspen,,,https://inhousewellness.com/products/saunalife-ee6g,1,InHouse Wellness
@@ -194,3 +284,18 @@ bs68-t,Scandia,BS68-T,Scandia Barrel Sauna – 4-Person Traditional Sauna for Ho
 precut-diy-3x4-ultra,Scandia,PRECUT-DIY-3X4-ULTRA,Scandia Electric DIY PreCut Sauna Room Kit PRECUT-DIY-3X4-ULTRA,9500.0,12350.0,Traditional,Indoor,3,,,,,,,,Scandia Electric DIY PreCut Sauna Room Kit PRECUT-DIY-3X4-ULTRA,,,,,Cedar,,,https://inhousewellness.com/products/pre-cut-hand-finished-sauna-kit-1-3-person,1,InHouse Wellness
 precut-diy-4x7-ultra,Scandia,PRECUT-DIY-4X7-ULTRA,Scandia Electric DIY PreCut Sauna Room Kit PRECUT-DIY-4X7-ULTRA,10080.0,13104.0,Traditional,Indoor,8,,,,,,,,Scandia Electric DIY PreCut Sauna Room Kit PRECUT-DIY-4X7-ULTRA,,,,,Cedar,,,https://inhousewellness.com/products/hand-finished-precut-sauna-kit,1,InHouse Wellness
 precut-diy-8x9-ultra,Scandia,PRECUT-DIY-8X9-ULTRA,Scandia Electric DIY PreCut Sauna Room Kit PRECUT-DIY-8X9-ULTRA,13800.0,17940.0,Traditional,Indoor,,,,,,,,,Scandia Electric DIY PreCut Sauna Room Kit PRECUT-DIY-8X9-ULTRA,,,,,Cedar,,,https://inhousewellness.com/products/hand-finished-sauna-kit-8-plus-people,1,InHouse Wellness
+eclipse2,Sun Home Saunas,ECLIPSE2,Sun Home Eclipse™ 2-Person Indoor Red Light & Full-Spectrum Infrared Sauna,10599.0,,Infrared,Indoor,2,120V,,,Ultra Low,Full Spectrum,True,,,,Up to 165°F,,,Canadian Hemlock,,,,1,Sun Home Saunas
+eclipse4,Sun Home Saunas,ECLIPSE4,Sun Home Eclipse™ 4-Person Indoor Red Light & Full-Spectrum Infrared Sauna,13599.0,,Infrared,Indoor,4,240V,,,Ultra Low,Full Spectrum,True,,,,,,,Canadian Hemlock,,,,1,Sun Home Saunas
+equinox2,Sun Home Saunas,EQUINOX2,Sun Home Equinox™ 2-Person Indoor Full-Spectrum Infrared Sauna,6799.0,,Hybrid,Indoor,2,,,,,Full Spectrum,True,,,,,,,,,,,1,Sun Home Saunas
+equinox3,Sun Home Saunas,EQUINOX3,Sun Home Equinox™ 3-Person Indoor Full-Spectrum Infrared Sauna,7699.0,,Infrared,Outdoor,3,,,,,Full Spectrum,True,,,,,,,,,,,1,Sun Home Saunas
+luminar2,Sun Home Saunas,LUMINAR2,Sun Home Luminar™ 2-Person Outdoor Full-Spectrum Infrared Sauna,11599.0,,Hybrid,Outdoor,2,240V,20A,,Ultra Low,Full Spectrum,True,,,,Up to 170°F,,,Cedar,,Limited lifetime warranty,,1,Sun Home Saunas
+luminar5,Sun Home Saunas,LUMINAR5,Sun Home Luminar™ 5-Person Outdoor Full-Spectrum Infrared Sauna,14499.0,14499.0,Hybrid,Outdoor,5,,,,,Full Spectrum,,,,,,,,Cedar,,,,1,Sun Home Saunas
+nova3,Sun Home Saunas,NOVA3,Sun Home Nova™ 3-Person Indoor Traditional Sauna,12499.0,,Traditional,Indoor,3,,,,,,,,"huum-heater', 'indoor-traditional', 'nova', 'pill_1_blue_indoor', 'preorder', 'STOP",6 kW,,,,Cedar,,,,1,Sun Home Saunas
+nova6,Sun Home Saunas,NOVA6,Sun Home Nova™ 6-Person Indoor Traditional Sauna,16399.0,,Traditional,Indoor,6,,,,,,,,"huum-heater', 'indoor-traditional', 'nova', 'pill_1_blue_indoor', 'preorder', 'STOP",7.5 kW,,,,Cedar,,,,1,Sun Home Saunas
+shpod1h,Sun Home Saunas,SHPOD1H,Sun Home Pod™ 1-Person Indoor Red Light & Infrared Sauna,6699.0,,Infrared,Indoor,1,,,,,Infrared,True,,,,,,,,,,,1,Sun Home Saunas
+solarismedium,Sun Home Saunas,SOLARISMEDIUM,Sun Home Solaris™ 6-Person Outdoor Custom Traditional Sauna,46199.0,,Traditional,Outdoor,6,,,,,,,,,,,,,,,,,1,Sun Home Saunas
+solarissmall,Sun Home Saunas,SOLARISSMALL,Sun Home Solaris™ 4-Person Outdoor Custom Traditional Sauna,37199.0,,Traditional,Outdoor,4,,,,,,,,,,,,,,,,,1,Sun Home Saunas
+solstice1,Sun Home Saunas,SOLSTICE1,Sun Home Solstice™ 1-Person Indoor Infrared Sauna,5599.0,,Hybrid,Outdoor,1,,,,Ultra Low,Far Infrared,True,,,,,,,Cedar,,,,1,Sun Home Saunas
+solstice2,Sun Home Saunas,SOLSTICE2,Sun Home Solstice™ 2-Person Indoor Infrared Sauna,6199.0,,Hybrid,Outdoor,2,,,,Ultra Low,Far Infrared,True,,,,,,,Cedar,,,,1,Sun Home Saunas
+solstice3,Sun Home Saunas,SOLSTICE3,Sun Home Solstice™ 3-Person Indoor Infrared Sauna,6999.0,,Hybrid,Outdoor,3,,,,Ultra Low,Far Infrared,True,,,,,,,Cedar,,,,1,Sun Home Saunas
+solstice4,Sun Home Saunas,SOLSTICE4,Sun Home Solstice™ 4-Person Indoor Infrared Sauna,8599.0,,Hybrid,Outdoor,4,,,,Ultra Low,Far Infrared,True,,,,,,,Cedar,,,,1,Sun Home Saunas
