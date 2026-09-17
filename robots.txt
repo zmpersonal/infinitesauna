@@ -1,5 +1,11 @@
 User-agent: *
 Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
 Disallow: /templates/
 Disallow: /scripts/
 Sitemap: https://infinitesauna.com/sitemap.xml

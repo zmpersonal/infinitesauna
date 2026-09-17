@@ -1,0 +1,5 @@
+Before uploading the changed files, delete this obsolete folder from the repository:
+
+brands/almost-heaven-staging/
+
+Then upload everything in this package to the repository root, preserving the included folder structure and allowing files to overwrite.

@@ -63,7 +63,10 @@ def infer_type(text):
     t = (text or '').lower()
     has_ir = any(k in t for k in ['infrared', 'far ir', 'full spectrum', 'near infrared', 'low emf', 'near zero emf'])
     has_trad = any(k in t for k in ['traditional', 'steam sauna', 'rock heater', 'sauna heater', 'harvia', 'huum', 'wood burning'])
-    if has_ir and has_trad:
+    # A retailer page can mention a traditional heater in navigation or related
+    # products. Only call a model hybrid when the product itself says so.
+    explicit_hybrid = any(k in t for k in ['hybrid sauna', 'infrared + traditional', 'infrared and traditional', 'dual heat system'])
+    if explicit_hybrid and has_ir and has_trad:
         return 'Hybrid'
     if has_ir:
         return 'Infrared'
@@ -410,12 +413,59 @@ def spec_value(p, field):
         return 'Yes' if v is True else ('No' if v is False else 'Not verified')
     if field == 'capacity' and v:
         return f'{v} person' + ('s' if int(v) != 1 else '')
+    if field in ('emf','spectrum','red_light','ir_wattage') and p.get('type') == 'Traditional':
+        return 'Not applicable'
     return str(v) if v not in (None,'') else 'Not verified'
 
 
+CORE_FIELDS = ['type','placement','capacity','voltage','amperage','plug','exterior_dimensions','wood','weight','warranty']
+IR_FIELDS = ['emf','spectrum','red_light','ir_wattage']
+
+
+def applicable_fields(p):
+    fields = list(CORE_FIELDS)
+    if p.get('type') in ('Infrared','Hybrid'):
+        fields += IR_FIELDS
+    if p.get('type') in ('Traditional','Hybrid'):
+        fields += ['heater','heater_kw','max_temp']
+    return fields
+
+
+def completeness(p):
+    fields = applicable_fields(p)
+    verified = sum(p.get(field) not in (None,'') for field in fields)
+    return round(verified * 100 / len(fields)) if fields else 0
+
+
+def normalize_products(products):
+    """Apply conservative public taxonomy rules before pages are generated."""
+    unique = {}
+    for p in products:
+        if p.get('brand') == 'Almost Heaven Staging':
+            p['brand'] = 'Almost Heaven Saunas'
+        identity = f"{p.get('title','')} {p.get('model','')}".lower()
+        if any(term in identity for term in ['far infrared','far ir sauna','full spectrum','infrared sauna']):
+            p['type'] = 'Infrared'
+        elif 'traditional sauna' in identity and 'hybrid' not in identity:
+            p['type'] = 'Traditional'
+        p['data_completeness'] = completeness(p)
+        key = p.get('model_key')
+        if key not in unique:
+            unique[key] = p
+            continue
+        current = unique[key]
+        for url in p.get('source_urls') or []:
+            if url not in current.setdefault('source_urls',[]): current['source_urls'].append(url)
+        seen={(o.get('retailer'),o.get('url')) for o in current.get('retailer_offers') or []}
+        for offer in p.get('retailer_offers') or []:
+            if (offer.get('retailer'),offer.get('url')) not in seen:
+                current.setdefault('retailer_offers',[]).append(offer)
+    return list(unique.values())
+
+
 HEAD = '''<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/style.css"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>∞</text></svg>">'''
-HEADER = '''<header class="site-header"><div class="wrap nav"><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><nav><a href="/#database">Database</a><a href="/compare/">Compare</a><a href="/guides/120v-vs-240v/">Guides</a><a href="/methodology/">Methodology</a></nav></div></header>'''
-FOOTER = '''<footer><div class="wrap footer-grid"><div><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><p>An independent sauna specification database. InHouse Wellness is featured where available; additional retailer prices are shown for comparison.</p></div><div><strong>Database</strong><a href="/#database">All models</a><a href="/compare/">Compare saunas</a><a href="/retailers/">Retailers</a><a href="/methodology/">Data methodology</a></div><div><strong>Guides</strong><a href="/guides/120v-vs-240v/">120V vs 240V</a><a href="/guides/infrared-vs-traditional/">Infrared vs traditional</a><a href="/guides/emf-levels/">EMF terminology</a></div></div></footer>'''
+HEADER = '''<header class="site-header"><div class="wrap nav"><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><nav><a href="/database/">Database</a><a href="/compare/">Compare</a><a href="/electrical/">Electrical</a><a href="/data/">Data</a><a href="/methodology/">Methodology</a></nav></div></header>'''
+FOOTER = '''<footer><div class="wrap footer-grid"><div><a class="brand" href="/"><span class="mark">∞</span><span>Infinite Sauna</span></a><p>An independent, source-documented sauna specification database updated weekly.</p></div><div><strong>Research</strong><a href="/database/">Model database</a><a href="/electrical/">Electrical database</a><a href="/changes/">Latest release</a><a href="/data/">Download data</a></div><div><strong>About the data</strong><a href="/methodology/">Methodology</a><a href="/retailers/">Retail sources</a><a href="/guides/120v-vs-240v/">Electrical guide</a><a href="/llms.txt">llms.txt</a></div></div></footer>'''
 
 
 def load_retailer_profiles():
@@ -426,17 +476,8 @@ def load_retailer_profiles():
 
 
 def nofollow_home_links(markup):
-    """Apply nofollow to every homepage anchor while preserving other rel values."""
-    def add_rel(match):
-        tag = match.group(0)
-        rel = re.search(r'\srel=(["\'])(.*?)\1', tag, re.I)
-        if rel:
-            values = rel.group(2).split()
-            if 'nofollow' not in [value.lower() for value in values]:
-                values.append('nofollow')
-            return tag[:rel.start(2)] + ' '.join(values) + tag[rel.end(2):]
-        return tag[:-1] + ' rel="nofollow">'
-    return re.sub(r'<a\b[^>]*>', add_rel, markup, flags=re.I)
+    """External links carry rel values when rendered; preserve internal crawl paths."""
+    return markup
 
 
 def retailer_offers(p):
@@ -503,13 +544,21 @@ def model_page(p):
     }
     schema = {k:v for k,v in schema.items() if v is not None}
     offers_html = retailer_offer_html(p)
-    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(p.get('brand'))} {h(p.get('model'))} Specs & Comparison | Infinite Sauna</title><meta name="description" content="Specifications for {h(p.get('title'))}: electrical requirements, dimensions, capacity, heating type, EMF terminology and current retailer prices."><link rel="canonical" href="https://infinitesauna.com/models/{h(p.get('model_key'))}/"><script type="application/ld+json">{json.dumps(schema)}</script></head><body>{HEADER}<main><section class="model-hero"><div class="wrap model-hero-grid"><div class="product-image">{img}</div><div><span class="eyebrow">Sauna model database</span><h1>{h(p.get('brand'))} {h(p.get('model'))}</h1><p class="lede">{h(p.get('title'))}</p><div class="chips"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'placement'))}</span><span>{h(spec_value(p,'capacity'))}</span></div><div class="buy-box"><div><span class="micro">Featured retailer</span><strong>{feat_name}</strong><small>Current listed price: {feat_price}</small></div>{feat_button}</div></div></div></section><section class="section"><div class="wrap two-col"><div><div class="section-title"><span class="eyebrow">Specifications</span><h2>Side-by-side-ready specs</h2></div><div class="spec-table">{specs}</div><p class="note">“Not verified” means the current automated sources did not expose that field reliably. We do not infer a value merely to fill the table.</p><div class="retail-panel"><span class="eyebrow">Retail price checks</span><h2>Current offers captured</h2>{offers_html}<p class="note">Prices are source snapshots and can change. Compare configurations, heater packages, shipping and options before treating two prices as equivalent.</p></div></div><aside class="panel"><h3>Compare this model</h3><p>Add this sauna to the comparison engine and select up to three alternatives.</p><a class="btn secondary" href="/compare/?models={h(p.get('model_key'))}">Compare {h(p.get('model'))}</a><hr><h3>Sources checked</h3><ul class="source-list">{srcs or '<li>Retail catalog source</li>'}</ul><p class="micro">Last database refresh: {h(datetime.now(timezone.utc).date().isoformat())}</p></aside></div></section></main>{FOOTER}</body></html>'''
+    score = completeness(p)
+    verified = sum(p.get(field) not in (None,'') for field in applicable_fields(p))
+    total = len(applicable_fields(p))
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(p.get('brand'))} {h(p.get('model'))} Specs & Comparison | Infinite Sauna</title><meta name="description" content="Source-documented specifications for {h(p.get('title'))}: electrical requirements, dimensions, capacity, heating type and current retailer prices."><link rel="canonical" href="https://infinitesauna.com/models/{h(p.get('model_key'))}/"><script type="application/ld+json">{json.dumps(schema)}</script></head><body>{HEADER}<main><section class="model-hero"><div class="wrap model-hero-grid"><div class="product-image">{img}</div><div><span class="eyebrow">Sauna specification record</span><h1>{h(p.get('brand'))} {h(display_model(p))}</h1><p class="lede">{h(p.get('title'))}</p><div class="chips"><span>{h(spec_value(p,'type'))}</span><span>{h(spec_value(p,'placement'))}</span><span>{h(spec_value(p,'capacity'))}</span><span class="confidence-chip">{score}% data complete</span></div><p class="record-meta">{verified} of {total} applicable core fields verified · refreshed {h(datetime.now(timezone.utc).date().isoformat())}</p><div class="buy-box"><div><span class="micro">Current featured source</span><strong>{feat_name}</strong><small>Observed price: {feat_price}</small></div>{feat_button}</div></div></div></section><section class="section"><div class="wrap two-col"><div><div class="section-title"><span class="eyebrow">Normalized specifications</span><h2>What the current sources verify</h2></div><div class="spec-table">{specs}</div><p class="note"><strong>Not verified</strong> means no reliable model-specific value was found. <strong>Not applicable</strong> means the field does not apply to this heat type. Manufacturer marketing terms such as “near zero EMF” are reported as claims, not independent measurements.</p><div class="retail-panel"><span class="eyebrow">Observed offers</span><h2>Current retail sources</h2>{offers_html}<p class="note">Prices are source snapshots and can change. Compare exact heater packages, wood choices, shipping and options before treating two offers as equivalent.</p></div></div><aside class="panel"><h3>Compare this model</h3><p>Put this record beside up to three alternatives.</p><a class="btn secondary" href="/compare/?models={h(p.get('model_key'))}">Compare {h(display_model(p))}</a><hr><h3>Source record</h3><ul class="source-list">{srcs or '<li>Retail catalog source</li>'}</ul><p class="micro">Source priority: manufacturer documentation, manufacturer page, authorized retailer, then secondary retailer.</p><a class="text-link" href="/methodology/">Verification rules →</a></aside></div></section></main>{FOOTER}</body></html>'''
 
 
 def brand_page(brand, products):
     bslug = slug(brand)
     cards = ''.join(card_html(p, compact=True) for p in products)
-    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(brand)} Sauna Models & Specifications | Infinite Sauna</title><meta name="description" content="Compare {h(brand)} sauna models by capacity, heating type, electrical requirements, dimensions and current price."><link rel="canonical" href="https://infinitesauna.com/brands/{bslug}/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Brand database</span><h1>{h(brand)} sauna models</h1><p>{len(products)} models currently indexed. Compare specifications first, then verify the exact configuration with the retailer or manufacturer before purchase.</p></div></section><section class="section"><div class="wrap"><div class="card-grid">{cards}</div></div></section></main>{FOOTER}</body></html>'''
+    prices = [p.get('price') for p in products if isinstance(p.get('price'),(int,float))]
+    volts = sum(bool(p.get('voltage')) for p in products)
+    avg_complete = round(sum(completeness(p) for p in products)/len(products)) if products else 0
+    low, high = (min(prices), max(prices)) if prices else (None,None)
+    price_range = f'{fmt_price(low)}–{fmt_price(high)}' if prices else 'Not enough verified prices'
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(brand)} Sauna Models, Specs & Price Range | Infinite Sauna</title><meta name="description" content="A source-documented reference for {h(brand)} sauna models, electrical requirements, dimensions, heat types and observed prices."><link rel="canonical" href="https://infinitesauna.com/brands/{bslug}/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Manufacturer intelligence</span><h1>{h(brand)} sauna models</h1><p>{len(products)} current records, normalized into the same specification schema and refreshed weekly.</p><div class="stat-strip"><div><strong>{len(products)}</strong><span>models tracked</span></div><div><strong>{volts}</strong><span>with voltage documented</span></div><div><strong>{avg_complete}%</strong><span>average completeness</span></div><div><strong>{price_range}</strong><span>observed price range</span></div></div></div></section><section class="section"><div class="wrap"><div class="section-title"><span class="eyebrow">Current records</span><h2>Compare {h(brand)} specifications</h2><p>Capacity is manufacturer-stated unless otherwise noted. Pricing and configuration can change; follow each record to its source list.</p></div><div class="card-grid">{cards}</div></div></section></main>{FOOTER}</body></html>'''
 
 
 def retailers_page(products):
@@ -565,7 +614,7 @@ def comparison_page(a, b):
 
 
 def write_csv(products):
-    fields = ['model_key','brand','model','title','price','reference_price','type','placement','capacity','voltage','amperage','plug','emf','spectrum','red_light','ir_wattage','heater','heater_kw','max_temp','exterior_dimensions','interior_dimensions','wood','weight','warranty','inhouse_url','retailer_count','retailers']
+    fields = ['model_key','brand','model','title','price','reference_price','type','placement','capacity','voltage','amperage','plug','emf','spectrum','red_light','ir_wattage','heater','heater_kw','max_temp','exterior_dimensions','interior_dimensions','wood','weight','warranty','data_completeness','inhouse_url','retailer_count','retailers']
     with CSV_OUT.open('w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
@@ -627,8 +676,47 @@ def home_page(products):
     return nofollow_home_links(page)
 
 
+def listing_page(title, description, products, canonical, eyebrow='Research database'):
+    cards = ''.join(card_html(p, compact=True) for p in products)
+    prices = [p.get('price') for p in products if isinstance(p.get('price'),(int,float))]
+    median = sorted(prices)[len(prices)//2] if prices else None
+    brands = len(set(p.get('brand') for p in products if p.get('brand')))
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>{h(title)} | Infinite Sauna</title><meta name="description" content="{h(description)}"><link rel="canonical" href="https://infinitesauna.com/{canonical}/"></head><body data-page="listing">{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">{h(eyebrow)}</span><h1>{h(title)}</h1><p>{h(description)}</p><div class="stat-strip"><div><strong>{len(products)}</strong><span>matching models</span></div><div><strong>{brands}</strong><span>brands represented</span></div><div><strong>{fmt_price(median)}</strong><span>median observed price</span></div><div><strong>{round(sum(completeness(p) for p in products)/len(products)) if products else 0}%</strong><span>average completeness</span></div></div></div></section><section class="section"><div class="wrap"><div class="card-grid">{cards or '<p>No verified matching records in this release.</p>'}</div></div></section></main>{FOOTER}</body></html>'''
+
+
+def database_page(products):
+    cards = ''.join(card_html(p) for p in products)
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>Complete Sauna Model Database | Infinite Sauna</title><meta name="description" content="Search {len(products)} sauna models by brand, heat type, capacity, placement, voltage and EMF terminology."><link rel="canonical" href="https://infinitesauna.com/database/"></head><body data-page="database">{HEADER}<main><section class="page-hero compact-hero"><div class="wrap"><span class="eyebrow">Complete catalog</span><h1>Sauna model database</h1><p>Search every current record. Open a model to inspect sources, applicable fields and data completeness.</p></div></section><section class="section" id="database"><div class="wrap"><div class="filter-shell"><div class="search-row"><input id="q" type="search" placeholder="Search brand, model or SKU…" aria-label="Search sauna models"><select id="brand"></select><select id="type"></select><select id="placement"></select></div><div class="filter-row"><select id="capacity"></select><select id="voltage"></select><select id="emf"></select></div></div><div class="result-meta"><span id="resultCount">{len(products)} models shown</span><span>Choose up to four models to compare</span></div><div class="card-grid" id="cardGrid">{cards}</div></div></section></main><div class="compare-tray" id="compareTray"><div><strong id="compareCount">0 selected</strong><small> · choose up to four models</small></div><a class="btn primary" id="compareGo" href="/compare/">Compare selected</a></div>{FOOTER}<script src="/assets/app.js"></script></body></html>'''
+
+
+def electrical_page(products):
+    rows=[]
+    for p in sorted(products,key=lambda x:((x.get('voltage') or 'ZZZ'),x.get('brand') or '',display_model(x))):
+        if not p.get('voltage'):
+            continue
+        rows.append(f'''<tr><td><a href="/models/{h(p.get('model_key'))}/"><strong>{h(p.get('brand'))}</strong><br>{h(display_model(p))}</a></td><td>{h(spec_value(p,'type'))}</td><td>{h(spec_value(p,'voltage'))}</td><td>{h(spec_value(p,'amperage'))}</td><td>{h(spec_value(p,'plug'))}</td><td>{h(spec_value(p,'heater_kw'))}</td></tr>''')
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>Sauna Electrical Requirements Database | Infinite Sauna</title><meta name="description" content="Search documented voltage, amperage, plug and heater requirements for sauna models."><link rel="canonical" href="https://infinitesauna.com/electrical/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Installation research</span><h1>Sauna electrical database</h1><p>{len(rows)} models currently have a documented voltage. “120V” does not by itself mean an existing household receptacle or shared circuit is suitable.</p></div></section><section class="section"><div class="wrap"><div class="guide-callout"><strong>Before installation:</strong> verify the exact model manual, breaker size, receptacle, conductor, GFCI requirements and local code with the manufacturer and a licensed electrician.</div><div class="table-scroll"><table class="data-table"><thead><tr><th>Model</th><th>Heat type</th><th>Voltage</th><th>Amperage</th><th>Plug / connection</th><th>Heater output</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div><p class="note">Blank or “Not verified” values are intentionally not inferred from similar models.</p></div></section></main>{FOOTER}</body></html>'''
+
+
+def changes_page(products, today):
+    verified = sum(sum(p.get(f) not in (None,'') for f in applicable_fields(p)) for p in products)
+    avg = round(sum(completeness(p) for p in products)/len(products)) if products else 0
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>Database Release {h(today)} | Infinite Sauna</title><meta name="description" content="Release summary and coverage metrics for the {h(today)} Infinite Sauna dataset."><link rel="canonical" href="https://infinitesauna.com/changes/"></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Dataset release</span><h1>Release {h(today)}</h1><p>A stable summary of what this weekly dataset contains and where verification work remains.</p><div class="stat-strip"><div><strong>{len(products)}</strong><span>unique model records</span></div><div><strong>{len(set(p.get('brand') for p in products))}</strong><span>canonical brands</span></div><div><strong>{verified:,}</strong><span>verified applicable fields</span></div><div><strong>{avg}%</strong><span>average completeness</span></div></div></div></section><section class="section"><div class="wrap guide-body"><h2>Coverage in this release</h2><p>{sum(bool(p.get('voltage')) for p in products)} records include voltage, {sum(bool(p.get('exterior_dimensions')) for p in products)} include exterior dimensions, {sum(bool(p.get('warranty')) for p in products)} include warranty information, and {sum(bool(p.get('source_urls')) for p in products)} link to at least one source.</p><h2>How to cite this release</h2><div class="citation-box">Infinite Sauna, “Sauna Model Database, release {h(today)},” accessed {h(today)}, https://infinitesauna.com/data/</div><h2>Known limitations</h2><p>Retail configurations can differ by heater, finish and accessories. Capacity is usually manufacturer-stated. EMF labels reproduce manufacturer terminology and are not independent laboratory measurements. Missing values remain unverified until a model-specific source is available.</p><p><a class="btn secondary" href="/data/">Download this dataset</a></p></div></section></main>{FOOTER}</body></html>'''
+
+
+def data_page(products, today):
+    return f'''<!doctype html><html lang="en"><head>{HEAD}<title>Download the Sauna Model Dataset | Infinite Sauna</title><meta name="description" content="Download the Infinite Sauna model database as CSV or JSON, with methodology and citation guidance."><link rel="canonical" href="https://infinitesauna.com/data/"><script type="application/ld+json">{json.dumps({'@context':'https://schema.org','@type':'Dataset','name':'Infinite Sauna Model Database','dateModified':today,'description':'Normalized specifications and observed prices for consumer sauna models.','url':'https://infinitesauna.com/data/','distribution':[{'@type':'DataDownload','encodingFormat':'text/csv','contentUrl':'https://infinitesauna.com/data/saunas.csv'},{'@type':'DataDownload','encodingFormat':'application/json','contentUrl':'https://infinitesauna.com/data/saunas.json'}]})}</script></head><body>{HEADER}<main><section class="page-hero"><div class="wrap"><span class="eyebrow">Open reference data</span><h1>Download the sauna dataset</h1><p>{len(products)} model records across {len(set(p.get('brand') for p in products))} canonical brands, refreshed {h(today)}.</p></div></section><section class="section"><div class="wrap download-grid"><article class="download-card"><span class="file-type">CSV</span><h2>Flat model table</h2><p>Best for spreadsheets, analysis and data journalism.</p><a class="btn primary" href="/data/saunas.csv" download>Download CSV</a></article><article class="download-card"><span class="file-type">JSON</span><h2>Structured records</h2><p>Includes nested source URLs and retailer offers.</p><a class="btn primary" href="/data/saunas.json" download>Download JSON</a></article><article class="download-card"><span class="file-type">DOCS</span><h2>Methods and limitations</h2><p>Read matching, source priority and verification rules.</p><a class="btn secondary" href="/methodology/">Read methodology</a></article></div><div class="guide-body"><h2>Citing Infinite Sauna</h2><div class="citation-box">Infinite Sauna, “Sauna Model Database,” release {h(today)}, https://infinitesauna.com/data/</div><p>You may analyze and quote summary statistics with attribution and a link to this dataset. Product images and linked source documents remain the property of their respective owners.</p></div></section></main>{FOOTER}</body></html>'''
+
+
 def generate_pages(products):
     (ROOT / 'index.html').write_text(home_page(products))
+    today = datetime.now(timezone.utc).date().isoformat()
+    for dirname in ['database','electrical','changes','data']:
+        (ROOT / dirname).mkdir(exist_ok=True)
+    (ROOT / 'database' / 'index.html').write_text(database_page(products))
+    (ROOT / 'electrical' / 'index.html').write_text(electrical_page(products))
+    (ROOT / 'changes' / 'index.html').write_text(changes_page(products, today))
+    (ROOT / 'data' / 'index.html').write_text(data_page(products, today))
     retailers_dir = ROOT / 'retailers'; retailers_dir.mkdir(exist_ok=True)
     (retailers_dir / 'index.html').write_text(retailers_page(products))
     models_dir = ROOT / 'models'; models_dir.mkdir(exist_ok=True)
@@ -669,8 +757,20 @@ def generate_pages(products):
             for x in d.iterdir(): x.unlink()
             d.rmdir()
 
-    today = datetime.now(timezone.utc).date().isoformat()
-    urls = ['https://infinitesauna.com/','https://infinitesauna.com/compare/','https://infinitesauna.com/retailers/','https://infinitesauna.com/methodology/','https://infinitesauna.com/guides/120v-vs-240v/','https://infinitesauna.com/guides/infrared-vs-traditional/','https://infinitesauna.com/guides/emf-levels/']
+    category_defs = {
+        '120v-saunas': ('120V Saunas', 'Sauna models with a documented 120V electrical specification.', lambda p:'120V' in str(p.get('voltage') or '')),
+        '240v-saunas': ('240V Saunas', 'Sauna models with a documented 240V electrical specification.', lambda p:'240V' in str(p.get('voltage') or '')),
+        'infrared-saunas': ('Infrared Saunas', 'Current infrared sauna records with normalized specifications and source links.', lambda p:p.get('type')=='Infrared'),
+        'traditional-saunas': ('Traditional Saunas', 'Current traditional sauna records, including documented electric and wood-heated models.', lambda p:p.get('type')=='Traditional'),
+        'outdoor-saunas': ('Outdoor Saunas', 'Sauna models identified for outdoor placement, compared by specifications and observed price.', lambda p:p.get('placement')=='Outdoor'),
+        '2-person-saunas': ('2-Person Saunas', 'Sauna models with a manufacturer-stated capacity of two people.', lambda p:p.get('capacity')==2),
+        '4-person-saunas': ('4-Person Saunas', 'Sauna models with a manufacturer-stated capacity of four people.', lambda p:p.get('capacity')==4),
+    }
+    for path,(title,description,test) in category_defs.items():
+        d=ROOT/path; d.mkdir(exist_ok=True)
+        (d/'index.html').write_text(listing_page(title,description,[p for p in products if test(p)],path))
+    urls = ['https://infinitesauna.com/','https://infinitesauna.com/database/','https://infinitesauna.com/electrical/','https://infinitesauna.com/data/','https://infinitesauna.com/changes/','https://infinitesauna.com/compare/','https://infinitesauna.com/retailers/','https://infinitesauna.com/methodology/','https://infinitesauna.com/guides/120v-vs-240v/','https://infinitesauna.com/guides/infrared-vs-traditional/','https://infinitesauna.com/guides/emf-levels/']
+    urls += [f'https://infinitesauna.com/{path}/' for path in category_defs]
     urls += [f'https://infinitesauna.com/models/{p["model_key"]}/' for p in products]
     urls += [f'https://infinitesauna.com/brands/{slug(b)}/' for b in bybrand]
     urls += [f'https://infinitesauna.com/comparisons/{c}/' for c in sorted(valid_comps)]
@@ -681,7 +781,10 @@ def generate_pages(products):
 def main():
     old = load_existing()
     if '--seed-only' in sys.argv:
-        products = old.get('products', [])
+        products = normalize_products(old.get('products', []))
+        old['products'] = products
+        old['generated_at'] = datetime.now(timezone.utc).isoformat(timespec='seconds')
+        DATA.write_text(json.dumps(old, indent=2, ensure_ascii=False) + '\n')
         write_csv(products); generate_pages(products)
         print(f'Generated pages for {len(products)} starter models.')
         return
@@ -700,6 +803,7 @@ def main():
     products = enrich_from_sources(products)
     products = apply_verified_overrides(products, MANUFACTURERS, infer_model_from_title)
     products = enrich_retailers(products, ROOT, session(), BeautifulSoup, parse_specs, infer_model_from_title)
+    products = normalize_products(products)
     products.sort(key=lambda p:((p.get('brand') or '').lower(), (p.get('model') or '').lower()))
     payload = {'generated_at': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'currency':'USD', 'products':products}
     DATA.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n')

@@ -1,0 +1,21 @@
+# Infinite Sauna
+
+Infinite Sauna is an independent, source-documented sauna specification database updated weekly.
+
+## Primary resources
+- Complete model database: https://infinitesauna.com/database/
+- Electrical requirements database: https://infinitesauna.com/electrical/
+- Downloadable CSV and JSON: https://infinitesauna.com/data/
+- Verification methodology: https://infinitesauna.com/methodology/
+- Latest dataset release: https://infinitesauna.com/changes/
+- Brand directory: https://infinitesauna.com/brands/
+- Comparison tool: https://infinitesauna.com/compare/
+
+## Interpretation
+- "Not verified" means no reliable model-specific value is currently available.
+- "Not applicable" means a field does not apply to that sauna heat type.
+- EMF terminology and stated capacity reproduce manufacturer claims unless otherwise specified.
+- Electrical and installation details must be checked against the exact current manufacturer manual.
+
+## Citation
+Suggested attribution: Infinite Sauna, "Sauna Model Database," https://infinitesauna.com/data/

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:56:49+00:00",
+  "generated_at": "2026-09-17T02:44:25+00:00",
   "currency": "USD",
   "products": [
     {
@@ -28,7 +28,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "1-042-542-ahkip80pkg-ledbarlc",
@@ -55,7 +56,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "1-044-208-ahkip60pkgus-ledbarsc",
@@ -84,7 +86,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "4020741-ahkip60pkgus-ledbarsc",
@@ -112,7 +115,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "4020830-ahvrt9pkg",
@@ -141,7 +145,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "4021208-ahkip80pkg-ledkitsc",
@@ -169,7 +174,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "4021209-ahkip80pkg-ledkitsc",
@@ -197,7 +203,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "4021210-ahkip80pkg-ledkitsc",
@@ -224,7 +231,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "4021217-ahkip80pkg-ledkitsc",
@@ -252,7 +260,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahauburnru-clrindlrg-ahkip60pkgus-ledkitlc",
@@ -280,7 +289,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-17"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahbpt6pru-clrindlrg-ahkip80pkg-ledkitlc",
@@ -308,7 +318,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahbrl64ru-clrdoorsml-nowindow-ahkip60pkgus-ledkitsc",
@@ -334,7 +345,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahbrl64ru-clrdoorsml-nowindow-jh60w2401-cx170-u1-15-xw-fx001xw-ac3000-ledkitsc",
@@ -363,7 +375,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "ahbrl65ru-clrdoorsml-nowindow-ahkip60pkgus-ledkitsc",
@@ -389,7 +402,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahbrl65ru-clrdoorsml-nowindow-jh60w2401-cx170-u1-15-xw-fx001xw-ac3000-ledkitsc",
@@ -418,7 +432,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "ahbrl66ru-clrdoorsml-nowindow-ahkip60pkgus-ledkitsc",
@@ -444,7 +459,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahbrl68ru-clrdoorsml-nowindow-ahkip80pkg-ledkitsc",
@@ -472,7 +488,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahbrl76ru-clrbrllrg-nowindow-ahkip80pkg-ledkitsc",
@@ -499,7 +516,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "ahbrl77ru-clrbrllrg-nowindow-ahkip80pkg-ledkitsc",
@@ -525,7 +543,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahbrl78ru-clrbrllrg-nowindow-ahkip80pkg-ledkitsc",
@@ -553,7 +572,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahcpy62ru-clrdoorsml-nowindow-ahkip60pkgus-ledkitsc",
@@ -581,7 +601,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahcpy65ru-clrdoorsml-nowindow-ahkip60pkgus-ledkitsc",
@@ -609,7 +630,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahcpy66ru-clrdoorsml-nowindow-ahkip60pkgus-ledkitsc",
@@ -635,7 +657,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahcpy68ru-clrdoorsml-nowindow-ahkip80pkg-ledkitsc",
@@ -661,7 +684,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahcpy78ru-clrbrllrg-nowindow-ahkip80pkg-ledkitsc",
@@ -687,7 +711,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahcubebwru-hl9u1-fx45-u1-u3-xc-ac3020-ac3020-ac3020-ledkitlc",
@@ -714,7 +739,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "ahcubeminiru-ahkip60pkgus-ledkitsc",
@@ -741,7 +767,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "ahgsn4pru-clrindlrg-ahkip80pkg-ledkitlc",
@@ -769,7 +796,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahirhinru-ledkitlc",
@@ -796,7 +824,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "ahirlauru-ledkitlc",
@@ -823,7 +852,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "ahlgn1pru-clrindlrg-ahkip60pkgus-ledkitsc",
@@ -851,7 +881,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "ahmad2pru-clrindlrg-ahkip60pkgus-ledkitlc",
@@ -880,7 +911,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 35
     },
     {
       "model_key": "ahoasis4pru-ahkip80pkg-ledkitlc",
@@ -907,7 +939,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "ahrain4pru-clrindlrg-ahkip60pkgus-ledkitlc",
@@ -936,7 +969,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 35
     },
     {
       "model_key": "ahserena3pru-ahkip60pkgus-ledkitlc",
@@ -963,7 +997,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "ahshn712ru-clrbrllrg-nowindow-ahkip80pkg-ledkitsc",
@@ -989,7 +1024,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "ahspect2pru-ahkip60pkgus-ledkitsc",
@@ -1016,7 +1052,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "ahtitan6pru-ahkip80pkg-ledkitlc",
@@ -1043,7 +1080,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "alp-m-p-dgr-hl11u1-fx45-u1-u3-xc-ac3020-ac3020-ac3020-ac3020-ledbarlc",
@@ -1069,7 +1107,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "balance-v-s-ahkip80pkg-ledbarsc",
@@ -1095,7 +1134,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "basic-l-ahkip80pkg-ledbarlc",
@@ -1121,7 +1161,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "country-hl11u1-fx45-u1-u3-xc-ac3020-ac3020-ac3020-ac3020-ledbarlc",
@@ -1149,7 +1190,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "family-s-ahkip80pkg-ledbarsc",
@@ -1176,7 +1218,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-08-24"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "har-5002-01",
@@ -1205,7 +1248,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 43
     },
     {
       "model_key": "har-7002-01",
@@ -1235,7 +1279,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 50
     },
     {
       "model_key": "hartmb6pos-ahkip80pkg-54007300-ledbarlc",
@@ -1262,7 +1307,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "himalayasm-ahkip60pkgus",
@@ -1291,7 +1337,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "komfort-s-ahkip60pkgus-ledbarsc",
@@ -1318,7 +1365,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "mk10001",
@@ -1347,7 +1395,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "mk100010",
@@ -1374,7 +1423,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "mk100012",
@@ -1401,7 +1451,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "mk100014",
@@ -1429,7 +1480,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "mk10005",
@@ -1455,7 +1507,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "mk10009",
@@ -1481,7 +1534,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "sldco2ps-ahkip80pkg-ledbarlc",
@@ -1508,7 +1562,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "sldcv01ps-hl11u1-fx45-u1-u3-xc-ac3020-ac3020-ac3020-ac3020-ledbarlc",
@@ -1535,7 +1590,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "so22002-ahkip80pkg-ledbarlc",
@@ -1562,7 +1618,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "so40002-ahkip80pkg-ledbarlc",
@@ -1590,11 +1647,12 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "mk10002",
-      "brand": "Almost Heaven Staging",
+      "brand": "Almost Heaven Saunas",
       "model": "MK10002",
       "title": "Quick Ship - Auburn 2-3 Person Indoor Sauna",
       "price": 7375.0,
@@ -1618,7 +1676,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "clearlight-curve-sauna-dome-w-infrared-mat",
@@ -1646,35 +1705,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-curve-sauna-dome-w-infrared-mat",
-      "brand": "Clearlight",
-      "model": "clearlight-curve-sauna-dome-w-infrared-mat",
-      "title": "Clearlight® Curve Sauna Dome w/ Infrared Mat",
-      "price": 1999.0,
-      "reference_price": 2899.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/sf_curvedome_1a.webp?v=1748905440",
-      "source_urls": [
-        "https://saunafriend.com/products/curve-sauna-dome"
       ],
-      "capacity": 1,
-      "type": "Hybrid",
-      "placement": "Indoor",
-      "emf": "Low",
-      "spectrum": "Far Infrared",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/curve-sauna-dome",
-          "price": 1999.0,
-          "reference_price": 2899.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 29
     },
     {
       "model_key": "clearlight-sanctuary-1-full-spectrum-infrared-sauna-1-person",
@@ -1703,36 +1735,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-1-full-spectrum-infrared-sauna-1-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-1-full-spectrum-infrared-sauna-1-person",
-      "title": "Clearlight® SANCTUARY 1 FULL SPECTRUM INFRARED SAUNA (1 Person)",
-      "price": 6999.0,
-      "reference_price": 7799.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/clearlight_jacuzzi_sanctuary_sauna_basswood_1.jpg?v=1750800334",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight-sanctuary-1-full-spectrum-one-person-infrared-sauna"
       ],
-      "capacity": 1,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "emf": "Low",
-      "spectrum": "Full Spectrum",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight-sanctuary-1-full-spectrum-one-person-infrared-sauna",
-          "price": 6999.0,
-          "reference_price": 7799.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 43
     },
     {
       "model_key": "clearlight-sanctuary-2-full-spectrum-infrared-sauna-2-person",
@@ -1762,37 +1766,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-2-full-spectrum-infrared-sauna-2-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-2-full-spectrum-infrared-sauna-2-person",
-      "title": "Clearlight® SANCTUARY 2 FULL SPECTRUM INFRARED SAUNA (2 Person)",
-      "price": 7399.0,
-      "reference_price": 8199.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_2_fw.webp?v=1750800383",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight-sanctuary-2-full-spectrum-two-person-infrared-sauna"
       ],
-      "capacity": 2,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "emf": "Low",
-      "spectrum": "Full Spectrum",
-      "amperage": "20A",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight-sanctuary-2-full-spectrum-two-person-infrared-sauna",
-          "price": 7399.0,
-          "reference_price": 8199.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 50
     },
     {
       "model_key": "clearlight-sanctuary-3-full-spectrum-infrared-sauna-3-person",
@@ -1821,36 +1796,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-3-full-spectrum-infrared-sauna-3-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-3-full-spectrum-infrared-sauna-3-person",
-      "title": "Clearlight® SANCTUARY 3 FULL SPECTRUM INFRARED SAUNA (3 Person)",
-      "price": 7799.0,
-      "reference_price": 8599.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_3_fw.webp?v=1750800431",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight-sanctuary-3-full-spectrum-three-person-infrared-sauna"
       ],
-      "capacity": 3,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "spectrum": "Full Spectrum",
-      "voltage": "240V",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight-sanctuary-3-full-spectrum-three-person-infrared-sauna",
-          "price": 7799.0,
-          "reference_price": 8599.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 43
     },
     {
       "model_key": "clearlight-sanctuary-5-full-spectrum-infrared-sauna-5-person",
@@ -1880,37 +1827,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-5-full-spectrum-infrared-sauna-5-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-5-full-spectrum-infrared-sauna-5-person",
-      "title": "Clearlight® SANCTUARY 5 FULL SPECTRUM INFRARED SAUNA (5 Person)",
-      "price": 8399.0,
-      "reference_price": 9299.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/sf_sactuary5_basswood.webp?v=1748905716",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight®-sanctuary-5-full-spectrum-infrared-sauna-5-person"
       ],
-      "capacity": 5,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "emf": "Low",
-      "spectrum": "Full Spectrum",
-      "voltage": "240V",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight®-sanctuary-5-full-spectrum-infrared-sauna-5-person",
-          "price": 8399.0,
-          "reference_price": 9299.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 50
     },
     {
       "model_key": "clearlight-sanctuary-c-full-spectrum-infrared-corner-sauna-4-person",
@@ -1939,36 +1857,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-c-full-spectrum-infrared-corner-sauna-4-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-c-full-spectrum-infrared-corner-sauna-4-person",
-      "title": "Clearlight® SANCTUARY C FULL SPECTRUM INFRARED CORNER SAUNA (4 person)",
-      "price": 9199.0,
-      "reference_price": 10199.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_c_fw.webp?v=1748905276",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight-sanctuary-c-4-person-full-spectrum-infrared-corner-sauna"
       ],
-      "capacity": 3,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "spectrum": "Full Spectrum",
-      "voltage": "240V",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight-sanctuary-c-4-person-full-spectrum-infrared-corner-sauna",
-          "price": 9199.0,
-          "reference_price": 10199.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 43
     },
     {
       "model_key": "clearlight-sanctuary-outdoor-2-full-spectrum-infrared-sauna-2-person",
@@ -1998,37 +1888,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-outdoor-2-full-spectrum-infrared-sauna-2-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-outdoor-2-full-spectrum-infrared-sauna-2-person",
-      "title": "Clearlight® SANCTUARY OUTDOOR 2 FULL SPECTRUM INFRARED SAUNA (2 PERSON)",
-      "price": 8699.0,
-      "reference_price": 9299.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_outdoor_2.webp?v=1748905313",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight-sanctuary-outdoor-2-two-person-outdoor-full-spectrum-infrared-sauna"
       ],
-      "capacity": 2,
-      "type": "Infrared",
-      "placement": "Outdoor",
-      "spectrum": "Full Spectrum",
-      "voltage": "240V",
-      "wood": "Cedar",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight-sanctuary-outdoor-2-two-person-outdoor-full-spectrum-infrared-sauna",
-          "price": 8699.0,
-          "reference_price": 9299.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 50
     },
     {
       "model_key": "clearlight-sanctuary-outdoor-5-full-spectrum-infrared-sauna-4-5-person",
@@ -2058,37 +1919,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-outdoor-5-full-spectrum-infrared-sauna-4-5-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-outdoor-5-full-spectrum-infrared-sauna-4-5-person",
-      "title": "Clearlight® SANCTUARY OUTDOOR 5 FULL SPECTRUM INFRARED SAUNA (4-5 PERSON)",
-      "price": 9799.0,
-      "reference_price": 10399.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/sf_sanctuary_5_outdoor.webp?v=1748905343",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight-sanctuary-outdoor-5-4-5-person-outdoor-full-spectrum-infrared-sauna"
       ],
-      "capacity": 5,
-      "type": "Infrared",
-      "placement": "Outdoor",
-      "spectrum": "Full Spectrum",
-      "voltage": "240V",
-      "wood": "Cedar",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight-sanctuary-outdoor-5-4-5-person-outdoor-full-spectrum-infrared-sauna",
-          "price": 9799.0,
-          "reference_price": 10399.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 50
     },
     {
       "model_key": "clearlight-sanctuary-retreat-full-spectrum-infrared-sauna-4-person",
@@ -2117,36 +1949,8 @@
           "source_type": "retailer",
           "checked_at": "2026-08-14"
         }
-      ]
-    },
-    {
-      "model_key": "clearlight-sanctuary-retreat-full-spectrum-infrared-sauna-4-person",
-      "brand": "Clearlight",
-      "model": "clearlight-sanctuary-retreat-full-spectrum-infrared-sauna-4-person",
-      "title": "Clearlight® SANCTUARY RETREAT FULL SPECTRUM INFRARED SAUNA (4 Person)",
-      "price": 9599.0,
-      "reference_price": 10299.0,
-      "inhouse_url": null,
-      "image": "https://cdn.shopify.com/s/files/1/0638/3036/0182/files/heal_sanctuary_retreat_fw.webp?v=1748905290",
-      "source_urls": [
-        "https://saunafriend.com/products/clearlight-sanctuary-retreat-4-person-ada-compliant-full-spectrum-infrared-sauna"
       ],
-      "capacity": 4,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "spectrum": "Full Spectrum",
-      "voltage": "240V",
-      "warranty": "Limited lifetime warranty",
-      "retailer_offers": [
-        {
-          "retailer": "SaunaFriend",
-          "url": "https://saunafriend.com/products/clearlight-sanctuary-retreat-4-person-ada-compliant-full-spectrum-infrared-sauna",
-          "price": 9599.0,
-          "reference_price": 10299.0,
-          "source_type": "retailer",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 43
     },
     {
       "model_key": "is-1",
@@ -2175,7 +1979,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 43
     },
     {
       "model_key": "is-2",
@@ -2204,7 +2009,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 43
     },
     {
       "model_key": "is-3",
@@ -2233,7 +2039,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 43
     },
     {
       "model_key": "ctc2245w",
@@ -2273,7 +2080,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 62
     },
     {
       "model_key": "ctc22lu",
@@ -2333,7 +2141,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 69
     },
     {
       "model_key": "ctc22w",
@@ -2373,7 +2182,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 62
     },
     {
       "model_key": "ctc2345",
@@ -2402,7 +2212,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "ctc66w",
@@ -2442,7 +2253,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 62
     },
     {
       "model_key": "ctc77mw",
@@ -2484,7 +2296,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 69
     },
     {
       "model_key": "ctc88w",
@@ -2524,7 +2337,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 62
     },
     {
       "model_key": "dyn-6103-01",
@@ -2578,7 +2392,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6103-01-elite",
@@ -2632,7 +2447,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6106-01",
@@ -2687,7 +2503,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6106-01-elite",
@@ -2703,7 +2520,7 @@
         "https://goldendesigninc.com/products/dyn-6106-01-dynamic-ultra-low-emf-far-infrared-sauna-barcelona-elite-edition"
       ],
       "capacity": 1,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
@@ -2731,7 +2548,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6115-05",
@@ -2785,7 +2603,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6119-01",
@@ -2829,7 +2648,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6119-01-elite",
@@ -2884,7 +2704,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6119-03-fs",
@@ -2928,7 +2749,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6203-01-elite",
@@ -2947,7 +2769,7 @@
         "https://ampsrus.com/products/dynamic-cordoba-2-person-low-emf-far-infrared-sauna-dyn-6203-01"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
@@ -2983,7 +2805,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6209-01",
@@ -3001,7 +2824,7 @@
         "https://ampsrus.com/products/dynamic-santiago-2-person-low-emf-far-ir-sauna-dyn-6209-01"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
@@ -3037,7 +2860,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6210-01",
@@ -3092,7 +2916,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6210-01-elite",
@@ -3136,7 +2961,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dynamic-llumeneres-sauna",
@@ -3179,7 +3005,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6215-05",
@@ -3222,7 +3049,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6215-05-elite",
@@ -3275,7 +3103,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6220-01",
@@ -3319,7 +3148,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6220-01-elite",
@@ -3373,7 +3203,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6225-02",
@@ -3428,7 +3259,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6225-02-elite",
@@ -3472,7 +3304,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6229-01",
@@ -3527,7 +3360,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6229-03-fs",
@@ -3580,7 +3414,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6315-05",
@@ -3634,7 +3469,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "dyn-6336-02",
@@ -3687,7 +3523,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "dyn-6336-02-elite",
@@ -3730,7 +3567,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "dyn-6440-01",
@@ -3784,7 +3622,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "dyn-6996-01-elite",
@@ -3836,7 +3675,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-6880-02-elite",
@@ -3888,7 +3728,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 64
     },
     {
       "model_key": "gdi-6996-01-elite",
@@ -3940,7 +3781,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-6996-02",
@@ -3957,7 +3799,7 @@
         "https://ampsrus.com/products/golden-designs-6-person-near-zero-emf-far-ir-sauna-gdi-6996-02-elite"
       ],
       "capacity": 6,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Near Zero",
       "spectrum": "Full Spectrum",
@@ -3992,7 +3834,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-7202-01",
@@ -4055,7 +3898,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 85
     },
     {
       "model_key": "gdi-7203-01",
@@ -4072,7 +3916,7 @@
         "https://ampsrus.com/products/golden-designs-forssa-3-4-person-traditional-sauna-gdi-7203-01"
       ],
       "capacity": 4,
-      "type": "Hybrid",
+      "type": "Traditional",
       "placement": "Indoor",
       "spectrum": "Infrared",
       "wood": "Cedar",
@@ -4107,7 +3951,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 69
     },
     {
       "model_key": "gdi-7206-01",
@@ -4159,7 +4004,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 77
     },
     {
       "model_key": "gdi-7289-02",
@@ -4221,7 +4067,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 85
     },
     {
       "model_key": "gdi-7389-02",
@@ -4272,7 +4119,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 77
     },
     {
       "model_key": "gdi-8003-01",
@@ -4314,7 +4162,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 69
     },
     {
       "model_key": "gdi-8005-01",
@@ -4357,7 +4206,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 65
     },
     {
       "model_key": "gdi-8010-03",
@@ -4389,7 +4239,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 64
     },
     {
       "model_key": "gdi-8040-03",
@@ -4421,7 +4272,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 64
     },
     {
       "model_key": "gdi-8123-01",
@@ -4474,7 +4326,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-8125-01",
@@ -4527,7 +4380,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-8202-01",
@@ -4579,7 +4433,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 77
     },
     {
       "model_key": "gdi-8203-01",
@@ -4630,7 +4485,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 69
     },
     {
       "model_key": "gdi-8206-01",
@@ -4682,7 +4538,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 77
     },
     {
       "model_key": "gdi-8222-01",
@@ -4735,7 +4592,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-8223-01",
@@ -4752,7 +4610,7 @@
         "https://ampsrus.com/products/golden-designs-visby-3-person-outdoor-indoor-puretech™-hybrid-full-spectrum-sauna-gdi-8223-01"
       ],
       "capacity": 3,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Outdoor",
       "spectrum": "Full Spectrum",
       "wood": "Cedar",
@@ -4788,7 +4646,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-8230-01",
@@ -4821,7 +4680,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 64
     },
     {
       "model_key": "gdi-8260-01",
@@ -4854,7 +4714,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 64
     },
     {
       "model_key": "gdi-8330-01",
@@ -4872,7 +4733,7 @@
         "https://solacihome.com/products/golden-designs-soria-3-person-hybrid-indoor-sauna-w-full-spectrum-infrared-harvia-traditional-electric-heater-kit-gdi-8330-01"
       ],
       "capacity": 3,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Near Zero",
       "spectrum": "Full Spectrum",
@@ -4918,7 +4779,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "gdi-8360-01",
@@ -4936,7 +4798,7 @@
         "https://solacihome.com/products/golden-designs-soria-3-person-hybrid-indoor-sauna-w-full-spectrum-infrared-harvia-traditional-electric-heater-kit-gdi-8330-01-copy"
       ],
       "capacity": 6,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "spectrum": "Full Spectrum",
       "heater": "Harvia Traditional Stove",
@@ -4982,7 +4844,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "gdi-8506-01",
@@ -5033,7 +4896,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 77
     },
     {
       "model_key": "gdi-8526-01",
@@ -5086,7 +4950,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "gdi-b002-01",
@@ -5103,7 +4968,7 @@
         "https://ampsrus.com/products/golden-designs-st-moritz-2-person-barrel-traditional-sauna-gdi-b002-01"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Traditional",
       "placement": "Outdoor",
       "spectrum": "Infrared",
       "voltage": "120V/240V",
@@ -5140,7 +5005,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 85
     },
     {
       "model_key": "gdi-b004-01",
@@ -5196,7 +5062,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 85
     },
     {
       "model_key": "hhs-sau-1p-ir",
@@ -5223,7 +5090,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "hhs-sau-2p-comb",
@@ -5251,7 +5119,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "hhs-sau-2p-ir",
@@ -5278,7 +5147,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "hhs-sau-2p-rl-ir",
@@ -5306,7 +5176,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 36
     },
     {
       "model_key": "hhs-sau-3p-ir",
@@ -5333,7 +5204,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "hhs-sau-4p-rl-ir",
@@ -5362,7 +5234,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 43
     },
     {
       "model_key": "hhs-sau-box-1p-ir",
@@ -5390,7 +5263,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 36
     },
     {
       "model_key": "hhs-sau-eco-1p-ir",
@@ -5418,7 +5292,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "kohler-c1-k-38440",
@@ -5447,7 +5322,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "kohler-c1-k-39963-0fnc",
@@ -5478,7 +5354,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 62
     },
     {
       "model_key": "mw12",
@@ -5504,7 +5381,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "mw16",
@@ -5530,7 +5408,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "mw20",
@@ -5558,7 +5437,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "mx-j206-01",
@@ -5612,7 +5492,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-j206-01-zf",
@@ -5628,7 +5509,7 @@
         "https://goldendesigninc.com/products/maxxus-seattle-2-person-near-zero-emf-far-infrared-sauna-canadian-hemlock"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Near Zero",
       "spectrum": "Far Infrared",
@@ -5656,7 +5537,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-j206-02s",
@@ -5673,7 +5555,7 @@
         "https://ampsrus.com/products/maxxus-aspen-dual-tech-2-person-low-emf-far-ir-sauna-mx-j206-02s"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Low",
       "spectrum": "Far Infrared",
@@ -5710,7 +5592,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 86
     },
     {
       "model_key": "mx-j306-01",
@@ -5753,7 +5636,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-j306-01-zf",
@@ -5806,7 +5690,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-j306-02s",
@@ -5858,7 +5743,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k206-01",
@@ -5876,7 +5762,7 @@
         "https://ampsrus.com/products/maxxus-2-person-low-emf-far-ir-sauna-mx-k206-01"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Low",
       "spectrum": "Far Infrared",
@@ -5912,7 +5798,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-k206-01-zf",
@@ -5965,7 +5852,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-k306-01",
@@ -6019,7 +5907,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k306-01-ced",
@@ -6066,52 +5955,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-07"
         }
-      ]
-    },
-    {
-      "model_key": "mx-k306-01-ced",
-      "brand": "Maxxus",
-      "model": "MX-K306-01 CED",
-      "title": "Maxxus 3-Person Low EMF (Under 8MG) FAR Infrared Sauna",
-      "price": 4299.0,
-      "reference_price": 6499.0,
-      "inhouse_url": "https://inhousewellness.com/products/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar",
-      "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/MX-K306-01CedarTSBG3x3B.jpg?v=1770877382",
-      "source_urls": [
-        "https://inhousewellness.com/products/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar"
       ],
-      "capacity": 3,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "emf": "Low",
-      "spectrum": "Far Infrared",
-      "wood": "Cedar",
-      "retailer_offers": [
-        {
-          "retailer": "InHouse Wellness",
-          "url": "https://inhousewellness.com/products/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar",
-          "price": 4299.0,
-          "reference_price": 6499.0,
-          "source_type": "featured",
-          "checked_at": "2026-09-15"
-        },
-        {
-          "retailer": "Ampsrus",
-          "url": "https://ampsrus.com/products/maxxus-3-person-low-emf-far-ir-sauna-mx-k306-01-ced",
-          "price": 7999.0,
-          "reference_price": null,
-          "source_type": "retailer",
-          "checked_at": "2026-09-07"
-        },
-        {
-          "retailer": "Golden Designs Direct",
-          "url": "https://goldendesigninc.com/products/mx-k306-01-maxxus-low-emf-far-infrared-sauna-canadian-red-cedar",
-          "price": 6999.0,
-          "reference_price": null,
-          "source_type": "manufacturer-direct",
-          "checked_at": "2026-09-07"
-        }
-      ]
+      "data_completeness": 50
     },
     {
       "model_key": "mx-k306-01-zf",
@@ -6167,7 +6012,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k306-01-zf-ced",
@@ -6210,7 +6056,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k356-01",
@@ -6226,7 +6073,7 @@
         "https://goldendesigninc.com/products/mx-k356-01-maxxus-low-emf-far-infrared-sauna-canadian-red-cedar"
       ],
       "capacity": 3,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Near Zero",
       "spectrum": "Far Infrared",
@@ -6253,7 +6100,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k356-01-ced",
@@ -6285,36 +6133,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
-    },
-    {
-      "model_key": "mx-k356-01-ced",
-      "brand": "Maxxus",
-      "model": "MX-K356-01 CED",
-      "title": "Maxxus 3-Person Corner Low EMF (Under 2MG) FAR Infrared Sauna",
-      "price": 4499.0,
-      "reference_price": 6999.0,
-      "inhouse_url": "https://inhousewellness.com/products/maxxus-3-person-corner-2mg-infrared-sauna",
-      "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/maxxus-3-person-corner-low-emf-under-2mg-far-infrared-sauna-236266.jpg?v=1770877400",
-      "source_urls": [
-        "https://inhousewellness.com/products/maxxus-3-person-corner-2mg-infrared-sauna"
       ],
-      "capacity": 3,
-      "type": "Hybrid",
-      "placement": "Indoor",
-      "emf": "Low",
-      "spectrum": "Far Infrared",
-      "wood": "Cedar",
-      "retailer_offers": [
-        {
-          "retailer": "InHouse Wellness",
-          "url": "https://inhousewellness.com/products/maxxus-3-person-corner-2mg-infrared-sauna",
-          "price": 4499.0,
-          "reference_price": 6999.0,
-          "source_type": "featured",
-          "checked_at": "2026-09-15"
-        }
-      ]
+      "data_completeness": 57
     },
     {
       "model_key": "mx-k356-01-zf",
@@ -6373,7 +6193,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k356-01-zf-ced",
@@ -6417,7 +6238,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-k406-01",
@@ -6432,7 +6254,7 @@
         "https://inhousewellness.com/products/maxxus-4-person-sauna-hemlock"
       ],
       "capacity": 4,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Low",
       "spectrum": "Far Infrared",
@@ -6450,7 +6272,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 64
     },
     {
       "model_key": "mx-k406-01-ced",
@@ -6504,7 +6327,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k406-01-zf-ced",
@@ -6556,7 +6380,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k406-01-zf-hem",
@@ -6574,7 +6399,7 @@
         "https://ampsrus.com/products/maxxus-4-person-near-zero-emf-far-ir-sauna-mx-k406-01-zf-hem"
       ],
       "capacity": 4,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "emf": "Near Zero",
       "spectrum": "Far Infrared",
@@ -6610,7 +6435,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-m206-01-fs-ced",
@@ -6663,7 +6489,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-m306-01-fs-ced",
@@ -6715,7 +6542,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-m356-01-fs",
@@ -6768,7 +6596,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-s106-01",
@@ -6823,7 +6652,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-s206-01",
@@ -6878,7 +6708,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 79
     },
     {
       "model_key": "mx-s206-01-elite",
@@ -6912,7 +6743,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "mx-s306-01-elite",
@@ -6966,7 +6798,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "medical-sauna-traditional5",
@@ -6996,7 +6829,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 54
     },
     {
       "model_key": "medical-sauna-traditional6",
@@ -7025,7 +6859,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "medical-sauna-traditional7",
@@ -7055,7 +6890,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 54
     },
     {
       "model_key": "medical-sauna-traditional8",
@@ -7084,7 +6920,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-abu-h8k002f",
@@ -7113,7 +6950,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-bbu-h6k001n",
@@ -7142,7 +6980,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-bbu-h8k001f",
@@ -7171,7 +7010,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-bnu-h6k001f",
@@ -7199,7 +7039,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-bpu-h6k001n",
@@ -7227,7 +7068,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-bwu-h6k001f",
@@ -7255,7 +7097,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-cbk-h8k001f",
@@ -7283,7 +7126,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-cbu-h3k003f",
@@ -7311,7 +7155,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-cbu-h4k003f",
@@ -7339,7 +7184,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-cbu-h8k003f",
@@ -7368,7 +7214,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-ebu-h6k002f",
@@ -7397,7 +7244,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-epu-h6k001f",
@@ -7426,7 +7274,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-ibu-h2k001f",
@@ -7455,7 +7304,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sn-ibu-h3k002f",
@@ -7483,7 +7333,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-ibu-h4k001f",
@@ -7511,7 +7362,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-qbu-h2k002f",
@@ -7539,7 +7391,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sn-qbu-h6k002f",
@@ -7568,7 +7421,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "rip-soi",
@@ -7595,7 +7449,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "rip-tau",
@@ -7622,7 +7477,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "san01m001",
@@ -7648,7 +7504,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m001f",
@@ -7674,7 +7531,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m002",
@@ -7700,7 +7558,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m002f",
@@ -7726,7 +7585,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m003",
@@ -7752,7 +7612,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m003f",
@@ -7778,7 +7639,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m005",
@@ -7804,7 +7666,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m005r",
@@ -7830,7 +7693,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san01m008",
@@ -7856,7 +7720,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m001",
@@ -7882,7 +7747,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m002",
@@ -7908,7 +7774,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m003",
@@ -7934,7 +7801,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m004",
@@ -7961,7 +7829,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m005",
@@ -7988,7 +7857,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m006",
@@ -8015,7 +7885,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m013",
@@ -8041,7 +7912,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m014",
@@ -8067,7 +7939,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m015",
@@ -8093,7 +7966,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m016",
@@ -8119,7 +7993,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san02m017",
@@ -8145,7 +8020,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san03m001",
@@ -8172,7 +8048,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m002",
@@ -8199,7 +8076,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m005",
@@ -8226,7 +8104,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m006",
@@ -8253,7 +8132,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m008",
@@ -8280,7 +8160,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m011",
@@ -8307,7 +8188,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m012",
@@ -8334,7 +8216,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m014",
@@ -8361,7 +8244,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m015",
@@ -8388,7 +8272,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m016",
@@ -8415,7 +8300,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san03m017",
@@ -8442,7 +8328,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m002",
@@ -8469,7 +8356,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m003",
@@ -8496,7 +8384,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m005",
@@ -8523,7 +8412,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m006",
@@ -8550,7 +8440,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m007",
@@ -8577,7 +8468,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m009",
@@ -8604,7 +8496,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m010",
@@ -8631,7 +8524,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 29
     },
     {
       "model_key": "san04m014",
@@ -8661,7 +8555,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 50
     },
     {
       "model_key": "san05m001",
@@ -8687,7 +8582,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san05m002",
@@ -8713,7 +8609,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san06m001",
@@ -8739,7 +8636,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san06m003",
@@ -8765,7 +8663,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san06m004",
@@ -8791,7 +8690,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san06m005",
@@ -8818,7 +8718,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 24
     },
     {
       "model_key": "san07m001",
@@ -8844,7 +8745,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san07m002",
@@ -8870,7 +8772,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san07m003",
@@ -8897,7 +8800,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "san07m004",
@@ -8924,7 +8828,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "san07m005",
@@ -8950,7 +8855,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m001-2",
@@ -8976,7 +8882,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m002",
@@ -9002,7 +8909,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m003-2",
@@ -9028,7 +8936,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m007",
@@ -9054,7 +8963,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m007f",
@@ -9080,7 +8990,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m008",
@@ -9106,7 +9017,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m008f",
@@ -9132,7 +9044,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m009",
@@ -9158,7 +9071,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m009f",
@@ -9184,7 +9098,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m010",
@@ -9210,7 +9125,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m010f",
@@ -9236,7 +9152,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m011",
@@ -9262,7 +9179,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san08m012",
@@ -9288,7 +9206,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san09m001",
@@ -9314,7 +9233,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "san09m002l",
@@ -9340,7 +9260,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "sl-cl3g",
@@ -9381,7 +9302,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 69
     },
     {
       "model_key": "sl-modele8g",
@@ -9410,7 +9332,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "sl-modelee6g",
@@ -9436,7 +9359,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "sl-modelee8g",
@@ -9468,7 +9392,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 54
     },
     {
       "model_key": "sl-modelg11",
@@ -9496,7 +9421,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "sl-modelg3",
@@ -9534,7 +9460,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "sl-modelg6-l-1",
@@ -9561,7 +9488,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "bs64-t",
@@ -9603,7 +9531,8 @@
           "source_type": "retailer",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 77
     },
     {
       "model_key": "bs65-t",
@@ -9618,7 +9547,7 @@
         "https://inhousewellness.com/products/scandia-electric-barrel-sauna-kit"
       ],
       "capacity": 4,
-      "type": "Hybrid",
+      "type": "Traditional",
       "placement": "Outdoor",
       "spectrum": "Full Spectrum",
       "heater": "Scandia Electric Barrel Sauna Kit – 4-Person Traditional Sauna for Home",
@@ -9632,7 +9561,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "bs66-t",
@@ -9660,7 +9590,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "bs67-t",
@@ -9688,7 +9619,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "bs68-t",
@@ -9717,7 +9649,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "precut-diy-3x4-ultra",
@@ -9745,7 +9678,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "precut-diy-4x7-ultra",
@@ -9773,7 +9707,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 38
     },
     {
       "model_key": "precut-diy-8x9-ultra",
@@ -9800,7 +9735,8 @@
           "source_type": "featured",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 31
     },
     {
       "model_key": "eclipse2",
@@ -9832,7 +9768,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 57
     },
     {
       "model_key": "eclipse4",
@@ -9863,7 +9800,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 57
     },
     {
       "model_key": "equinox2",
@@ -9878,7 +9816,7 @@
         "https://sunhomesaunas.com/products/sun-home-equinox-2-person-full-spectrum-infrared-sauna"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Indoor",
       "spectrum": "Full Spectrum",
       "red_light": true,
@@ -9891,7 +9829,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 36
     },
     {
       "model_key": "equinox3",
@@ -9919,7 +9858,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 36
     },
     {
       "model_key": "luminar2",
@@ -9934,7 +9874,7 @@
         "https://sunhomesaunas.com/products/2-person-outdoor-infrared-sauna"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Outdoor",
       "emf": "Ultra Low",
       "spectrum": "Full Spectrum",
@@ -9953,7 +9893,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 71
     },
     {
       "model_key": "luminar5",
@@ -9968,7 +9909,7 @@
         "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna"
       ],
       "capacity": 5,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Outdoor",
       "spectrum": "Full Spectrum",
       "wood": "Cedar",
@@ -9981,7 +9922,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 36
     },
     {
       "model_key": "nova3",
@@ -10010,7 +9952,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "nova6",
@@ -10039,7 +9982,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 46
     },
     {
       "model_key": "shpod1h",
@@ -10067,7 +10011,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 36
     },
     {
       "model_key": "solarismedium",
@@ -10093,7 +10038,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "solarissmall",
@@ -10119,7 +10065,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 23
     },
     {
       "model_key": "solstice1",
@@ -10134,7 +10081,7 @@
         "https://sunhomesaunas.com/products/sun-home-solstice-1-person-infrared-sauna"
       ],
       "capacity": 1,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Outdoor",
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
@@ -10149,7 +10096,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 50
     },
     {
       "model_key": "solstice2",
@@ -10164,7 +10112,7 @@
         "https://sunhomesaunas.com/products/best-2-person-infrared-sauna"
       ],
       "capacity": 2,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Outdoor",
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
@@ -10179,7 +10127,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 50
     },
     {
       "model_key": "solstice3",
@@ -10194,7 +10143,7 @@
         "https://sunhomesaunas.com/products/fullspectruminfraredsauna"
       ],
       "capacity": 3,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Outdoor",
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
@@ -10209,7 +10158,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 50
     },
     {
       "model_key": "solstice4",
@@ -10224,7 +10174,7 @@
         "https://sunhomesaunas.com/products/sun-home-solstice-4-person-infrared-sauna"
       ],
       "capacity": 4,
-      "type": "Hybrid",
+      "type": "Infrared",
       "placement": "Outdoor",
       "emf": "Ultra Low",
       "spectrum": "Far Infrared",
@@ -10239,7 +10189,8 @@
           "source_type": "manufacturer-direct",
           "checked_at": "2026-09-15"
         }
-      ]
+      ],
+      "data_completeness": 50
     }
   ]
 }
