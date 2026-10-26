@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T16:40:25+00:00",
+  "generated_at": "2026-10-26T16:12:34+00:00",
   "currency": "USD",
   "products": [
     {
@@ -26,7 +26,7 @@
           "price": 9627.0,
           "reference_price": 13197.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -54,7 +54,7 @@
           "price": 7415.0,
           "reference_price": 10985.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -84,7 +84,7 @@
           "price": 5299.0,
           "reference_price": 6298.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -113,7 +113,7 @@
           "price": 5017.0,
           "reference_price": 7238.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -143,7 +143,7 @@
           "price": 16341.0,
           "reference_price": 16341.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -172,7 +172,7 @@
           "price": 15273.0,
           "reference_price": 18843.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -201,7 +201,7 @@
           "price": 16558.0,
           "reference_price": 20128.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -229,7 +229,7 @@
           "price": 17653.0,
           "reference_price": 21223.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -258,7 +258,7 @@
           "price": 14132.0,
           "reference_price": 17702.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -316,7 +316,7 @@
           "price": 6099.2,
           "reference_price": 13685.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -343,7 +343,7 @@
           "price": 4485.0,
           "reference_price": 7684.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -400,7 +400,7 @@
           "price": 5184.0,
           "reference_price": 8459.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -430,7 +430,7 @@
           "price": 6183.0,
           "reference_price": 6183.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -457,7 +457,7 @@
           "price": 6060.0,
           "reference_price": 11774.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -486,7 +486,7 @@
           "price": 8932.0,
           "reference_price": 14040.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -514,7 +514,7 @@
           "price": 8548.0,
           "reference_price": 13440.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -541,7 +541,7 @@
           "price": 8844.0,
           "reference_price": 13895.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -570,7 +570,7 @@
           "price": 9083.0,
           "reference_price": 14208.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -599,7 +599,7 @@
           "price": 8932.0,
           "reference_price": 13326.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -628,7 +628,7 @@
           "price": 5184.0,
           "reference_price": 10128.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -655,7 +655,7 @@
           "price": 7575.0,
           "reference_price": 11139.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -682,7 +682,7 @@
           "price": 7145.6,
           "reference_price": 14040.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -709,7 +709,7 @@
           "price": 9083.0,
           "reference_price": 14208.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -737,7 +737,7 @@
           "price": 11268.0,
           "reference_price": 15399.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -765,7 +765,7 @@
           "price": 8397.0,
           "reference_price": 12286.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -794,7 +794,7 @@
           "price": 7255.0,
           "reference_price": 13595.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -822,7 +822,7 @@
           "price": 6840.0,
           "reference_price": 6840.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -850,7 +850,7 @@
           "price": 5999.99,
           "reference_price": 5999.99,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -879,7 +879,7 @@
           "price": 4172.0,
           "reference_price": 7307.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -909,7 +909,7 @@
           "price": 5160.0,
           "reference_price": 12749.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 35
@@ -937,7 +937,7 @@
           "price": 7806.0,
           "reference_price": 13676.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -967,7 +967,7 @@
           "price": 5859.2,
           "reference_price": 13574.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 35
@@ -995,7 +995,7 @@
           "price": 4725.0,
           "reference_price": 9120.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1022,7 +1022,7 @@
           "price": 10650.0,
           "reference_price": 18456.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -1050,7 +1050,7 @@
           "price": 4658.0,
           "reference_price": 8888.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1078,7 +1078,7 @@
           "price": 8176.0,
           "reference_price": 12430.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1105,7 +1105,7 @@
           "price": 39735.0,
           "reference_price": 50565.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -1132,7 +1132,7 @@
           "price": 11088.0,
           "reference_price": 15133.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -1159,7 +1159,7 @@
           "price": 8704.0,
           "reference_price": 13001.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -1188,7 +1188,7 @@
           "price": 19652.0,
           "reference_price": 21081.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -1246,7 +1246,7 @@
           "price": 7374.99,
           "reference_price": 8634.99,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 43
@@ -1277,7 +1277,7 @@
           "price": 6210.99,
           "reference_price": 7626.99,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 50
@@ -1305,7 +1305,7 @@
           "price": 14233.0,
           "reference_price": 27649.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1335,7 +1335,7 @@
           "price": 12359.0,
           "reference_price": 17204.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -1363,7 +1363,7 @@
           "price": 9168.0,
           "reference_price": 13441.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1393,7 +1393,7 @@
           "price": 6298.0,
           "reference_price": 6298.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -1421,7 +1421,7 @@
           "price": 11268.0,
           "reference_price": 15399.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1449,7 +1449,7 @@
           "price": 8397.0,
           "reference_price": 9430.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1478,7 +1478,7 @@
           "price": 12624.0,
           "reference_price": 12624.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -1507,7 +1507,7 @@
           "price": 7375.0,
           "reference_price": 8728.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -1534,7 +1534,7 @@
           "price": 8973.0,
           "reference_price": 10740.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -1561,7 +1561,7 @@
           "price": 6706.0,
           "reference_price": 7105.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -1589,7 +1589,7 @@
           "price": 14233.0,
           "reference_price": 19946.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1617,7 +1617,7 @@
           "price": 20257.0,
           "reference_price": 21686.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1645,7 +1645,7 @@
           "price": 10722.0,
           "reference_price": 15006.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -1674,10 +1674,42 @@
           "price": 12650.0,
           "reference_price": 16934.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
+    },
+    {
+      "model_key": "weston-4-6-person-flat-bottom-barrel-sauna",
+      "brand": "Almost Heaven Saunas",
+      "model": "weston-4-6-person-flat-bottom-barrel-sauna",
+      "title": "Weston 4-6 Person Flat Bottom Barrel Sauna",
+      "price": 6999.0,
+      "reference_price": null,
+      "inhouse_url": null,
+      "image": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/DSC09259_copy_1.jpg?v=1792694599",
+      "source_urls": [
+        "https://almostheaven.com/products/weston-4-6-person-flat-bottom-barrel-sauna"
+      ],
+      "capacity": 6,
+      "type": "Traditional",
+      "placement": "Outdoor",
+      "heater": "Harvia, the Weston is expertly handcrafted from premium Western Red Cedar, combining t",
+      "heater_kw": "8.0 kW",
+      "max_temp": "Up to 190°F",
+      "wood": "Western Red Cedar",
+      "warranty": "5-year limited warranty",
+      "retailer_offers": [
+        {
+          "retailer": "Almost Heaven Direct",
+          "url": "https://almostheaven.com/products/weston-4-6-person-flat-bottom-barrel-sauna",
+          "price": 6999.0,
+          "reference_price": null,
+          "source_type": "manufacturer-direct",
+          "checked_at": "2026-10-26"
+        }
+      ],
+      "data_completeness": 62
     },
     {
       "model_key": "clearlight-curve-sauna-dome-w-infrared-mat",
@@ -2070,7 +2102,7 @@
           "price": 5724.0,
           "reference_price": 8742.19,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -2078,7 +2110,7 @@
           "price": 6158.0,
           "reference_price": 7344.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 62
@@ -2115,7 +2147,7 @@
           "price": 6825.0,
           "reference_price": 10664.84,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Altered Physical",
@@ -2123,7 +2155,7 @@
           "price": 6840.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -2131,7 +2163,7 @@
           "price": 7392.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Steam Sauna Supply",
@@ -2139,7 +2171,7 @@
           "price": 7392.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 69
@@ -2172,7 +2204,7 @@
           "price": 6782.5,
           "reference_price": 8478.13,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -2180,7 +2212,7 @@
           "price": 5977.0,
           "reference_price": 6820.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 62
@@ -2210,7 +2242,7 @@
           "price": 7353.13,
           "reference_price": 15298.44,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -2243,7 +2275,7 @@
           "price": 7085.63,
           "reference_price": 8857.03,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -2251,7 +2283,7 @@
           "price": 6137.0,
           "reference_price": 7368.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 62
@@ -2286,7 +2318,7 @@
           "price": 6478.0,
           "reference_price": 10226.56,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -2294,7 +2326,7 @@
           "price": 5957.0,
           "reference_price": 1166.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 69
@@ -2327,7 +2359,7 @@
           "price": 6953.0,
           "reference_price": 10950.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -2374,7 +2406,7 @@
           "price": 1999.0,
           "reference_price": 3499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2382,7 +2414,7 @@
           "price": 3499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Paradise Bay Leisure Products",
@@ -2390,7 +2422,7 @@
           "price": null,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2429,7 +2461,7 @@
           "price": 2299.0,
           "reference_price": 3999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -2437,7 +2469,7 @@
           "price": 3499.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2445,7 +2477,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2485,7 +2517,7 @@
           "price": 1999.0,
           "reference_price": 3499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -2493,7 +2525,7 @@
           "price": 3499.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2501,7 +2533,7 @@
           "price": 3499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2538,7 +2570,7 @@
           "price": 2299.0,
           "reference_price": 3999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2546,7 +2578,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2585,7 +2617,7 @@
           "price": 2299.0,
           "reference_price": 3999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -2593,7 +2625,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2601,7 +2633,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2638,7 +2670,7 @@
           "price": 1999.0,
           "reference_price": 3499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2646,7 +2678,7 @@
           "price": 3499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2686,7 +2718,7 @@
           "price": 3999.0,
           "reference_price": 5200.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -2694,7 +2726,7 @@
           "price": 3499.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2702,7 +2734,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2739,7 +2771,7 @@
           "price": 2899.0,
           "reference_price": 4999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2747,7 +2779,7 @@
           "price": 4999.0,
           "reference_price": 4999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2787,7 +2819,7 @@
           "price": 2499.0,
           "reference_price": 4999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -2795,7 +2827,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2803,7 +2835,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2842,7 +2874,7 @@
           "price": 2299.0,
           "reference_price": 3999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -2850,7 +2882,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2858,7 +2890,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2898,7 +2930,7 @@
           "price": 2499.0,
           "reference_price": 4699.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -2906,7 +2938,7 @@
           "price": 4699.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2914,7 +2946,7 @@
           "price": 4699.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2951,7 +2983,7 @@
           "price": 2699.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -2959,7 +2991,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -2995,7 +3027,7 @@
           "price": 3699.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3003,7 +3035,7 @@
           "price": 3699.0,
           "reference_price": 7999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3039,7 +3071,7 @@
           "price": 2899.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3047,7 +3079,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3085,7 +3117,7 @@
           "price": 3299.0,
           "reference_price": 6999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3093,7 +3125,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3101,7 +3133,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3138,7 +3170,7 @@
           "price": 2699.0,
           "reference_price": 4999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3146,7 +3178,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3185,7 +3217,7 @@
           "price": 2899.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3193,7 +3225,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3201,7 +3233,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3241,7 +3273,7 @@
           "price": 2699.0,
           "reference_price": 4999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3249,7 +3281,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3257,7 +3289,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3294,7 +3326,7 @@
           "price": 2999.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3302,7 +3334,7 @@
           "price": 5999.0,
           "reference_price": 5999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3342,7 +3374,7 @@
           "price": 2299.0,
           "reference_price": 3999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3350,7 +3382,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3358,7 +3390,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3396,7 +3428,7 @@
           "price": 3299.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3404,7 +3436,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3412,7 +3444,7 @@
           "price": 5999.0,
           "reference_price": 5999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3451,7 +3483,7 @@
           "price": 3299.0,
           "reference_price": 6999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3459,7 +3491,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3467,7 +3499,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -3505,7 +3537,7 @@
           "price": 2699.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3513,7 +3545,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3521,7 +3553,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -3557,7 +3589,7 @@
           "price": 3499.0,
           "reference_price": 6999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3565,7 +3597,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -3604,7 +3636,7 @@
           "price": 3299.0,
           "reference_price": 6999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3612,7 +3644,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3620,7 +3652,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -3657,7 +3689,7 @@
           "price": 6499.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3665,7 +3697,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3673,7 +3705,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -3710,7 +3742,7 @@
           "price": 9999.0,
           "reference_price": 14999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3718,7 +3750,7 @@
           "price": 14999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3726,7 +3758,7 @@
           "price": 14999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -3763,7 +3795,7 @@
           "price": 8999.0,
           "reference_price": 11700.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3771,7 +3803,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3779,7 +3811,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -3816,7 +3848,7 @@
           "price": 6999.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3824,7 +3856,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3832,7 +3864,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -3872,7 +3904,7 @@
           "price": 5999.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3880,7 +3912,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3888,7 +3920,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -3896,7 +3928,7 @@
           "price": 5999.0,
           "reference_price": 7999.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 85
@@ -3933,7 +3965,7 @@
           "price": 6999.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3941,7 +3973,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -3949,7 +3981,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 69
@@ -3986,7 +4018,7 @@
           "price": 8499.0,
           "reference_price": 9999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -3994,7 +4026,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4002,7 +4034,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -4041,7 +4073,7 @@
           "price": 5999.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4049,7 +4081,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4057,7 +4089,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -4065,7 +4097,7 @@
           "price": 5999.0,
           "reference_price": 6865.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 85
@@ -4101,7 +4133,7 @@
           "price": 6999.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4109,7 +4141,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4117,7 +4149,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -4152,7 +4184,7 @@
           "price": 6999.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4160,7 +4192,7 @@
           "price": 8999.0,
           "reference_price": 8999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 69
@@ -4196,7 +4228,7 @@
           "price": 7999.0,
           "reference_price": 9999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4204,7 +4236,7 @@
           "price": 9999.0,
           "reference_price": 9999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -4237,7 +4269,7 @@
           "price": 3999.0,
           "reference_price": 4999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -4270,7 +4302,7 @@
           "price": 5499.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -4307,7 +4339,7 @@
           "price": 5999.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4315,7 +4347,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4323,7 +4355,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -4360,7 +4392,7 @@
           "price": 6999.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4368,7 +4400,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4376,7 +4408,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -4414,7 +4446,7 @@
           "price": 6999.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4422,7 +4454,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4430,7 +4462,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -4468,7 +4500,7 @@
           "price": 7999.0,
           "reference_price": 9999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4476,7 +4508,7 @@
           "price": 10999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4484,7 +4516,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -4521,7 +4553,7 @@
           "price": 11999.0,
           "reference_price": 14999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4529,7 +4561,7 @@
           "price": 16999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4537,7 +4569,7 @@
           "price": 14999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -4573,7 +4605,7 @@
           "price": 13999.0,
           "reference_price": 16999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4581,7 +4613,7 @@
           "price": 18999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4589,7 +4621,7 @@
           "price": 16999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 69
@@ -4626,7 +4658,7 @@
           "price": 15999.0,
           "reference_price": 18999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4634,7 +4666,7 @@
           "price": 20999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4642,7 +4674,7 @@
           "price": 18999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -4680,7 +4712,7 @@
           "price": 14999.0,
           "reference_price": 18999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4688,7 +4720,7 @@
           "price": 20999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4696,7 +4728,7 @@
           "price": 18999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -4734,7 +4766,7 @@
           "price": 16999.0,
           "reference_price": 22999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4742,7 +4774,7 @@
           "price": 24999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4750,7 +4782,7 @@
           "price": 22999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -4784,7 +4816,7 @@
           "price": 5499.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -4818,7 +4850,7 @@
           "price": 7499.0,
           "reference_price": 9999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -4859,7 +4891,7 @@
           "price": 7999.0,
           "reference_price": 9999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4867,7 +4899,7 @@
           "price": 10999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4875,7 +4907,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -4883,7 +4915,7 @@
           "price": 7999.0,
           "reference_price": 9999.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -4924,7 +4956,7 @@
           "price": 9999.0,
           "reference_price": 12999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4932,7 +4964,7 @@
           "price": 14999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -4940,7 +4972,7 @@
           "price": 12999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -4948,7 +4980,7 @@
           "price": 9999.0,
           "reference_price": 12999.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -4984,7 +5016,7 @@
           "price": 15999.0,
           "reference_price": 18999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -4992,7 +5024,7 @@
           "price": 20999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5000,7 +5032,7 @@
           "price": 10999.0,
           "reference_price": 18999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -5038,7 +5070,7 @@
           "price": 18999.0,
           "reference_price": 22999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5046,7 +5078,7 @@
           "price": 22999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5054,7 +5086,7 @@
           "price": 11999.0,
           "reference_price": 22999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -5093,7 +5125,7 @@
           "price": 4999.0,
           "reference_price": 6999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5101,7 +5133,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5109,7 +5141,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 85
@@ -5150,7 +5182,7 @@
           "price": 5999.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5158,7 +5190,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5166,7 +5198,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 85
@@ -5194,7 +5226,7 @@
           "price": 6700.0,
           "reference_price": 6700.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -5223,7 +5255,7 @@
           "price": 11300.0,
           "reference_price": 11300.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -5251,7 +5283,7 @@
           "price": 7400.0,
           "reference_price": 7400.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -5280,7 +5312,7 @@
           "price": 11495.0,
           "reference_price": 11495.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 36
@@ -5308,7 +5340,7 @@
           "price": 10500.0,
           "reference_price": 10500.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -5338,7 +5370,7 @@
           "price": 22200.0,
           "reference_price": 22200.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 43
@@ -5367,7 +5399,7 @@
           "price": 4500.0,
           "reference_price": 4500.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 36
@@ -5396,7 +5428,7 @@
           "price": 5600.0,
           "reference_price": 5600.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -5426,7 +5458,7 @@
           "price": 17866.67,
           "reference_price": null,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -5458,7 +5490,7 @@
           "price": 18666.67,
           "reference_price": null,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 62
@@ -5485,7 +5517,7 @@
           "price": 5939.0,
           "reference_price": 6599.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -5512,7 +5544,7 @@
           "price": 6929.0,
           "reference_price": 7699.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -5541,7 +5573,7 @@
           "price": 8099.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -5580,7 +5612,7 @@
           "price": 2299.0,
           "reference_price": 3699.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5588,7 +5620,7 @@
           "price": 5499.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5596,7 +5628,7 @@
           "price": 3699.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -5633,7 +5665,7 @@
           "price": 2699.0,
           "reference_price": 4999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5641,7 +5673,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -5680,7 +5712,7 @@
           "price": 2699.0,
           "reference_price": 4499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5688,7 +5720,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5696,7 +5728,7 @@
           "price": 4499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 86
@@ -5732,7 +5764,7 @@
           "price": 2699.0,
           "reference_price": 3999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5740,7 +5772,7 @@
           "price": 3999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -5778,7 +5810,7 @@
           "price": 2899.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5786,7 +5818,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5794,7 +5826,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -5831,7 +5863,7 @@
           "price": 2999.0,
           "reference_price": 4999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5839,7 +5871,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5847,7 +5879,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -5886,7 +5918,7 @@
           "price": 2699.0,
           "reference_price": 4499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5894,7 +5926,7 @@
           "price": 4999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5902,7 +5934,7 @@
           "price": 4499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -5940,7 +5972,7 @@
           "price": 3099.0,
           "reference_price": 5499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -5948,7 +5980,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -5956,65 +5988,10 @@
           "price": 6499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
-    },
-    {
-      "model_key": "mx-k306-01",
-      "brand": "Maxxus",
-      "model": "MX-K306-01",
-      "title": "Maxxus Low EMF FAR Infrared Sauna - 3-Person Capacity, Canadian Hemlock",
-      "price": 2999.0,
-      "reference_price": 4999.0,
-      "inhouse_url": "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock",
-      "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/MX-K306-01.png?v=1776884975",
-      "source_urls": [
-        "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock",
-        "https://goldendesigninc.com/products/mx-k306-01-maxxus-low-emf-far-infrared-sauna-canadian-hemlock",
-        "https://goldendesigninc.com/products/mx-k306-01-maxxus-low-emf-far-infrared-sauna-canadian-red-cedar",
-        "https://ampsrus.com/products/maxxus-3-person-low-emf-far-ir-sauna-mx-k306-01-ced",
-        "https://ampsrus.com/products/maxxus-3-person-low-emf-far-ir-sauna-mx-k306-01"
-      ],
-      "capacity": 3,
-      "type": "Infrared",
-      "placement": "Indoor",
-      "emf": "Low",
-      "spectrum": "Far Infrared",
-      "wood": "Canadian Hemlock",
-      "red_light": true,
-      "voltage": "240V",
-      "amperage": "20A",
-      "max_temp": "Up to 140°F",
-      "weight": "320 lbs",
-      "retailer_offers": [
-        {
-          "retailer": "InHouse Wellness",
-          "url": "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock",
-          "price": 2999.0,
-          "reference_price": 4999.0,
-          "source_type": "featured",
-          "checked_at": "2026-10-19"
-        },
-        {
-          "retailer": "Ampsrus",
-          "url": "https://ampsrus.com/products/maxxus-3-person-low-emf-far-ir-sauna-mx-k306-01",
-          "price": 5999.0,
-          "reference_price": null,
-          "source_type": "retailer",
-          "checked_at": "2026-10-19"
-        },
-        {
-          "retailer": "Golden Designs Direct",
-          "url": "https://goldendesigninc.com/products/mx-k306-01-maxxus-low-emf-far-infrared-sauna-canadian-red-cedar",
-          "price": 6999.0,
-          "reference_price": null,
-          "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
-        }
-      ],
-      "data_completeness": 71
     },
     {
       "model_key": "mx-k306-01-ced",
@@ -6027,7 +6004,9 @@
       "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar-maxxus-sauna-199104.jpg?v=1770877419",
       "source_urls": [
         "https://inhousewellness.com/products/maxxus-3-person-infrared-sauna",
-        "https://inhousewellness.com/products/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar"
+        "https://inhousewellness.com/products/maxxus-3-person-low-emf-far-infrared-sauna-canadian-red-cedar",
+        "https://goldendesigninc.com/products/mx-k306-01-maxxus-low-emf-far-infrared-sauna-canadian-red-cedar",
+        "https://ampsrus.com/products/maxxus-3-person-low-emf-far-ir-sauna-mx-k306-01-ced"
       ],
       "capacity": 3,
       "type": "Infrared",
@@ -6043,7 +6022,7 @@
           "price": 4299.0,
           "reference_price": 6499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6051,7 +6030,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-09-07"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6059,10 +6038,14 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-09-07"
+          "checked_at": "2026-10-26"
         }
       ],
-      "data_completeness": 50
+      "voltage": "120V/240V",
+      "amperage": "20A",
+      "max_temp": "Up to 140°F",
+      "weight": "310 lbs",
+      "data_completeness": 71
     },
     {
       "model_key": "mx-k306-01-zf",
@@ -6100,7 +6083,7 @@
           "price": 3699.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6108,7 +6091,7 @@
           "price": 3699.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6116,7 +6099,7 @@
           "price": 5999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6152,7 +6135,7 @@
           "price": 4699.0,
           "reference_price": 6999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6160,7 +6143,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6196,7 +6179,7 @@
           "price": 3299.0,
           "reference_price": 5499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6204,7 +6187,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6237,7 +6220,7 @@
           "price": 4499.0,
           "reference_price": 6999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 57
@@ -6281,7 +6264,7 @@
           "price": 3899.0,
           "reference_price": 6499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6289,7 +6272,7 @@
           "price": 3299.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6297,7 +6280,7 @@
           "price": 6499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6334,7 +6317,7 @@
           "price": 4899.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6342,7 +6325,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -6376,7 +6359,7 @@
           "price": 3699.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 64
@@ -6415,7 +6398,7 @@
           "price": 4699.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6423,7 +6406,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6431,7 +6414,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6468,7 +6451,7 @@
           "price": 5499.0,
           "reference_price": 8999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6476,7 +6459,7 @@
           "price": 9999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6484,7 +6467,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6523,7 +6506,7 @@
           "price": 6999.0,
           "reference_price": 9100.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6531,7 +6514,7 @@
           "price": 4499.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6539,7 +6522,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6577,7 +6560,7 @@
           "price": 4299.0,
           "reference_price": 6499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6585,7 +6568,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6593,7 +6576,7 @@
           "price": 6499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -6630,7 +6613,7 @@
           "price": 4899.0,
           "reference_price": 7999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6638,7 +6621,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6646,7 +6629,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6684,7 +6667,7 @@
           "price": 5299.0,
           "reference_price": 8499.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6692,7 +6675,7 @@
           "price": 9499.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6700,7 +6683,7 @@
           "price": 8499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -6740,7 +6723,7 @@
           "price": 2299.0,
           "reference_price": 3999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6748,7 +6731,7 @@
           "price": 4499.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6756,7 +6739,7 @@
           "price": 4499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -6796,7 +6779,7 @@
           "price": 2899.0,
           "reference_price": 5999.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6804,7 +6787,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6812,7 +6795,7 @@
           "price": 6999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 79
@@ -6847,7 +6830,7 @@
           "price": 6999.0,
           "reference_price": 9100.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6886,7 +6869,7 @@
           "price": 7999.0,
           "reference_price": 10400.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Ampsrus",
@@ -6894,7 +6877,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Golden Designs Direct",
@@ -6902,7 +6885,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -6932,7 +6915,7 @@
           "price": 11699.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -6942,7 +6925,7 @@
       "brand": "Redwood Outdoors",
       "model": "SN-BBU-H6K001N",
       "title": "Barrel Outdoor Sauna - 6 Person",
-      "price": 5549.0,
+      "price": 5299.0,
       "reference_price": 6299.0,
       "inhouse_url": null,
       "image": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_6_Person_Barrel_Outdoor_Sauna_Front_Angle_View_1.jpg?v=1784160022",
@@ -6959,10 +6942,10 @@
         {
           "retailer": "Redwood Outdoors",
           "url": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna",
-          "price": 5549.0,
+          "price": 5299.0,
           "reference_price": 6299.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -6992,7 +6975,7 @@
           "price": 6899.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -7021,7 +7004,7 @@
           "price": 7099.0,
           "reference_price": 7599.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7051,7 +7034,7 @@
           "price": 6499.0,
           "reference_price": 6999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -7109,7 +7092,7 @@
           "price": 6899.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7167,7 +7150,7 @@
           "price": 9499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7196,7 +7179,7 @@
           "price": 7399.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7206,7 +7189,7 @@
       "brand": "Redwood Outdoors",
       "model": "SN-CBU-H4K003F",
       "title": "Cabin Outdoor Sauna - 4 Person",
-      "price": 6549.0,
+      "price": 6299.0,
       "reference_price": 7299.0,
       "inhouse_url": null,
       "image": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_Cabin_Outdoor_Sauna_Angle_View.png?v=1765501812",
@@ -7222,10 +7205,10 @@
         {
           "retailer": "Redwood Outdoors",
           "url": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person",
-          "price": 6549.0,
+          "price": 6299.0,
           "reference_price": 7299.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7255,7 +7238,7 @@
           "price": 8699.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -7285,7 +7268,7 @@
           "price": 7799.0,
           "reference_price": 8299.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -7315,7 +7298,7 @@
           "price": 8499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -7345,7 +7328,7 @@
           "price": 4299.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -7374,7 +7357,7 @@
           "price": 5499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7403,7 +7386,7 @@
           "price": 4999.0,
           "reference_price": 5499.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7413,7 +7396,7 @@
       "brand": "Redwood Outdoors",
       "model": "SN-QBU-H2K002F",
       "title": "Duo Outdoor Sauna - 2 Person",
-      "price": 5149.0,
+      "price": 4899.0,
       "reference_price": 5899.0,
       "inhouse_url": null,
       "image": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_Duo_002_Outdoor_Sauna_Outside_Front_Angle_View.jpg?v=1769724940",
@@ -7429,10 +7412,10 @@
         {
           "retailer": "Redwood Outdoors",
           "url": "https://www.redwoodoutdoors.com/products/duo-outdoor-sauna-2-person",
-          "price": 5149.0,
+          "price": 4899.0,
           "reference_price": 5899.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -7462,7 +7445,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -7490,7 +7473,7 @@
           "price": 49900.0,
           "reference_price": 68000.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -7518,7 +7501,7 @@
           "price": 36900.0,
           "reference_price": 44000.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -7545,10 +7528,16 @@
           "price": 8995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
-      "data_completeness": 23
+      "data_completeness": 69,
+      "voltage": "240V",
+      "amperage": "40A",
+      "heater": "8 kW Harvia KIP, included; Harvia KIP Wi-Fi and HUUM Drop upgrades available",
+      "heater_kw": "8 kW",
+      "weight": "1,255 lbs",
+      "warranty": "5-year limited warranty"
     },
     {
       "model_key": "san01m001f",
@@ -7572,7 +7561,7 @@
           "price": 9995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7599,7 +7588,7 @@
           "price": 10495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7626,7 +7615,7 @@
           "price": 11995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7653,7 +7642,7 @@
           "price": 13995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7680,7 +7669,7 @@
           "price": 14995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7707,7 +7696,7 @@
           "price": 19495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7734,7 +7723,7 @@
           "price": 20695.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7761,7 +7750,7 @@
           "price": 14995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7788,10 +7777,16 @@
           "price": 6995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
-      "data_completeness": 23
+      "data_completeness": 69,
+      "voltage": "240V",
+      "amperage": "30A",
+      "heater": "6 kW Harvia The Wall, included (220/240 V hardwired, 30 A); Harvia KIP Wi-Fi upgrade available",
+      "heater_kw": "6 kW",
+      "wood": "Cedar",
+      "weight": "510 lbs"
     },
     {
       "model_key": "san02m002",
@@ -7815,7 +7810,7 @@
           "price": 7995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7842,7 +7837,7 @@
           "price": 8899.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7870,7 +7865,7 @@
           "price": 6995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7898,7 +7893,7 @@
           "price": 7995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7926,7 +7921,7 @@
           "price": 8999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7953,7 +7948,7 @@
           "price": 12649.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -7980,7 +7975,7 @@
           "price": 7495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8007,7 +8002,7 @@
           "price": 6495.0,
           "reference_price": 8995.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8034,7 +8029,7 @@
           "price": 14449.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8061,7 +8056,7 @@
           "price": 16499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8089,7 +8084,7 @@
           "price": 4995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8117,7 +8112,7 @@
           "price": 4995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8145,7 +8140,7 @@
           "price": 5995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8173,7 +8168,7 @@
           "price": 5995.0,
           "reference_price": 6295.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8201,7 +8196,7 @@
           "price": 6995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8229,7 +8224,7 @@
           "price": 7999.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8257,7 +8252,7 @@
           "price": 9995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8285,7 +8280,7 @@
           "price": 3795.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8313,7 +8308,7 @@
           "price": 2995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8341,7 +8336,7 @@
           "price": 3195.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8369,7 +8364,7 @@
           "price": 4695.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8397,7 +8392,7 @@
           "price": 4995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8425,7 +8420,7 @@
           "price": 5895.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8453,7 +8448,7 @@
           "price": 6895.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8481,7 +8476,7 @@
           "price": 5295.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8509,7 +8504,7 @@
           "price": 5995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8537,7 +8532,7 @@
           "price": 4995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8565,7 +8560,7 @@
           "price": 5495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 29
@@ -8596,7 +8591,7 @@
           "price": 7499.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 50
@@ -8623,7 +8618,7 @@
           "price": 8995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8650,7 +8645,7 @@
           "price": 10995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8677,10 +8672,19 @@
           "price": 15649.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
-      "data_completeness": 23
+      "data_completeness": 69,
+      "emf": "Near Zero",
+      "spectrum": "Full Spectrum",
+      "red_light": true,
+      "voltage": "240V",
+      "amperage": "30A",
+      "heater": "Harvia Wall 6 kW stove for classic heat and steam, plus a full-spectrum infrared syste",
+      "heater_kw": "6 kW",
+      "wood": "Cedar",
+      "weight": "817 lbs"
     },
     {
       "model_key": "san06m003",
@@ -8704,7 +8708,7 @@
           "price": 17799.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8731,7 +8735,7 @@
           "price": 19899.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8759,7 +8763,7 @@
           "price": 16449.0,
           "reference_price": 19949.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 24
@@ -8786,7 +8790,7 @@
           "price": 15445.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8813,7 +8817,7 @@
           "price": 22995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8841,7 +8845,7 @@
           "price": 22995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -8869,7 +8873,7 @@
           "price": 21995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -8896,7 +8900,7 @@
           "price": 14995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -8923,10 +8927,16 @@
           "price": 10495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
-      "data_completeness": 23
+      "data_completeness": 69,
+      "voltage": "240V",
+      "amperage": "30A",
+      "heater": "6 kW Harvia KIP, included; Harvia KIP Wi-Fi, HUUM Drop and HUUM Hive Mini upgrades available",
+      "heater_kw": "6 kW",
+      "weight": "1,093 lbs",
+      "warranty": "5-year limited warranty"
     },
     {
       "model_key": "san08m002",
@@ -8977,7 +8987,7 @@
           "price": 12995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9004,7 +9014,7 @@
           "price": 15995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9031,7 +9041,7 @@
           "price": 8995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9058,7 +9068,7 @@
           "price": 9995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9085,7 +9095,7 @@
           "price": 10495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9112,7 +9122,7 @@
           "price": 11495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9139,7 +9149,7 @@
           "price": 13995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9166,7 +9176,7 @@
           "price": 14995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9193,7 +9203,7 @@
           "price": 7495.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9220,7 +9230,7 @@
           "price": 7995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9247,7 +9257,7 @@
           "price": 10499.0,
           "reference_price": 13999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9274,7 +9284,7 @@
           "price": 12499.0,
           "reference_price": 15999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9301,7 +9311,7 @@
           "price": 17995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9328,7 +9338,7 @@
           "price": 19995.0,
           "reference_price": null,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9362,7 +9372,7 @@
           "price": 4940.0,
           "reference_price": 5208.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -9370,7 +9380,7 @@
           "price": 3990.0,
           "reference_price": 5488.89,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 69
@@ -9401,7 +9411,7 @@
           "price": 7940.0,
           "reference_price": 8734.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -9409,7 +9419,7 @@
           "price": 6990.0,
           "reference_price": 8400.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -9436,7 +9446,7 @@
           "price": 6940.0,
           "reference_price": 7634.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -9469,7 +9479,7 @@
           "price": 8140.0,
           "reference_price": 8954.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 54
@@ -9498,7 +9508,7 @@
           "price": 16980.0,
           "reference_price": 18678.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -9529,7 +9539,7 @@
           "price": 7940.0,
           "reference_price": 9528.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -9537,7 +9547,7 @@
           "price": 6990.0,
           "reference_price": 7850.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -9565,7 +9575,7 @@
           "price": 26890.0,
           "reference_price": 29579.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -9600,7 +9610,7 @@
           "price": 9450.0,
           "reference_price": 12285.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         },
         {
           "retailer": "Solaci Home",
@@ -9608,7 +9618,7 @@
           "price": 9450.0,
           "reference_price": 14596.0,
           "source_type": "retailer",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 77
@@ -9638,7 +9648,7 @@
           "price": 10800.0,
           "reference_price": 14040.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -9667,7 +9677,7 @@
           "price": 12100.0,
           "reference_price": 15730.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -9696,7 +9706,7 @@
           "price": 12900.0,
           "reference_price": 16770.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -9726,7 +9736,7 @@
           "price": 13500.0,
           "reference_price": 17550.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -9755,7 +9765,7 @@
           "price": 9500.0,
           "reference_price": 12350.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -9784,7 +9794,7 @@
           "price": 10080.0,
           "reference_price": 13104.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 38
@@ -9812,7 +9822,7 @@
           "price": 13800.0,
           "reference_price": 17940.0,
           "source_type": "featured",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 31
@@ -9845,7 +9855,7 @@
           "price": 9999.0,
           "reference_price": 10599.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 57
@@ -9877,7 +9887,7 @@
           "price": 12999.0,
           "reference_price": 13599.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 57
@@ -9906,7 +9916,7 @@
           "price": 6099.0,
           "reference_price": 6799.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 36
@@ -9935,7 +9945,7 @@
           "price": 6999.0,
           "reference_price": 7699.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 36
@@ -9970,7 +9980,7 @@
           "price": 10999.0,
           "reference_price": 11599.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71
@@ -9999,7 +10009,7 @@
           "price": 13899.0,
           "reference_price": 14499.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 57,
@@ -10033,7 +10043,7 @@
           "price": 11999.0,
           "reference_price": 12499.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -10063,7 +10073,7 @@
           "price": 15799.0,
           "reference_price": 16399.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 46
@@ -10092,7 +10102,7 @@
           "price": 6599.0,
           "reference_price": 6699.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 36
@@ -10119,7 +10129,7 @@
           "price": 45399.0,
           "reference_price": 46199.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -10146,7 +10156,7 @@
           "price": 36399.0,
           "reference_price": 37199.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 23
@@ -10177,7 +10187,7 @@
           "price": 4999.0,
           "reference_price": 5599.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 50
@@ -10208,7 +10218,7 @@
           "price": 5599.0,
           "reference_price": 6199.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 71,
@@ -10243,7 +10253,7 @@
           "price": 6299.0,
           "reference_price": 6999.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 50
@@ -10274,7 +10284,7 @@
           "price": 7799.0,
           "reference_price": 8599.0,
           "source_type": "manufacturer-direct",
-          "checked_at": "2026-10-19"
+          "checked_at": "2026-10-26"
         }
       ],
       "data_completeness": 50
